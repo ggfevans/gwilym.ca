@@ -1,0 +1,207 @@
+---
+import ThemeToggle from './ThemeToggle.svelte';
+import MobileNav from './MobileNav.svelte';
+import Search from './Search.svelte';
+
+interface Props {
+  breadcrumbs?: { label: string; href?: string }[];
+}
+
+const { breadcrumbs } = Astro.props;
+
+const navItems = [
+  { href: '/about', label: 'About' },
+  { href: '/work', label: 'Work' },
+  { href: '/write', label: 'Write' },
+  { href: '/now', label: 'Now' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="gvns-navbar">
+  <!-- Desktop Navigation -->
+  <nav class="gvns-navbar__nav" aria-label="Main navigation">
+    <div class="gvns-navbar__start">
+      <a href="/" class="gvns-navbar__logo" aria-label="GVNS home">GVNS</a>
+    </div>
+
+    <div class="gvns-navbar__center">
+      {breadcrumbs ? (
+        <ol class="gvns-breadcrumbs" aria-label="Breadcrumb">
+            {breadcrumbs.map((item, i) => (
+              <li class="gvns-breadcrumbs__item">
+                {i > 0 && <span class="gvns-breadcrumbs__separator" aria-hidden="true">/</span>}
+                {item.href ? (
+                  <a href={item.href} class="gvns-breadcrumbs__link">{item.label}</a>
+                ) : (
+                  <span class="gvns-breadcrumbs__current" aria-current="page">{item.label}</span>
+                )}
+              </li>
+            ))}
+          </ol>
+      ) : (
+        <ul class="gvns-navbar__links">
+          {navItems.map(({ href, label }) => {
+            const isActive = currentPath === href || (href !== '/' && currentPath.startsWith(href));
+            return (
+              <li>
+                <a
+                  href={href}
+                  class:list={['gvns-navbar__link', { 'gvns-navbar__link--active': isActive }]}
+                  aria-current={isActive ? 'page' : undefined}
+                >
+                  {label}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
+
+    <div class="gvns-navbar__end">
+      <ThemeToggle client:load />
+      <Search client:load />
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <div class="gvns-navbar__mobile">
+    <a href="/" class="gvns-navbar__logo" aria-label="GVNS home">GVNS</a>
+    <div class="gvns-navbar__mobile-actions">
+      <Search client:load />
+      <MobileNav client:load navItems={navItems} currentPath={currentPath} />
+    </div>
+  </div>
+</header>
+
+<style>
+  .gvns-navbar {
+    position: relative;
+    padding: var(--space-4) var(--space-6);
+    border-bottom: 1px solid var(--colour-border);
+  }
+
+  /* Desktop nav */
+  .gvns-navbar__nav {
+    max-width: var(--width-content);
+    margin: 0 auto;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 768px) {
+    .gvns-navbar__nav {
+      display: flex;
+    }
+  }
+
+  /* Start: Logo */
+  .gvns-navbar__logo {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--colour-text-primary);
+    text-decoration: none;
+    flex-shrink: 0;
+  }
+
+  /* Center: Nav links or breadcrumbs */
+  .gvns-navbar__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .gvns-navbar__links {
+    display: flex;
+    gap: var(--space-6);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gvns-navbar__link {
+    color: var(--colour-text-secondary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+
+  .gvns-navbar__link:hover,
+  .gvns-navbar__link--active {
+    color: var(--colour-accent-primary);
+  }
+
+  /* Breadcrumbs */
+  .gvns-breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: var(--text-sm);
+  }
+
+  .gvns-breadcrumbs__item {
+    display: flex;
+    align-items: center;
+  }
+
+  .gvns-breadcrumbs__separator {
+    margin: 0 var(--space-2);
+    color: var(--colour-text-muted);
+  }
+
+  .gvns-breadcrumbs__link {
+    color: var(--colour-text-secondary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+
+  .gvns-breadcrumbs__link:hover {
+    color: var(--colour-accent-primary);
+  }
+
+  .gvns-breadcrumbs__current {
+    color: var(--colour-text-primary);
+    max-width: 20ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* End: Theme toggle + Search */
+  .gvns-navbar__end {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    flex-shrink: 0;
+  }
+
+  /* Mobile Navigation */
+  .gvns-navbar__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--width-content);
+    margin: 0 auto;
+  }
+
+  .gvns-navbar__mobile-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .gvns-navbar__mobile {
+      display: none;
+    }
+  }
+</style>

@@ -1,0 +1,306 @@
+{
+  "lastUpdated": "2026-02-05T04:54:27Z",
+  "recentCommits": [
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: case-insensitive .md strip, ambiguous keyword, conditional heading removal",
+      "sha": "8ea950f8d6f17e4add5897788c402ef5cc3ab622",
+      "date": "2026-02-05T03:59:32Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/8ea950f8d6f17e4add5897788c402ef5cc3ab622"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: guard against empty slugs from non-ASCII titles",
+      "sha": "6be6bea622a53cd0806cf1ab25995ca357044620",
+      "date": "2026-02-05T03:55:59Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/6be6bea622a53cd0806cf1ab25995ca357044620"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "refactor: use trakt-github-action instead of inline script",
+      "sha": "bdf07458f2ac9e62c3c3080ead61d421f2c4fb77",
+      "date": "2026-02-05T00:47:47Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/bdf07458f2ac9e62c3c3080ead61d421f2c4fb77"
+    },
+    {
+      "repo": "trakt-github-action",
+      "message": "ci: set shellcheck severity to warning to ignore notes",
+      "sha": "840686406bb160c82d5bfde1bb9e7f137a3b7b6d",
+      "date": "2026-02-05T00:47:21Z",
+      "url": "https://github.com/ggfevans/trakt-github-action/commit/840686406bb160c82d5bfde1bb9e7f137a3b7b6d"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: address additional CodeRabbit feedback",
+      "sha": "0229ecdaedf15dcbfb2c64bb74ebad48f00804b4",
+      "date": "2026-02-05T00:45:06Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/0229ecdaedf15dcbfb2c64bb74ebad48f00804b4"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: address CodeRabbit/linter feedback",
+      "sha": "5e06d39eaa4a36706c7ed71efda75804a8b1c701",
+      "date": "2026-02-05T00:25:58Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/5e06d39eaa4a36706c7ed71efda75804a8b1c701"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "Merge pull request #135 from ggfevans/fix/134-security-and-quality",
+      "sha": "6a89af40308178a3a0c662c32cd70a7846db734d",
+      "date": "2026-02-05T00:14:47Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/6a89af40308178a3a0c662c32cd70a7846db734d"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "chore: add untracked content directory",
+      "sha": "9d6d0ded5b147ef2f26ba817ddb8c0f8c73c2d74",
+      "date": "2026-02-05T00:14:45Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/9d6d0ded5b147ef2f26ba817ddb8c0f8c73c2d74"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: search shows dev mode error in production (#137)",
+      "sha": "07d3c0cd15b26dff4da0b93c5f4743900f0c8b39",
+      "date": "2026-02-05T00:12:47Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/07d3c0cd15b26dff4da0b93c5f4743900f0c8b39"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "chore: update watching data",
+      "sha": "e27fa950dd0ee2d851fd40dc0a1cbcff1927dcc4",
+      "date": "2026-02-05T00:09:11Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/e27fa950dd0ee2d851fd40dc0a1cbcff1927dcc4"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "docs: document race condition limitation in findUniqueSlug",
+      "sha": "4c931e48a51623bf7408644ef15ae489db20c3ee",
+      "date": "2026-02-04T23:55:41Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/4c931e48a51623bf7408644ef15ae489db20c3ee"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "docs: document race condition limitation in findUniqueSlug",
+      "sha": "0a41bc55e10bb6a91e607dd5637cd6f228cb768f",
+      "date": "2026-02-04T23:55:41Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/0a41bc55e10bb6a91e607dd5637cd6f228cb768f"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: use case-insensitive .md extension check in collectSlugs",
+      "sha": "a618f199d42ee4817e8c1322fd340ee000dab07b",
+      "date": "2026-02-04T23:53:37Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/a618f199d42ee4817e8c1322fd340ee000dab07b"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: use case-insensitive .md extension check in collectSlugs",
+      "sha": "935b8a0101bef892dce3307d8ac3fe6962543c06",
+      "date": "2026-02-04T23:53:37Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/935b8a0101bef892dce3307d8ac3fe6962543c06"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: improve YAML escaping to handle newlines, tabs, and control chars",
+      "sha": "8b1671a6847a0b504ada5933350f7c4a06bb8d57",
+      "date": "2026-02-04T23:53:19Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/8b1671a6847a0b504ada5933350f7c4a06bb8d57"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: improve YAML escaping to handle newlines, tabs, and control chars",
+      "sha": "2a392c010ea3b9e5c8ff9ba6a4908e4ebb014856",
+      "date": "2026-02-04T23:53:19Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/2a392c010ea3b9e5c8ff9ba6a4908e4ebb014856"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "refactor: extract shared CLI utilities to reduce duplication",
+      "sha": "e4b039dc49d469f0083566b8be5fbf65f2528627",
+      "date": "2026-02-04T23:17:03Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/e4b039dc49d469f0083566b8be5fbf65f2528627"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "refactor: extract shared CLI utilities to reduce duplication",
+      "sha": "3c44241b907703367f51ea861913c56f01dc4d4d",
+      "date": "2026-02-04T23:17:03Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/3c44241b907703367f51ea861913c56f01dc4d4d"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: use word boundary matching for tag suggestions",
+      "sha": "9fe98da4157e16af100eb39bc277f9a003051e43",
+      "date": "2026-02-04T23:05:59Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/9fe98da4157e16af100eb39bc277f9a003051e43"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: use word boundary matching for tag suggestions",
+      "sha": "08c2ee0aee6d69957460bff45d8c3fdcef50029b",
+      "date": "2026-02-04T23:05:59Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/08c2ee0aee6d69957460bff45d8c3fdcef50029b"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: escape backslashes in YAML frontmatter strings",
+      "sha": "fcf941e6dd0c29302fed31b1fa935cc90b56e5b5",
+      "date": "2026-02-04T23:01:13Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/fcf941e6dd0c29302fed31b1fa935cc90b56e5b5"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: escape backslashes in YAML frontmatter strings",
+      "sha": "5de42e1541fd7ccc31806c3e69fe44396a01f7ab",
+      "date": "2026-02-04T23:01:13Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/5de42e1541fd7ccc31806c3e69fe44396a01f7ab"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: improve slug collision detection with incremental suffix",
+      "sha": "d92486e53592fd853417aceaf0367a85229e2698",
+      "date": "2026-02-04T23:00:03Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/d92486e53592fd853417aceaf0367a85229e2698"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: improve slug collision detection with incremental suffix",
+      "sha": "cc234dd8d09e757e6396b7a2b61e4edef55cbde7",
+      "date": "2026-02-04T23:00:03Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/cc234dd8d09e757e6396b7a2b61e4edef55cbde7"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix(security): prevent shell injection in EDITOR execution",
+      "sha": "b7df114331e614470bcf41ecd6b76c997a13f6cd",
+      "date": "2026-02-04T22:52:33Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/b7df114331e614470bcf41ecd6b76c997a13f6cd"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix(security): prevent shell injection in EDITOR execution",
+      "sha": "0935cb8a85793e61c701c04a4f3d1e5a29faab76",
+      "date": "2026-02-04T22:52:33Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/0935cb8a85793e61c701c04a4f3d1e5a29faab76"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: quote key with space in TAG_KEYWORDS object",
+      "sha": "e3b0a4a0d7bf4faf0c7beaf86d80a23aa51df583",
+      "date": "2026-02-04T22:52:00Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/e3b0a4a0d7bf4faf0c7beaf86d80a23aa51df583"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "fix: quote key with space in TAG_KEYWORDS object",
+      "sha": "c21d2e889e06a6ef762e234b9c562321c70a1b93",
+      "date": "2026-02-04T22:52:00Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/c21d2e889e06a6ef762e234b9c562321c70a1b93"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "feat: contextual accent system + homepage activity section (#128)",
+      "sha": "26f5ebcb72a23e4b3c5adc61bd44f4022454c5a8",
+      "date": "2026-02-04T22:39:44Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/26f5ebcb72a23e4b3c5adc61bd44f4022454c5a8"
+    },
+    {
+      "repo": "gwilym.ca",
+      "message": "feat: add content authoring pipeline CLI tools",
+      "sha": "471f23f348b0ca14db6462e1496d60918bcd028b",
+      "date": "2026-02-04T21:52:42Z",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/471f23f348b0ca14db6462e1496d60918bcd028b"
+    }
+  ],
+  "stats": {
+    "commitsThisWeek": 97,
+    "commitsThisMonth": 97,
+    "repositoriesThisWeek": 7
+  },
+  "repositories": [
+    {
+      "name": "gwilym.ca",
+      "description": "",
+      "language": "Astro",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/gwilym.ca"
+    },
+    {
+      "name": "hardcover-github-action",
+      "description": "",
+      "language": "Shell",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/hardcover-github-action"
+    },
+    {
+      "name": "trakt-github-action",
+      "description": "",
+      "language": "Shell",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/trakt-github-action"
+    },
+    {
+      "name": "listenbrainz-github-action",
+      "description": "Fetch your ListenBrainz listening data as JSON for static sites. No auth required.",
+      "language": "Shell",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/listenbrainz-github-action"
+    },
+    {
+      "name": "gh-mint",
+      "description": "A gh CLI extension that creates GitHub repos with consistent defaults from named profiles",
+      "language": "Go",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/gh-mint"
+    },
+    {
+      "name": "claude-yolo",
+      "description": "shell alias that makes  claude--dangerously-skip-permissions look as reckless as it is",
+      "language": "",
+      "stars": 1,
+      "url": "https://github.com/ggfevans/claude-yolo"
+    },
+    {
+      "name": "listenbrainz-csv-upload",
+      "description": "Import your Last.fm listening history into ListenBrainz from a CSV export",
+      "language": "Python",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/listenbrainz-csv-upload"
+    },
+    {
+      "name": "searxng-seek-alfred",
+      "description": "Alfred workflow for private web search via SearXNG. Includes inline results, favicons, quick actions",
+      "language": "JavaScript",
+      "stars": 3,
+      "url": "https://github.com/ggfevans/searxng-seek-alfred"
+    },
+    {
+      "name": "rainforest-EAGLE-commands",
+      "description": "",
+      "language": "Shell",
+      "stars": 1,
+      "url": "https://github.com/ggfevans/rainforest-EAGLE-commands"
+    },
+    {
+      "name": "claude-prune",
+      "description": "Cleanup tool for Claude Code CLI - removes accumulated cache and state files that cause performance issues and hook delays",
+      "language": "Go",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/claude-prune"
+    },
+    {
+      "name": "searxng-dracula-theme",
+      "description": "",
+      "language": "Less",
+      "stars": 1,
+      "url": "https://github.com/ggfevans/searxng-dracula-theme"
+    },
+    {
+      "name": "things3-reset-script",
+      "description": "Resets a Things 3 installation to a fresh state, without having to hunt around for files.",
+      "language": "Shell",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/things3-reset-script"
+    }
+  ]
+}

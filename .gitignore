@@ -1,0 +1,31 @@
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# internal docs
+docs/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# git worktrees
+.worktree/
+
+# claude-mem context files (keep root CLAUDE.md, ignore all others)
+**/CLAUDE.md
+!/CLAUDE.md
