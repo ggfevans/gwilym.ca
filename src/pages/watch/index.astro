@@ -58,13 +58,13 @@ const breadcrumbJsonLd = toJsonLd(
         slot="head"
     />
 
-    <main id="main-content" class="gvns-watch" data-pagefind-body>
-        <header class="gvns-watch__header">
-            <h1 class="gvns-watch__title">Watch</h1>
-            <p class="gvns-watch__subtitle">
+    <main id="main-content" class="gw-watch" data-pagefind-body>
+        <header class="gw-watch__header">
+            <h1 class="gw-watch__title">Watch</h1>
+            <p class="gw-watch__subtitle">
                 Movies and shows I've been watching, tracked on <a
                     href="https://trakt.tv/users/gvns"
-                    class="gvns-watch__trakt-link"
+                    class="gw-watch__trakt-link"
                     target="_blank"
                     rel="noopener noreferrer">Trakt</a
                 >.
@@ -73,16 +73,16 @@ const breadcrumbJsonLd = toJsonLd(
 
         {
             !hasData && (
-                <section class="gvns-watch__empty-card">
-                    <div class="gvns-watch__empty-content">
-                        <h2 class="gvns-watch__empty-heading">
+                <section class="gw-watch__empty-card">
+                    <div class="gw-watch__empty-content">
+                        <h2 class="gw-watch__empty-heading">
                             No recent activity
                         </h2>
-                        <p class="gvns-watch__empty-text">
+                        <p class="gw-watch__empty-text">
                             Watch history from{" "}
                             <a
                                 href="https://trakt.tv/users/gvns"
-                                class="gvns-watch__trakt-link"
+                                class="gw-watch__trakt-link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -97,24 +97,24 @@ const breadcrumbJsonLd = toJsonLd(
 
         {
             hasData && (
-                <section class="gvns-watch__grid">
+                <section class="gw-watch__grid">
                     {watchingData.recentlyWatched.map((item) => (
-                        <article class="gvns-watch__card">
-                            <div class="gvns-watch__poster-wrapper">
+                        <article class="gw-watch__card">
+                            <div class="gw-watch__poster-wrapper">
                                 {item.posterUrl ? (
                                     <img
                                         src={item.posterUrl}
                                         alt={`Poster for ${item.title}`}
-                                        class="gvns-watch__poster"
+                                        class="gw-watch__poster"
                                         width="180"
                                         height="270"
                                         loading="lazy"
                                         decoding="async"
                                     />
                                 ) : (
-                                    <div class="gvns-watch__poster-placeholder">
+                                    <div class="gw-watch__poster-placeholder">
                                         <span
-                                            class="gvns-watch__poster-icon"
+                                            class="gw-watch__poster-icon"
                                             aria-hidden="true"
                                         >
                                             &#127916;
@@ -122,16 +122,16 @@ const breadcrumbJsonLd = toJsonLd(
                                     </div>
                                 )}
                                 <span
-                                    class={`gvns-watch__badge ${item.type === "movie" ? "gvns-watch__badge--movie" : "gvns-watch__badge--show"}`}
+                                    class={`gw-watch__badge ${item.type === "movie" ? "gw-watch__badge--movie" : "gw-watch__badge--show"}`}
                                 >
                                     {item.type === "movie" ? "Movie" : "Show"}
                                 </span>
                             </div>
-                            <div class="gvns-watch__card-body">
+                            <div class="gw-watch__card-body">
                                 {(() => {
                                     const href = safeUrl(item.url);
                                     return (
-                                        <h3 class="gvns-watch__card-title">
+                                        <h3 class="gw-watch__card-title">
                                             {href ? (
                                                 <a href={href}>{item.title}</a>
                                             ) : (
@@ -151,7 +151,7 @@ const breadcrumbJsonLd = toJsonLd(
                                               );
                                         return (
                                             <div
-                                                class="gvns-watch__rating"
+                                                class="gw-watch__rating"
                                                 aria-label={`Rated ${r} out of 5`}
                                             >
                                                 {Array.from({ length: 5 }).map(
@@ -159,8 +159,8 @@ const breadcrumbJsonLd = toJsonLd(
                                                         <span
                                                             class={
                                                                 i < r
-                                                                    ? "gvns-watch__star gvns-watch__star--filled"
-                                                                    : "gvns-watch__star"
+                                                                    ? "gw-watch__star gw-watch__star--filled"
+                                                                    : "gw-watch__star"
                                                             }
                                                         >
                                                             &#9733;
@@ -175,7 +175,7 @@ const breadcrumbJsonLd = toJsonLd(
                                         const d = new Date(item.watchedDate);
                                         return !Number.isNaN(d.getTime()) ? (
                                             <time
-                                                class="gvns-watch__date"
+                                                class="gw-watch__date"
                                                 datetime={item.watchedDate}
                                             >
                                                 {d.toLocaleDateString("en-CA", {
@@ -198,7 +198,7 @@ const breadcrumbJsonLd = toJsonLd(
                 (() => {
                     const d = new Date(watchingData.lastUpdated);
                     return !Number.isNaN(d.getTime()) ? (
-                        <footer class="gvns-watch__updated">
+                        <footer class="gw-watch__updated">
                             <p>
                                 Last updated:{" "}
                                 <time datetime={watchingData.lastUpdated}>
@@ -217,16 +217,16 @@ const breadcrumbJsonLd = toJsonLd(
 </BaseLayout>
 
 <style>
-    .gvns-watch {
+    .gw-watch {
         max-width: var(--width-content);
         margin: 0 auto;
     }
 
-    .gvns-watch__header {
+    .gw-watch__header {
         margin-bottom: var(--space-8);
     }
 
-    .gvns-watch__title {
+    .gw-watch__title {
         font-size: var(--text-4xl);
         line-height: 1.2;
         letter-spacing: -0.01em;
@@ -234,14 +234,14 @@ const breadcrumbJsonLd = toJsonLd(
         margin: 0 0 var(--space-2) 0;
     }
 
-    .gvns-watch__subtitle {
+    .gw-watch__subtitle {
         font-size: var(--text-lg);
         color: var(--colour-text-secondary);
         margin: 0;
     }
 
     /* Coming soon card */
-    .gvns-watch__empty-card {
+    .gw-watch__empty-card {
         border-left: 3px solid var(--colour-p4-amber);
         background-color: var(--colour-bg-secondary);
         border-radius: 0.375rem;
@@ -249,51 +249,51 @@ const breadcrumbJsonLd = toJsonLd(
         margin-bottom: var(--space-8);
     }
 
-    .gvns-watch__empty-content {
+    .gw-watch__empty-content {
         display: flex;
         flex-direction: column;
         gap: var(--space-3);
     }
 
-    .gvns-watch__empty-heading {
+    .gw-watch__empty-heading {
         font-size: var(--text-xl);
         font-family: var(--font-sans);
         color: var(--colour-p4-amber);
         margin: 0;
     }
 
-    .gvns-watch__empty-text {
+    .gw-watch__empty-text {
         font-size: var(--text-base);
         color: var(--colour-text-secondary);
         margin: 0;
         line-height: 1.6;
     }
 
-    .gvns-watch__trakt-link {
+    .gw-watch__trakt-link {
         color: var(--colour-p4-amber);
         text-decoration: none;
     }
 
-    .gvns-watch__trakt-link:hover,
-    .gvns-watch__trakt-link:focus-visible {
+    .gw-watch__trakt-link:hover,
+    .gw-watch__trakt-link:focus-visible {
         text-decoration: underline;
     }
 
-    .gvns-watch__trakt-link:focus-visible {
+    .gw-watch__trakt-link:focus-visible {
         outline: 2px solid var(--colour-p4-amber);
         outline-offset: 2px;
         border-radius: 2px;
     }
 
     /* Watch grid (future data) */
-    .gvns-watch__grid {
+    .gw-watch__grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
         gap: var(--space-6);
         margin-bottom: var(--space-8);
     }
 
-    .gvns-watch__card {
+    .gw-watch__card {
         background-color: var(--colour-bg-secondary);
         border-radius: 0.375rem;
         overflow: hidden;
@@ -303,24 +303,24 @@ const breadcrumbJsonLd = toJsonLd(
         border: 1px solid var(--colour-border);
     }
 
-    .gvns-watch__card:hover {
+    .gw-watch__card:hover {
         transform: translateY(-2px);
         box-shadow: var(--shadow-card-hover, 0 4px 12px rgba(0, 0, 0, 0.2));
     }
 
-    .gvns-watch__poster-wrapper {
+    .gw-watch__poster-wrapper {
         position: relative;
         aspect-ratio: 2 / 3;
         background-color: var(--colour-bg-tertiary);
     }
 
-    .gvns-watch__poster {
+    .gw-watch__poster {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .gvns-watch__poster-placeholder {
+    .gw-watch__poster-placeholder {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -328,12 +328,12 @@ const breadcrumbJsonLd = toJsonLd(
         height: 100%;
     }
 
-    .gvns-watch__poster-icon {
+    .gw-watch__poster-icon {
         font-size: var(--text-3xl);
         opacity: 0.4;
     }
 
-    .gvns-watch__badge {
+    .gw-watch__badge {
         position: absolute;
         top: var(--space-2);
         right: var(--space-2);
@@ -345,25 +345,25 @@ const breadcrumbJsonLd = toJsonLd(
         letter-spacing: 0.05em;
     }
 
-    .gvns-watch__badge--movie {
+    .gw-watch__badge--movie {
         background-color: var(--colour-p4-amber);
         color: var(--colour-text-inverse);
     }
 
-    .gvns-watch__badge--show {
+    .gw-watch__badge--show {
         background-color: var(--colour-bg-tertiary);
         color: var(--colour-text-secondary);
         border: 1px solid var(--colour-border);
     }
 
-    .gvns-watch__card-body {
+    .gw-watch__card-body {
         padding: var(--space-3);
         display: flex;
         flex-direction: column;
         gap: var(--space-1);
     }
 
-    .gvns-watch__card-title {
+    .gw-watch__card-title {
         font-size: var(--text-sm);
         font-weight: 600;
         color: var(--colour-text-primary);
@@ -371,43 +371,43 @@ const breadcrumbJsonLd = toJsonLd(
         line-height: 1.4;
     }
 
-    .gvns-watch__card-title a {
+    .gw-watch__card-title a {
         color: inherit;
         text-decoration: none;
         transition: color var(--transition-fast);
     }
 
-    .gvns-watch__card-title a:hover {
+    .gw-watch__card-title a:hover {
         color: var(--colour-p4-amber);
     }
 
-    .gvns-watch__rating {
+    .gw-watch__rating {
         display: flex;
         gap: 1px;
     }
 
-    .gvns-watch__star {
+    .gw-watch__star {
         font-size: var(--text-sm);
         color: var(--colour-border);
     }
 
-    .gvns-watch__star--filled {
+    .gw-watch__star--filled {
         color: var(--colour-p4-amber);
     }
 
-    .gvns-watch__date {
+    .gw-watch__date {
         font-size: var(--text-xs);
         color: var(--colour-text-muted);
     }
 
     /* Last updated */
-    .gvns-watch__updated {
+    .gw-watch__updated {
         margin-top: var(--space-8);
         padding-top: var(--space-4);
         border-top: 1px solid var(--colour-border);
     }
 
-    .gvns-watch__updated p {
+    .gw-watch__updated p {
         font-size: var(--text-sm);
         color: var(--colour-text-muted);
         margin: 0;

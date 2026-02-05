@@ -6,7 +6,7 @@ tags: ["meta"]
 draft: true
 ---
 
-Testing the gvns-code-mockup component across different languages and scenarios.
+Testing the gw-code-mockup component across different languages and scenarios.
 
 ## TypeScript
 
@@ -36,7 +36,7 @@ git commit -m "feat: add code mockup component"
 ## CSS
 
 ```css
-.gvns-code-mockup {
+.gw-code-mockup {
   background: var(--colour-bg-secondary);
   border: 1px solid var(--colour-border);
   border-radius: var(--code-mockup-radius);
@@ -54,7 +54,7 @@ ls -la src/components/
 
 ```json
 {
-  "name": "gvns-ca",
+  "name": "gw-ca",
   "type": "module",
   "version": "0.0.1"
 }

@@ -10,45 +10,45 @@ const latestPost = posts[0] ?? null;
 const postSlug = latestPost?.slug.split('/').pop();
 ---
 
-<article class="gvns-widget gvns-widget--write">
-  <div class="gvns-widget__label">Write</div>
+<article class="gw-widget gw-widget--write">
+  <div class="gw-widget__label">Write</div>
   {latestPost ? (
-    <div class="gvns-widget__content">
-      <a href={`/write/${postSlug}`} class="gvns-widget__post-link">
-        <p class="gvns-widget__detail gvns-widget__detail--bold">{latestPost.data.title}</p>
+    <div class="gw-widget__content">
+      <a href={`/write/${postSlug}`} class="gw-widget__post-link">
+        <p class="gw-widget__detail gw-widget__detail--bold">{latestPost.data.title}</p>
       </a>
-      <time class="gvns-widget__time" datetime={latestPost.data.pubDate.toISOString()}>
+      <time class="gw-widget__time" datetime={latestPost.data.pubDate.toISOString()}>
         {formatDate(latestPost.data.pubDate)}
       </time>
-      <p class="gvns-widget__excerpt">{latestPost.data.description}</p>
+      <p class="gw-widget__excerpt">{latestPost.data.description}</p>
     </div>
   ) : (
-    <p class="gvns-widget__empty">No posts yet.</p>
+    <p class="gw-widget__empty">No posts yet.</p>
   )}
-  <a href="/write" class="gvns-widget__link">
+  <a href="/write" class="gw-widget__link">
     View Full Activity <span aria-hidden="true">&rarr;</span>
   </a>
 </article>
 
 <style>
-  .gvns-widget--write {
+  .gw-widget--write {
     border-left-color: var(--colour-p4-amber);
   }
 
-  .gvns-widget--write .gvns-widget__link:hover {
+  .gw-widget--write .gw-widget__link:hover {
     color: var(--colour-p4-amber);
   }
 
-  .gvns-widget__post-link {
+  .gw-widget__post-link {
     text-decoration: none;
     color: inherit;
   }
 
-  .gvns-widget__post-link:hover .gvns-widget__detail {
+  .gw-widget__post-link:hover .gw-widget__detail {
     color: var(--colour-p4-amber);
   }
 
-  .gvns-widget__excerpt {
+  .gw-widget__excerpt {
     font-size: var(--text-sm);
     color: var(--colour-text-secondary);
     margin: var(--space-2) 0 0 0;

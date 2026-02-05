@@ -45,34 +45,34 @@ const breadcrumbJsonLd = toJsonLd(
         set:html={breadcrumbJsonLd}
         slot="head"
     />
-    <main id="main-content" class="gvns-tags">
+    <main id="main-content" class="gw-tags">
         <h1>Tags</h1>
         <p class="intro">Browse posts by topic.</p>
 
         {
             sortedTags.length > 0 ? (
-                <ul class="gvns-tags__list">
+                <ul class="gw-tags__list">
                     {sortedTags.map(([tag, count]) => (
                         <li>
                             <a
                                 href={`/write/tags/${tag}`}
-                                class="gvns-tags__link"
+                                class="gw-tags__link"
                             >
-                                <span class="gvns-tags__name">{tag}</span>
-                                <span class="gvns-tags__count">({count})</span>
+                                <span class="gw-tags__name">{tag}</span>
+                                <span class="gw-tags__count">({count})</span>
                             </a>
                         </li>
                     ))}
                 </ul>
             ) : (
-                <p class="gvns-tags__empty">No tags yet.</p>
+                <p class="gw-tags__empty">No tags yet.</p>
             )
         }
     </main>
 </BaseLayout>
 
 <style>
-    .gvns-tags {
+    .gw-tags {
         max-width: var(--width-content);
         margin: 0 auto;
     }
@@ -89,7 +89,7 @@ const breadcrumbJsonLd = toJsonLd(
         margin-bottom: 2rem;
     }
 
-    .gvns-tags__list {
+    .gw-tags__list {
         list-style: none;
         padding: 0;
         display: flex;
@@ -97,7 +97,7 @@ const breadcrumbJsonLd = toJsonLd(
         gap: 0.75rem;
     }
 
-    .gvns-tags__link {
+    .gw-tags__link {
         display: inline-flex;
         align-items: center;
         gap: 0.25rem;
@@ -108,26 +108,26 @@ const breadcrumbJsonLd = toJsonLd(
         transition: background-color var(--transition-fast);
     }
 
-    .gvns-tags__link:hover {
+    .gw-tags__link:hover {
         background: var(--colour-bg-tertiary);
     }
 
-    .gvns-tags__link:focus-visible {
+    .gw-tags__link:focus-visible {
         outline: 2px solid var(--colour-accent-primary);
         outline-offset: 2px;
     }
 
-    .gvns-tags__name {
+    .gw-tags__name {
         color: var(--colour-accent-primary);
         font-weight: 500;
     }
 
-    .gvns-tags__count {
+    .gw-tags__count {
         color: var(--colour-text-secondary);
         font-size: var(--text-sm);
     }
 
-    .gvns-tags__empty {
+    .gw-tags__empty {
         color: var(--colour-text-secondary);
         font-style: italic;
     }
