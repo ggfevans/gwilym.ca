@@ -1,6 +1,6 @@
 /* Compact widget styles — shared across pages that use compact widget variants */
 
-.gvns-widget-compact {
+.gw-widget-compact {
   background: var(--colour-bg-secondary);
   border: 1px solid var(--colour-border);
   border-radius: 8px;
@@ -11,7 +11,7 @@
   transition: border-color var(--transition-fast);
 }
 
-.gvns-widget-compact__label {
+.gw-widget-compact__label {
   font-size: var(--text-xs);
   font-weight: 700;
   text-transform: uppercase;
@@ -19,7 +19,7 @@
   color: var(--colour-text-muted);
 }
 
-.gvns-widget-compact__body {
+.gw-widget-compact__body {
   display: flex;
   align-items: center;
   gap: var(--space-3);
@@ -27,17 +27,17 @@
   color: inherit;
 }
 
-.gvns-widget-compact__cover {
+.gw-widget-compact__cover {
   border-radius: 4px;
   object-fit: cover;
   flex-shrink: 0;
 }
 
-.gvns-widget-compact__info {
+.gw-widget-compact__info {
   min-width: 0;
 }
 
-.gvns-widget-compact__title {
+.gw-widget-compact__title {
   font-size: var(--text-sm);
   font-weight: 600;
   color: var(--colour-text-primary);
@@ -47,7 +47,7 @@
   text-overflow: ellipsis;
 }
 
-.gvns-widget-compact__subtitle {
+.gw-widget-compact__subtitle {
   font-size: var(--text-xs);
   color: var(--colour-text-secondary);
   margin: var(--space-1) 0 0 0;
@@ -56,7 +56,7 @@
   text-overflow: ellipsis;
 }
 
-.gvns-widget-compact__empty {
+.gw-widget-compact__empty {
   font-size: var(--text-sm);
   color: var(--colour-text-muted);
   font-style: italic;

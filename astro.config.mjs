@@ -10,7 +10,7 @@ import rehypeSlug from "rehype-slug";
 
 const shikiTheme = JSON.parse(
   readFileSync(
-    new URL("./src/styles/shiki-gvns.json", import.meta.url),
+    new URL("./src/styles/shiki-gwilym.json", import.meta.url),
     "utf-8",
   ),
 );

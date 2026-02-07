@@ -40,7 +40,7 @@ function makeCheckIcon(): Element {
 
 export function codeMockupTransformer(): ShikiTransformer {
   return {
-    name: 'gvns-code-mockup',
+    name: 'gw-code-mockup',
     root(root) {
       // The root contains a single <pre> element from Shiki
       const preNode = root.children.find(
@@ -74,23 +74,23 @@ export function codeMockupTransformer(): ShikiTransformer {
       }
 
       const linesClass = isTerminal
-        ? 'gvns-code-mockup__lines gvns-code-mockup__lines--terminal'
-        : 'gvns-code-mockup__lines';
+        ? 'gw-code-mockup__lines gw-code-mockup__lines--terminal'
+        : 'gw-code-mockup__lines';
 
       // Build the wrapper structure
       const wrapper = h('div', {
-        class: `gvns-code-mockup${isTerminal ? ' gvns-code-mockup--terminal' : ''}`,
+        class: `gw-code-mockup${isTerminal ? ' gw-code-mockup--terminal' : ''}`,
         dataLanguage: lang,
       }, [
-        h('div', { class: 'gvns-code-mockup__header' }, [
-          h('div', { class: 'gvns-code-mockup__dots' }, [
+        h('div', { class: 'gw-code-mockup__header' }, [
+          h('div', { class: 'gw-code-mockup__dots' }, [
             h('span'),
             h('span'),
             h('span'),
           ]),
-          h('span', { class: 'gvns-code-mockup__lang' }, lang),
+          h('span', { class: 'gw-code-mockup__lang' }, lang),
           h('button', {
-            class: 'gvns-code-mockup__copy',
+            class: 'gw-code-mockup__copy',
             dataCode: rawCode,
             ariaLabel: 'Copy code',
             type: 'button',
@@ -99,7 +99,7 @@ export function codeMockupTransformer(): ShikiTransformer {
             makeCheckIcon(),
           ]),
         ]),
-        h('div', { class: 'gvns-code-mockup__body' }, [
+        h('div', { class: 'gw-code-mockup__body' }, [
           h('div', {
             class: linesClass,
             ariaHidden: 'true',

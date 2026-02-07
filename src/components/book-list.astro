@@ -22,10 +22,10 @@ interface Props {
 const { title, books = [], emptyMessage, showProgress = false, showRating = false } = Astro.props;
 ---
 
-<section class="gvns-book-list">
-  <h2 class="gvns-book-list-title">{title}</h2>
+<section class="gw-book-list">
+  <h2 class="gw-book-list-title">{title}</h2>
   {books.length > 0 ? (
-    <div class="gvns-book-grid">
+    <div class="gw-book-grid">
       {books.map((book) => (
         <BookCard
           title={book.title}
@@ -41,41 +41,41 @@ const { title, books = [], emptyMessage, showProgress = false, showRating = fals
       ))}
     </div>
   ) : (
-    <p class="gvns-book-list-empty">{emptyMessage}</p>
+    <p class="gw-book-list-empty">{emptyMessage}</p>
   )}
 </section>
 
 <style>
-  .gvns-book-list {
+  .gw-book-list {
     margin-bottom: var(--space-12);
   }
 
-  .gvns-book-list-title {
+  .gw-book-list-title {
     font-size: var(--text-xl);
     font-weight: 600;
     margin: 0 0 var(--space-6) 0;
     color: var(--colour-text-primary);
   }
 
-  .gvns-book-grid {
+  .gw-book-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--space-4);
   }
 
   @media (min-width: 640px) {
-    .gvns-book-grid {
+    .gw-book-grid {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
   @media (min-width: 1024px) {
-    .gvns-book-grid {
+    .gw-book-grid {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
-  .gvns-book-list-empty {
+  .gw-book-list-empty {
     color: var(--colour-text-muted);
     font-size: var(--text-sm);
     font-style: italic;

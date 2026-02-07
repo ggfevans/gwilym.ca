@@ -49,32 +49,32 @@ const breadcrumbJsonLd = toJsonLd(
         set:html={breadcrumbJsonLd}
         slot="head"
     />
-    <main id="main-content" class="gvns-code" data-pagefind-body>
-        <header class="gvns-code__header">
+    <main id="main-content" class="gw-code" data-pagefind-body>
+        <header class="gw-code__header">
             <h1>Code</h1>
-            <p class="gvns-code__subtitle">Building in public on GitHub</p>
+            <p class="gw-code__subtitle">Building in public on GitHub</p>
         </header>
 
         {
             hasData ? (
-                <div class="gvns-code__content">
+                <div class="gw-code__content">
                     {/* Stats bar */}
-                    <div class="gvns-code__stats">
-                        <div class="gvns-code__stats__primary">
-                            <span class="gvns-code__stat">
-                                <strong class="gvns-code__stat-value">
+                    <div class="gw-code__stats">
+                        <div class="gw-code__stats__primary">
+                            <span class="gw-code__stat">
+                                <strong class="gw-code__stat-value">
                                     {contributions.total}
                                 </strong>
                                 contributions
                             </span>
                             <span
-                                class="gvns-code__stat-sep"
+                                class="gw-code__stat-sep"
                                 aria-hidden="true"
                             >
                                 &middot;
                             </span>
-                            <span class="gvns-code__stat">
-                                <strong class="gvns-code__stat-value">
+                            <span class="gw-code__stat">
+                                <strong class="gw-code__stat-value">
                                     {contributions.commits}
                                 </strong>
                                 {contributions.commits === 1
@@ -82,13 +82,13 @@ const breadcrumbJsonLd = toJsonLd(
                                     : "commits"}
                             </span>
                             <span
-                                class="gvns-code__stat-sep"
+                                class="gw-code__stat-sep"
                                 aria-hidden="true"
                             >
                                 &middot;
                             </span>
-                            <span class="gvns-code__stat">
-                                <strong class="gvns-code__stat-value">
+                            <span class="gw-code__stat">
+                                <strong class="gw-code__stat-value">
                                     {contributions.pullRequests}
                                 </strong>
                                 {contributions.pullRequests === 1
@@ -96,13 +96,13 @@ const breadcrumbJsonLd = toJsonLd(
                                     : "PRs"}
                             </span>
                             <span
-                                class="gvns-code__stat-sep"
+                                class="gw-code__stat-sep"
                                 aria-hidden="true"
                             >
                                 &middot;
                             </span>
-                            <span class="gvns-code__stat">
-                                <strong class="gvns-code__stat-value">
+                            <span class="gw-code__stat">
+                                <strong class="gw-code__stat-value">
                                     {contributions.issues}
                                 </strong>
                                 {contributions.issues === 1
@@ -110,30 +110,30 @@ const breadcrumbJsonLd = toJsonLd(
                                     : "issues"}
                             </span>
                         </div>
-                        <div class="gvns-code__stats__secondary">
+                        <div class="gw-code__stats__secondary">
                             {streak.current > 0 && (
-                                <span class="gvns-code__stat gvns-code__stat--streak">
+                                <span class="gw-code__stat gw-code__stat--streak">
                                     <span
-                                        class="gvns-code__streak-dot"
+                                        class="gw-code__streak-dot"
                                         aria-hidden="true"
                                     />
                                     {formatStreak(streak.current)} streak
                                 </span>
                             )}
-                            <span class="gvns-code__stat">
-                                <strong class="gvns-code__stat-value">
+                            <span class="gw-code__stat">
+                                <strong class="gw-code__stat-value">
                                     {stats.contributionsThisWeek}
                                 </strong>
                                 this week
                             </span>
                             <span
-                                class="gvns-code__stat-sep"
+                                class="gw-code__stat-sep"
                                 aria-hidden="true"
                             >
                                 across
                             </span>
-                            <span class="gvns-code__stat">
-                                <strong class="gvns-code__stat-value">
+                            <span class="gw-code__stat">
+                                <strong class="gw-code__stat-value">
                                     {stats.repositoriesThisWeek}
                                 </strong>
                                 {stats.repositoriesThisWeek === 1
@@ -145,7 +145,7 @@ const breadcrumbJsonLd = toJsonLd(
 
                     {/* Contribution heatmap */}
                     {githubData.calendar.weeks.length > 0 && (
-                        <section class="gvns-code__section">
+                        <section class="gw-code__section">
                             <h2>Contributions</h2>
                             <ContributionHeatmap
                                 calendar={githubData.calendar}
@@ -155,7 +155,7 @@ const breadcrumbJsonLd = toJsonLd(
 
                     {/* Activity timeline */}
                     {githubData.recentActivity.length > 0 && (
-                        <section class="gvns-code__section">
+                        <section class="gw-code__section">
                             <h2>Recent activity</h2>
                             <ActivityTimeline
                                 activities={githubData.recentActivity}
@@ -165,21 +165,21 @@ const breadcrumbJsonLd = toJsonLd(
 
                     {/* Repositories */}
                     {githubData.repositories.length > 0 && (
-                        <section class="gvns-code__section">
+                        <section class="gw-code__section">
                             <h2>Repositories</h2>
-                            <div class="gvns-code__repo-grid">
+                            <div class="gw-code__repo-grid">
                                 {githubData.repositories.map((repo) => (
                                     <a
                                         href={safeUrl(repo.url) || "#"}
-                                        class="gvns-code__repo-card"
+                                        class="gw-code__repo-card"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <h3 class="gvns-code__repo-name">
+                                        <h3 class="gw-code__repo-name">
                                             {repo.name}
                                         </h3>
                                         {repo.description && (
-                                            <p class="gvns-code__repo-desc">
+                                            <p class="gw-code__repo-desc">
                                                 {repo.description.length > 100
                                                     ? repo.description
                                                           .slice(0, 100)
@@ -187,11 +187,11 @@ const breadcrumbJsonLd = toJsonLd(
                                                     : repo.description}
                                             </p>
                                         )}
-                                        <div class="gvns-code__repo-meta">
+                                        <div class="gw-code__repo-meta">
                                             {repo.language && (
-                                                <span class="gvns-code__repo-lang">
+                                                <span class="gw-code__repo-lang">
                                                     <span
-                                                        class="gvns-code__lang-dot"
+                                                        class="gw-code__lang-dot"
                                                         style={
                                                             repo.languageColor
                                                                 ? `background: ${repo.languageColor}`
@@ -203,7 +203,7 @@ const breadcrumbJsonLd = toJsonLd(
                                                 </span>
                                             )}
                                             {repo.stars > 0 && (
-                                                <span class="gvns-code__repo-stars">
+                                                <span class="gw-code__repo-stars">
                                                     <svg
                                                         width="14"
                                                         height="14"
@@ -225,7 +225,7 @@ const breadcrumbJsonLd = toJsonLd(
 
                     {/* Last updated */}
                     {githubData.lastUpdated && (
-                        <footer class="gvns-code__updated">
+                        <footer class="gw-code__updated">
                             <p>
                                 Last updated:{" "}
                                 <time datetime={githubData.lastUpdated}>
@@ -236,8 +236,8 @@ const breadcrumbJsonLd = toJsonLd(
                     )}
                 </div>
             ) : (
-                <div class="gvns-code__empty">
-                    <div class="gvns-code__empty-icon" aria-hidden="true">
+                <div class="gw-code__empty">
+                    <div class="gw-code__empty-icon" aria-hidden="true">
                         <svg
                             width="48"
                             height="48"
@@ -252,8 +252,8 @@ const breadcrumbJsonLd = toJsonLd(
                             <polyline points="8 6 2 12 8 18" />
                         </svg>
                     </div>
-                    <p class="gvns-code__empty-title">Coming soon</p>
-                    <p class="gvns-code__empty-desc">
+                    <p class="gw-code__empty-title">Coming soon</p>
+                    <p class="gw-code__empty-desc">
                         GitHub activity will appear here once the integration is
                         wired up.
                     </p>
@@ -264,30 +264,30 @@ const breadcrumbJsonLd = toJsonLd(
 </BaseLayout>
 
 <style>
-    .gvns-code {
+    .gw-code {
         max-width: var(--width-content);
         margin: 0 auto;
     }
 
-    .gvns-code__header {
+    .gw-code__header {
         margin-bottom: var(--space-8);
     }
 
-    .gvns-code__header h1 {
+    .gw-code__header h1 {
         font-size: var(--text-4xl);
         line-height: 1.2;
         letter-spacing: -0.01em;
         margin: 0 0 var(--space-2) 0;
     }
 
-    .gvns-code__subtitle {
+    .gw-code__subtitle {
         font-size: var(--text-lg);
         color: var(--colour-text-secondary);
         margin: 0;
     }
 
     /* Stats bar */
-    .gvns-code__stats {
+    .gw-code__stats {
         display: flex;
         flex-direction: column;
         gap: var(--space-2);
@@ -300,34 +300,34 @@ const breadcrumbJsonLd = toJsonLd(
         margin-bottom: var(--space-8);
     }
 
-    .gvns-code__stats__primary,
-    .gvns-code__stats__secondary {
+    .gw-code__stats__primary,
+    .gw-code__stats__secondary {
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
         gap: var(--space-2);
     }
 
-    .gvns-code__stats__secondary {
+    .gw-code__stats__secondary {
         font-size: var(--text-xs);
         color: var(--colour-text-muted);
     }
 
-    .gvns-code__stat-value {
+    .gw-code__stat-value {
         font-size: var(--text-lg);
         font-weight: 600;
         color: var(--colour-p1-violet);
     }
 
-    .gvns-code__stats__secondary .gvns-code__stat-value {
+    .gw-code__stats__secondary .gw-code__stat-value {
         font-size: var(--text-sm);
     }
 
-    .gvns-code__stat-sep {
+    .gw-code__stat-sep {
         color: var(--colour-text-muted);
     }
 
-    .gvns-code__stat--streak {
+    .gw-code__stat--streak {
         display: flex;
         align-items: center;
         gap: var(--space-1);
@@ -335,7 +335,7 @@ const breadcrumbJsonLd = toJsonLd(
         font-weight: 500;
     }
 
-    .gvns-code__streak-dot {
+    .gw-code__streak-dot {
         width: 6px;
         height: 6px;
         border-radius: 50%;
@@ -354,11 +354,11 @@ const breadcrumbJsonLd = toJsonLd(
     }
 
     /* Sections */
-    .gvns-code__section {
+    .gw-code__section {
         margin-bottom: var(--space-10);
     }
 
-    .gvns-code__section h2 {
+    .gw-code__section h2 {
         font-size: var(--text-xl);
         font-weight: 600;
         margin: 0 0 var(--space-6) 0;
@@ -366,13 +366,13 @@ const breadcrumbJsonLd = toJsonLd(
     }
 
     /* Repository grid */
-    .gvns-code__repo-grid {
+    .gw-code__repo-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         gap: var(--space-4);
     }
 
-    .gvns-code__repo-card {
+    .gw-code__repo-card {
         display: flex;
         flex-direction: column;
         padding: var(--space-6);
@@ -384,11 +384,11 @@ const breadcrumbJsonLd = toJsonLd(
         transition: border-color var(--transition-fast);
     }
 
-    .gvns-code__repo-card:hover {
+    .gw-code__repo-card:hover {
         border-color: var(--colour-p1-violet);
     }
 
-    .gvns-code__repo-name {
+    .gw-code__repo-name {
         font-family: var(--font-mono);
         font-size: var(--text-base);
         font-weight: 600;
@@ -397,11 +397,11 @@ const breadcrumbJsonLd = toJsonLd(
         transition: color var(--transition-fast);
     }
 
-    .gvns-code__repo-card:hover .gvns-code__repo-name {
+    .gw-code__repo-card:hover .gw-code__repo-name {
         color: var(--colour-p1-violet-hover);
     }
 
-    .gvns-code__repo-desc {
+    .gw-code__repo-desc {
         font-size: var(--text-sm);
         color: var(--colour-text-secondary);
         margin: 0 0 var(--space-4) 0;
@@ -409,7 +409,7 @@ const breadcrumbJsonLd = toJsonLd(
         line-height: 1.5;
     }
 
-    .gvns-code__repo-meta {
+    .gw-code__repo-meta {
         display: flex;
         align-items: center;
         gap: var(--space-4);
@@ -417,62 +417,62 @@ const breadcrumbJsonLd = toJsonLd(
         color: var(--colour-text-muted);
     }
 
-    .gvns-code__repo-lang {
+    .gw-code__repo-lang {
         display: flex;
         align-items: center;
         gap: var(--space-1);
     }
 
-    .gvns-code__lang-dot {
+    .gw-code__lang-dot {
         width: 8px;
         height: 8px;
         border-radius: 50%;
         background: var(--colour-p1-violet);
     }
 
-    .gvns-code__repo-stars {
+    .gw-code__repo-stars {
         display: flex;
         align-items: center;
         gap: var(--space-1);
     }
 
-    .gvns-code__repo-stars svg {
+    .gw-code__repo-stars svg {
         color: var(--colour-text-muted);
     }
 
     /* Empty state */
-    .gvns-code__empty {
+    .gw-code__empty {
         text-align: center;
         padding: var(--space-16) var(--space-6);
     }
 
-    .gvns-code__empty-icon {
+    .gw-code__empty-icon {
         color: var(--colour-p1-violet);
         margin-bottom: var(--space-6);
         opacity: 0.6;
     }
 
-    .gvns-code__empty-title {
+    .gw-code__empty-title {
         font-size: var(--text-xl);
         font-weight: 600;
         color: var(--colour-text-primary);
         margin: 0 0 var(--space-2) 0;
     }
 
-    .gvns-code__empty-desc {
+    .gw-code__empty-desc {
         font-size: var(--text-base);
         color: var(--colour-text-secondary);
         margin: 0;
     }
 
     /* Last updated */
-    .gvns-code__updated {
+    .gw-code__updated {
         margin-top: var(--space-8);
         padding-top: var(--space-4);
         border-top: 1px solid var(--colour-border);
     }
 
-    .gvns-code__updated p {
+    .gw-code__updated p {
         font-size: var(--text-xs);
         color: var(--colour-text-muted);
         margin: 0;

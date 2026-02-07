@@ -10,23 +10,23 @@ const { calendar } = Astro.props;
 const days = calendar.weeks.flatMap((w) => w.days);
 ---
 
-<div class="gvns-heatmap" role="img" aria-label="Contribution activity over the past year">
+<div class="gw-heatmap" role="img" aria-label="Contribution activity over the past year">
   <HeatmapIsland client:visible days={days} />
 </div>
 
 <style>
-  .gvns-heatmap {
+  .gw-heatmap {
     overflow-x: auto;
   }
 
   /* Style the react-activity-calendar container */
-  .gvns-heatmap :global(.react-activity-calendar) {
+  .gw-heatmap :global(.react-activity-calendar) {
     color: var(--colour-text-muted);
     font-family: var(--font-sans);
   }
 
   @media (max-width: 640px) {
-    .gvns-heatmap :global(.react-activity-calendar) {
+    .gw-heatmap :global(.react-activity-calendar) {
       font-size: 10px;
     }
   }
