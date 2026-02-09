@@ -1,157 +1,107 @@
 {
   "lastUpdated": "2026-02-09T04:10:15Z",
-  "recentCommits": [
+  "contributions": {
+    "total": 142,
+    "commits": 63,
+    "pullRequests": 38,
+    "pullRequestReviews": 12,
+    "issues": 24,
+    "restricted": 5
+  },
+  "calendar": {
+    "weeks": [
+      {
+        "days": [
+          { "date": "2026-02-02", "count": 5, "level": 2 },
+          { "date": "2026-02-03", "count": 8, "level": 3 },
+          { "date": "2026-02-04", "count": 3, "level": 1 },
+          { "date": "2026-02-05", "count": 12, "level": 4 },
+          { "date": "2026-02-06", "count": 0, "level": 0 },
+          { "date": "2026-02-07", "count": 15, "level": 4 },
+          { "date": "2026-02-08", "count": 4, "level": 2 }
+        ]
+      }
+    ]
+  },
+  "streak": {
+    "current": 3,
+    "longest": 7,
+    "today": true
+  },
+  "recentActivity": [
     {
+      "type": "commit",
       "repo": "Rackula",
-      "message": "feat: add touch long-press context menus (#1086)",
-      "sha": "c61bcd5fe6b55a5323d395786bf53b82162719bb",
-      "date": "2026-02-09T02:02:52Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/c61bcd5fe6b55a5323d395786bf53b82162719bb"
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "feat: add touch long-press context menus (#1086)",
+      "url": "https://github.com/RackulaLives/Rackula/commit/c61bcd5fe6b55a5323d395786bf53b82162719bb",
+      "date": "2026-02-09T02:02:52Z"
     },
     {
+      "type": "commit",
       "repo": "Rackula",
-      "message": "test: reuse layout has-started key in contract test (#1085)",
-      "sha": "66c5796b68f2e19a57a620d04962b84f00c7c187",
-      "date": "2026-02-09T01:57:23Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/66c5796b68f2e19a57a620d04962b84f00c7c187"
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "test: reuse layout has-started key in contract test (#1085)",
+      "url": "https://github.com/RackulaLives/Rackula/commit/66c5796b68f2e19a57a620d04962b84f00c7c187",
+      "date": "2026-02-09T01:57:23Z"
     },
     {
+      "type": "pr",
       "repo": "Rackula",
-      "message": "feat: add touch long-press context menus",
-      "sha": "089f75ebae90e9a6a4bd8dc17ff6379feb12695d",
-      "date": "2026-02-09T01:53:23Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/089f75ebae90e9a6a4bd8dc17ff6379feb12695d"
-    },
-    {
-      "repo": "Rackula",
-      "message": "fix: clear stale canvas refs on touch listener teardown (#1084)",
-      "sha": "9dd561639329f761ee0a7e2976a7ad2b351aa99b",
-      "date": "2026-02-09T01:44:52Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/9dd561639329f761ee0a7e2976a7ad2b351aa99b"
-    },
-    {
-      "repo": "Rackula",
-      "message": "fix: tighten swipe listener lifecycle and logging (#1082)",
-      "sha": "309dae90807cfe2a83ff37386fea0cc6c7cded12",
-      "date": "2026-02-09T01:26:44Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/309dae90807cfe2a83ff37386fea0cc6c7cded12"
-    },
-    {
-      "repo": "Rackula",
-      "message": "fix: tighten swipe listener lifecycle and logging",
-      "sha": "cef9362ae3509ef2614d15d54810fabc75b0d220",
-      "date": "2026-02-09T01:20:24Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/cef9362ae3509ef2614d15d54810fabc75b0d220"
-    },
-    {
-      "repo": "Rackula",
-      "message": "fix: address swipe gesture review follow-ups (#1081)",
-      "sha": "7de27e9bcb2a99848f598ec4c88e7804ada7c5ee",
-      "date": "2026-02-09T01:17:37Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/7de27e9bcb2a99848f598ec4c88e7804ada7c5ee"
-    },
-    {
-      "repo": "Rackula",
-      "message": "feat: add mobile rack swipe navigation (#1076)",
-      "sha": "f62b0d895f4f6ac94fc4cb6820a3bb198af17590",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "feat: add mobile rack swipe navigation",
+      "url": "https://github.com/RackulaLives/Rackula/pull/1076",
       "date": "2026-02-09T00:34:54Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/f62b0d895f4f6ac94fc4cb6820a3bb198af17590"
+      "meta": {
+        "state": "CLOSED",
+        "merged": true
+      }
     },
     {
+      "type": "commit",
       "repo": "gwilym.ca",
-      "message": "Merge pull request #2 from ggfevans/dependabot/github_actions/ggfevans/trakt-github-action-2afb54d241c5212ee3c35c0cd2400fd35db0ca72",
-      "sha": "f3dc2d68649a7c9d2bef693d4b13c1936abf7cca",
-      "date": "2026-02-09T00:28:51Z",
-      "url": "https://github.com/ggfevans/gwilym.ca/commit/f3dc2d68649a7c9d2bef693d4b13c1936abf7cca"
+      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
+      "title": "Merge pull request #2 from ggfevans/dependabot/github_actions/ggfevans/trakt-github-action-2afb54d241c5212ee3c35c0cd2400fd35db0ca72",
+      "url": "https://github.com/ggfevans/gwilym.ca/commit/f3dc2d68649a7c9d2bef693d4b13c1936abf7cca",
+      "date": "2026-02-09T00:28:51Z"
     },
     {
-      "repo": "gwilym.ca",
-      "message": "Merge pull request #1 from ggfevans/dependabot/github_actions/actions/checkout-6",
-      "sha": "3450c30cd5079472ef3eb30cf2a71174a324b82c",
-      "date": "2026-02-09T00:28:39Z",
-      "url": "https://github.com/ggfevans/gwilym.ca/commit/3450c30cd5079472ef3eb30cf2a71174a324b82c"
-    },
-    {
+      "type": "commit",
       "repo": "Rackula",
-      "message": "docs: add star history chart to README (#1075)",
-      "sha": "a0f26657a8eaf41134836cbd137dcb62a559d9e6",
-      "date": "2026-02-09T00:13:56Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/a0f26657a8eaf41134836cbd137dcb62a559d9e6"
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: sanitize zip export folder names (#1074)",
+      "url": "https://github.com/RackulaLives/Rackula/commit/99784f26be51a12edb60e66ab98cb7960de85193",
+      "date": "2026-02-07T09:36:09Z"
     },
     {
+      "type": "pr",
       "repo": "Rackula",
-      "message": "Merge branch 'main' into docs/star-history",
-      "sha": "3809b36d382153a6caa7e896a949b53945b6e235",
-      "date": "2026-02-09T00:11:36Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/3809b36d382153a6caa7e896a949b53945b6e235"
-    },
-    {
-      "repo": "Rackula",
-      "message": "chore(deps): bump @playwright/test in the development-dependencies group (#1067)",
-      "sha": "45d559ae842603f0506aa6f318c9417b5f1fd749",
-      "date": "2026-02-08T07:24:42Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/45d559ae842603f0506aa6f318c9417b5f1fd749"
-    },
-    {
-      "repo": "listenbrainz-github-action",
-      "message": "Fix project link in README.md (#24)",
-      "sha": "241017756e07940b69321aa1c4225b3d7fefbbde",
-      "date": "2026-02-08T06:49:21Z",
-      "url": "https://github.com/ggfevans/listenbrainz-github-action/commit/241017756e07940b69321aa1c4225b3d7fefbbde"
-    },
-    {
-      "repo": "Rackula",
-      "message": "fix: sanitize zip export folder names (#1074)",
-      "sha": "99784f26be51a12edb60e66ab98cb7960de85193",
-      "date": "2026-02-07T09:36:09Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/99784f26be51a12edb60e66ab98cb7960de85193"
-    },
-    {
-      "repo": "Rackula",
-      "message": "refactor: make BottomSheet open prop one-way (#1073)",
-      "sha": "09417274d34ffef202a35fe187be2a4260b49f3b",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "refactor: make BottomSheet open prop one-way",
+      "url": "https://github.com/RackulaLives/Rackula/pull/1073",
       "date": "2026-02-07T08:48:56Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/09417274d34ffef202a35fe187be2a4260b49f3b"
+      "meta": {
+        "state": "CLOSED",
+        "merged": true
+      }
     },
     {
+      "type": "issue",
       "repo": "Rackula",
-      "message": "docs(security): add threat model research document (#1070)",
-      "sha": "0c9e664e44f598465dffd3883ff02cf2a5ed4c7d",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Add threat model research document",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1069",
       "date": "2026-02-07T08:17:50Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/0c9e664e44f598465dffd3883ff02cf2a5ed4c7d"
-    },
-    {
-      "repo": "Rackula",
-      "message": "test: add BottomSheet interaction coverage (#1072)",
-      "sha": "87f397bb15318f7a239e9d1f9a6766287ca1f2f5",
-      "date": "2026-02-07T08:16:42Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/87f397bb15318f7a239e9d1f9a6766287ca1f2f5"
-    },
-    {
-      "repo": "Rackula",
-      "message": "docs: add star history chart to README (#1071)",
-      "sha": "d6245e951f20054768cb552ebeba93ce73fc7da0",
-      "date": "2026-02-07T08:07:46Z",
-      "url": "https://github.com/RackulaLives/Rackula/commit/d6245e951f20054768cb552ebeba93ce73fc7da0"
-    },
-    {
-      "repo": "gwilym.ca",
-      "message": "Bump ggfevans/trakt-github-action",
-      "sha": "979801896decf9e89ea6fb17a4f52b3a9496322e",
-      "date": "2026-02-05T10:40:52Z",
-      "url": "https://github.com/ggfevans/gwilym.ca/commit/979801896decf9e89ea6fb17a4f52b3a9496322e"
-    },
-    {
-      "repo": "gwilym.ca",
-      "message": "Bump actions/checkout from 4 to 6",
-      "sha": "c9b659c21618b5d7689b877c156353721648481f",
-      "date": "2026-02-05T10:40:47Z",
-      "url": "https://github.com/ggfevans/gwilym.ca/commit/c9b659c21618b5d7689b877c156353721648481f"
+      "meta": {
+        "state": "CLOSED"
+      }
     }
   ],
   "stats": {
     "commitsThisWeek": 21,
     "commitsThisMonth": 21,
+    "contributionsThisWeek": 47,
+    "contributionsThisMonth": 142,
     "repositoriesThisWeek": 3
   },
   "repositories": [
@@ -159,6 +109,7 @@
       "name": "gvns.ca",
       "description": "",
       "language": "Astro",
+      "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gvns.ca"
     },
@@ -166,6 +117,7 @@
       "name": "gwilym.ca",
       "description": "",
       "language": "Astro",
+      "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gwilym.ca"
     },
@@ -173,6 +125,7 @@
       "name": "listenbrainz-github-action",
       "description": "Fetch your ListenBrainz music listening data as JSON for static sites. No auth required.",
       "language": "Shell",
+      "languageColor": "#89e051",
       "stars": 1,
       "url": "https://github.com/ggfevans/listenbrainz-github-action"
     },
@@ -180,6 +133,7 @@
       "name": "green-squares-action",
       "description": "",
       "language": "Shell",
+      "languageColor": "#89e051",
       "stars": 0,
       "url": "https://github.com/ggfevans/green-squares-action"
     },
@@ -187,13 +141,15 @@
       "name": "trakt-github-action",
       "description": "",
       "language": "Shell",
+      "languageColor": "#89e051",
       "stars": 0,
       "url": "https://github.com/ggfevans/trakt-github-action"
     },
     {
       "name": "hardcover-github-action",
-      "description": "Fetch your Hardcover.app reading data as JSON for static sites. ",
+      "description": "Fetch your Hardcover.app reading data as JSON for static sites.",
       "language": "Shell",
+      "languageColor": "#89e051",
       "stars": 0,
       "url": "https://github.com/ggfevans/hardcover-github-action"
     },
@@ -201,6 +157,7 @@
       "name": "gh-mint",
       "description": "A gh CLI extension that creates GitHub repos with consistent defaults from named profiles",
       "language": "Go",
+      "languageColor": "#00ADD8",
       "stars": 0,
       "url": "https://github.com/ggfevans/gh-mint"
     },
@@ -208,6 +165,7 @@
       "name": "claude-yolo",
       "description": "shell alias that makes  claude--dangerously-skip-permissions look as reckless as it is",
       "language": "",
+      "languageColor": "",
       "stars": 1,
       "url": "https://github.com/ggfevans/claude-yolo"
     },
@@ -215,6 +173,7 @@
       "name": "listenbrainz-csv-upload",
       "description": "Import your Last.fm listening history into ListenBrainz from a CSV export",
       "language": "Python",
+      "languageColor": "#3572A5",
       "stars": 0,
       "url": "https://github.com/ggfevans/listenbrainz-csv-upload"
     },
@@ -222,6 +181,7 @@
       "name": "searxng-seek-alfred",
       "description": "Alfred workflow for private web search via SearXNG. Includes inline results, favicons, quick actions",
       "language": "JavaScript",
+      "languageColor": "#f1e05a",
       "stars": 3,
       "url": "https://github.com/ggfevans/searxng-seek-alfred"
     },
@@ -229,6 +189,7 @@
       "name": "rainforest-EAGLE-commands",
       "description": "",
       "language": "Shell",
+      "languageColor": "#89e051",
       "stars": 1,
       "url": "https://github.com/ggfevans/rainforest-EAGLE-commands"
     },
@@ -236,6 +197,7 @@
       "name": "claude-prune",
       "description": "Cleanup tool for Claude Code CLI - removes accumulated cache and state files that cause performance issues and hook delays",
       "language": "Go",
+      "languageColor": "#00ADD8",
       "stars": 0,
       "url": "https://github.com/ggfevans/claude-prune"
     }
