@@ -16,21 +16,20 @@ jobs:
 
       - name: Fetch ListenBrainz data
         id: fetch
-        uses: ggfevans/listenbrainz-github-action@a39e89ecc366d5f8bc90e8d56cdc3d9e6a2237a9 # v1
+        uses: ggfevans/listenbrainz-json-bourne@v2
         with:
           username: ${{ secrets.LISTENBRAINZ_USERNAME }}
           output_path: src/data/listening.json
           stats_range: this_month
           top_count: '10'
           recent_count: '10'
+          skip_commit: 'false'
 
       - name: Commit and push if changed
-        if: steps.fetch.outcome == 'success' && hashFiles('src/data/listening.json') != ''
+        if: steps.fetch.outputs.changes_detected == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/listening.json
-          git diff --staged --quiet || git commit -m "chore: update listening data"
 
           MAX_RETRIES=3
           for i in $(seq 1 $MAX_RETRIES); do
