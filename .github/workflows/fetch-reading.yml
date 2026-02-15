@@ -2,7 +2,7 @@ name: Fetch Reading Data
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch reading data
         uses: ggfevans/hardcover-github-action@f68d44fb791e471a33a52f04f61052faa8654cb4 # v1
