@@ -51,6 +51,7 @@ interface ListeningData {
     topAlbumsStatus: SectionStatus;
     stats: {
         totalListenCount: number | null;
+        rangeListenCount: number | null;
         range: string;
         artistCount: number | null;
         albumCount: number | null;
@@ -70,6 +71,7 @@ const emptyData: ListeningData = {
     topAlbumsStatus: "ok",
     stats: {
         totalListenCount: null,
+        rangeListenCount: null,
         range: "this_month",
         artistCount: null,
         albumCount: null,
@@ -95,6 +97,10 @@ const hasData =
     (listeningData.topArtists?.length ?? 0) > 0 ||
     (listeningData.topTracks?.length ?? 0) > 0 ||
     (listeningData.topAlbums?.length ?? 0) > 0;
+
+const hasAllTimeListenCount = listeningData.stats.totalListenCount != null;
+const hasRangeListenCount = listeningData.stats.rangeListenCount != null;
+const rangeLabel = listeningData.stats.range.replace(/_/g, " ");
 
 /** Construct a Cover Art Archive URL from a release MBID, or return undefined. */
 function coverArtUrl(mbid: string | null | undefined): string | undefined {
@@ -142,19 +148,36 @@ const breadcrumbJsonLd = toJsonLd(
                 hasData ? (
                     <div class="gw-listen-content">
                         {/* Stats bar */}
-                        {listeningData.stats.totalListenCount != null && (
+                        {(hasAllTimeListenCount || hasRangeListenCount) && (
                             <div class="gw-stats-bar">
-                                <span class="gw-stats-accent">
-                                    {listeningData.stats.totalListenCount.toLocaleString()}{" "}
-                                    listens
-                                </span>
-                                {" \u00b7 "}
-                                <span>
-                                    {listeningData.stats.range.replace(
-                                        "_",
-                                        " ",
-                                    )}
-                                </span>
+                                {hasRangeListenCount ? (
+                                    <>
+                                        <span class="gw-stats-accent">
+                                            {listeningData.stats.rangeListenCount?.toLocaleString()}{" "}
+                                            listens
+                                        </span>
+                                        {" \u00b7 "}
+                                        <span>{rangeLabel}</span>
+                                        {hasAllTimeListenCount && (
+                                            <>
+                                                {" \u00b7 "}
+                                                <span>
+                                                    {listeningData.stats.totalListenCount?.toLocaleString()}{" "}
+                                                    all time
+                                                </span>
+                                            </>
+                                        )}
+                                    </>
+                                ) : (
+                                    <>
+                                        <span class="gw-stats-accent">
+                                            {listeningData.stats.totalListenCount?.toLocaleString()}{" "}
+                                            listens
+                                        </span>
+                                        {" \u00b7 "}
+                                        <span>all time</span>
+                                    </>
+                                )}
                             </div>
                         )}
 

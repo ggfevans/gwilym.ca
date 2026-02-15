@@ -2,7 +2,7 @@ name: Fetch Listening Data
 
 on:
   schedule:
-    - cron: '17 2 * * *'  # Daily at 02:17 UTC (off-peak)
+    - cron: "17 2 * * *" # Daily at 02:17 UTC (off-peak)
   workflow_dispatch:
 
 permissions:
@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch ListenBrainz data
         id: fetch
@@ -21,9 +23,9 @@ jobs:
           username: ${{ secrets.LISTENBRAINZ_USERNAME }}
           output_path: src/data/listening.json
           stats_range: this_month
-          top_count: '10'
-          recent_count: '10'
-          skip_commit: 'false'
+          top_count: "10"
+          recent_count: "10"
+          skip_commit: "false"
 
       - name: Commit and push if changed
         if: steps.fetch.outputs.changes_detected == 'true'
