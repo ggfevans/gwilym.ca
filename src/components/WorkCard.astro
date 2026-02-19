@@ -9,6 +9,8 @@ interface Props {
 
 const { project } = Astro.props;
 const { title, description, status, tags, repo, url } = project.data;
+const safeRepoUrl = safeUrl(repo);
+const safeLiveUrl = safeUrl(url);
 ---
 
 <article class="work-card">
@@ -20,10 +22,10 @@ const { title, description, status, tags, repo, url } = project.data;
   </div>
   <p class="description">{description}</p>
   <TagList tags={tags} linked={false} />
-  {(repo || url) && (
+  {(safeRepoUrl || safeLiveUrl) && (
     <div class="links">
-      {safeUrl(repo) && <a href={safeUrl(repo)} class="link" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (external)</span></a>}
-      {safeUrl(url) && <a href={safeUrl(url)} class="link" target="_blank" rel="noopener noreferrer">Live<span class="sr-only"> (external)</span></a>}
+      {safeRepoUrl && <a href={safeRepoUrl} class="link" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (external)</span></a>}
+      {safeLiveUrl && <a href={safeLiveUrl} class="link" target="_blank" rel="noopener noreferrer">Live<span class="sr-only"> (external)</span></a>}
     </div>
   )}
 </article>

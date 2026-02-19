@@ -25,10 +25,8 @@ const { title, description, image, imageWidth, imageHeight, accent, breadcrumbs 
     <script is:inline>
       // Initialize theme before page renders to prevent flash
       // This is the single source of truth for theme initialization
-      try {
-        var stored = localStorage.getItem('theme');
-      } catch (e) { var stored = null; }
-      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      try { var stored = localStorage.getItem('theme'); } catch (e) { var stored = null; }
+      try { var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches; } catch (e) { var prefersDark = true; }
       var theme = stored || (prefersDark ? 'dark' : 'light');
       if (theme === 'dark') {
         document.documentElement.classList.add('dark');

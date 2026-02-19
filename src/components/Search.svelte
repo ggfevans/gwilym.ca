@@ -67,9 +67,10 @@
     function handleKeydown(e: KeyboardEvent) {
       if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
         e.preventDefault();
+        e.stopImmediatePropagation();
         if (isOpen) {
           closeDialog();
-        } else if (!document.querySelector('dialog[open]')) {
+        } else if (!document.querySelector('.search-dialog[open]')) {
           openDialog();
         }
       }
