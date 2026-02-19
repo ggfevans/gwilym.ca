@@ -65,7 +65,7 @@ let globalIndex = 0;
           globalIndex++;
 
           const contentBlock = (
-            <div class="gw-timeline__card">
+            <div class="gw-timeline__card" data-time={relativeTime(item.date)}>
               <div class="gw-timeline__header">
                 {repoHref ? (
                   <a href={repoHref} class="gw-timeline__repo" target="_blank" rel="noopener noreferrer">

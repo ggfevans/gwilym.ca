@@ -62,13 +62,14 @@
   }
 
   // Keyboard shortcut: Cmd/Ctrl+K
+  // Guard against duplicate listeners when multiple Search instances are mounted
   $effect(() => {
     function handleKeydown(e: KeyboardEvent) {
       if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
         e.preventDefault();
         if (isOpen) {
           closeDialog();
-        } else {
+        } else if (!document.querySelector('dialog[open]')) {
           openDialog();
         }
       }

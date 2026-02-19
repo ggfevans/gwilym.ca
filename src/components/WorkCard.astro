@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import TagList from './TagList.astro';
+import { safeUrl } from '@utils/format';
 
 interface Props {
   project: CollectionEntry<'work'>;
@@ -21,8 +22,8 @@ const { title, description, status, tags, repo, url } = project.data;
   <TagList tags={tags} linked={false} />
   {(repo || url) && (
     <div class="links">
-      {repo && <a href={repo} class="link" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (external)</span></a>}
-      {url && <a href={url} class="link" target="_blank" rel="noopener noreferrer">Live<span class="sr-only"> (external)</span></a>}
+      {safeUrl(repo) && <a href={safeUrl(repo)} class="link" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (external)</span></a>}
+      {safeUrl(url) && <a href={safeUrl(url)} class="link" target="_blank" rel="noopener noreferrer">Live<span class="sr-only"> (external)</span></a>}
     </div>
   )}
 </article>

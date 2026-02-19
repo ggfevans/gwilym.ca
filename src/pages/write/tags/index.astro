@@ -55,7 +55,7 @@ const breadcrumbJsonLd = toJsonLd(
                     {sortedTags.map(([tag, count]) => (
                         <li>
                             <a
-                                href={`/write/tags/${tag}`}
+                                href={`/write/tags/${encodeURIComponent(tag)}`}
                                 class="gw-tags__link"
                             >
                                 <span class="gw-tags__name">{tag}</span>
