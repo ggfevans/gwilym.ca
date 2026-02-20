@@ -20,11 +20,20 @@ import {
   findUniqueSlug,
   escapeYamlString,
   collectSlugs,
+  convertWikilinks,
   TAG_CATEGORIES,
 } from "./lib/cli-utils.mjs";
 
 const ROOT = join(fileURLToPath(import.meta.url), "..", "..");
 const WRITING_DIR = join(ROOT, "src", "content", "writing");
+const VAULT_DRAFTS = join(
+  process.env.HOME || process.env.USERPROFILE,
+  "notes",
+  "gVault",
+  "02-AREAS",
+  "writing",
+  "drafts",
+);
 
 // Keyword-to-tag mapping for content-based tag suggestion.
 // NOTE: This is intentionally duplicated from src/utils/tags.ts because .mjs
@@ -217,7 +226,7 @@ async function main() {
   }
 
   // Strip frontmatter for processing
-  const body = content.replace(/^---[\s\S]*?---\n*/, "");
+  let body = content.replace(/^---[\s\S]*?---\n*/, "");
 
   // Extract/generate metadata
   const extractedTitle = extractTitle(body, filename);
@@ -268,6 +277,9 @@ async function main() {
   // Slug
   let slug = slugify(title);
   const taken = await collectSlugs(WRITING_DIR);
+
+  // Convert Obsidian wikilinks to standard markdown links
+  body = convertWikilinks(body, taken);
   const slugValidate = (v) => {
     const normalized = slugify(v.trim());
     if (!normalized) return "Slug required";
