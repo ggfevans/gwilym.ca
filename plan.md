@@ -17,6 +17,7 @@ Extract gwilym.ca's inline GitHub data fetching workflow into a standalone, reus
 **Files to create in `~/code/projects/github-json-bourne`:**
 
 ### 1.1 `action.yml` — Action metadata
+
 ```yaml
 name: 'GitHub JSON Bourne'
 description: 'Fetch GitHub profile data (contributions, heatmap, streak, activity, repos) as clean JSON'
@@ -60,6 +61,7 @@ runs:
 ```
 
 ### 1.2 `package.json`
+
 ```json
 {
   "name": "github-json-bourne",
@@ -83,7 +85,8 @@ runs:
 ```
 
 ### 1.3 Source structure
-```
+
+```text
 src/
 ├── index.js          # Entry point — orchestrates fetch + validate + write
 ├── contributions.js  # GraphQL query for contributions + calendar
@@ -100,7 +103,8 @@ src/
 ```
 
 ### 1.4 `.gitignore`
-```
+
+```gitignore
 node_modules/
 # dist/ is committed (required for GitHub Actions)
 ```

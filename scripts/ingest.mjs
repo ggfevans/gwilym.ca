@@ -13,6 +13,7 @@
 import { input, checkbox, confirm } from "@inquirer/prompts";
 import { readFile, mkdir, writeFile } from "node:fs/promises";
 import { join, basename, resolve } from "node:path";
+import { homedir } from "node:os";
 import { fileURLToPath } from "node:url";
 import {
   slugify,
@@ -26,8 +27,9 @@ import {
 
 const ROOT = join(fileURLToPath(import.meta.url), "..", "..");
 const WRITING_DIR = join(ROOT, "src", "content", "writing");
+const HOME_DIR = process.env.HOME || process.env.USERPROFILE || homedir();
 const VAULT_DRAFTS = join(
-  process.env.HOME || process.env.USERPROFILE,
+  HOME_DIR,
   "notes",
   "gVault",
   "02-AREAS",
@@ -238,6 +240,7 @@ async function main() {
 
     let slug = slugify(title);
     if (!slug) slug = slugify(filename.replace(/\.md$/i, ""));
+    if (!slug) slug = "untitled";
     slug = findUniqueSlug(slug, taken);
 
     const { iso, year, month } = today();

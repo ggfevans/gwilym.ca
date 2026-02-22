@@ -70,7 +70,7 @@
         if (isOpen) {
           e.stopImmediatePropagation();
           closeDialog();
-        } else if (!document.querySelector('.search-dialog[open]')) {
+        } else if (!document.querySelector('.gw-search-dialog[open]')) {
           e.stopImmediatePropagation();
           openDialog();
         }
@@ -91,7 +91,7 @@
 
 <button
   onclick={openDialog}
-  class="search-trigger"
+  class="gw-search-trigger"
   aria-label="Search (Cmd+K)"
   title="Search (Cmd+K)"
 >
@@ -115,21 +115,21 @@
 <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
 <dialog
   bind:this={dialogEl}
-  class="search-dialog"
+  class="gw-search-dialog"
   aria-label="Site search"
   onclick={handleDialogClick}
   onclose={() => isOpen = false}
 >
-  <div class="search-dialog-inner">
-    <div class="search-header">
-      <h2 class="search-title">Search</h2>
-      <kbd class="search-kbd">
-        <span class="kbd-symbol">&#8984;</span>K
+  <div class="gw-search-dialog-inner">
+    <div class="gw-search-header">
+      <h2 class="gw-search-title">Search</h2>
+      <kbd class="gw-search-kbd">
+        <span class="gw-search-kbd-symbol">&#8984;</span>K
       </kbd>
     </div>
-    <div class="search-container" bind:this={searchContainerEl}>
+    <div class="gw-search-container" bind:this={searchContainerEl}>
       {#if pagefindError}
-        <p class="search-fallback">
+        <p class="gw-search-fallback">
           Search is not available in development mode. Run a production build to enable search.
         </p>
       {/if}
@@ -138,7 +138,7 @@
 </dialog>
 
 <style>
-  .search-trigger {
+  .gw-search-trigger {
     background: transparent;
     border: none;
     cursor: pointer;
@@ -150,11 +150,11 @@
     justify-content: center;
   }
 
-  .search-trigger:hover {
+  .gw-search-trigger:hover {
     color: var(--colour-accent-primary);
   }
 
-  .search-dialog {
+  .gw-search-dialog {
     position: fixed;
     border: none;
     border-radius: 12px;
@@ -178,16 +178,16 @@
     --pagefind-ui-font: var(--font-sans);
   }
 
-  .search-dialog::backdrop {
+  .gw-search-dialog::backdrop {
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(4px);
   }
 
-  .search-dialog-inner {
+  .gw-search-dialog-inner {
     padding: var(--space-6, 1.5rem);
   }
 
-  .search-header {
+  .gw-search-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -196,14 +196,14 @@
     border-bottom: 1px solid var(--colour-border);
   }
 
-  .search-title {
+  .gw-search-title {
     font-size: var(--text-lg, 1.25rem);
     font-weight: 600;
     margin: 0;
     color: var(--colour-text-primary);
   }
 
-  .search-kbd {
+  .gw-search-kbd {
     display: inline-flex;
     align-items: center;
     gap: 2px;
@@ -217,15 +217,15 @@
     line-height: 1;
   }
 
-  .kbd-symbol {
+  .gw-search-kbd-symbol {
     font-size: 0.85em;
   }
 
-  .search-container {
+  .gw-search-container {
     min-height: 60px;
   }
 
-  .search-fallback {
+  .gw-search-fallback {
     color: var(--colour-text-secondary);
     font-size: var(--text-sm, 0.875rem);
     text-align: center;
@@ -234,7 +234,7 @@
   }
 
   /* Pagefind UI style overrides */
-  .search-container :global(.pagefind-ui__search-input) {
+  .gw-search-container :global(.pagefind-ui__search-input) {
     background: var(--colour-bg-secondary) !important;
     color: var(--colour-text-primary) !important;
     font-family: var(--font-sans) !important;
@@ -247,43 +247,43 @@
     transition: border-color var(--transition-fast) !important;
   }
 
-  .search-container :global(.pagefind-ui__search-input:focus) {
+  .gw-search-container :global(.pagefind-ui__search-input:focus) {
     border-color: var(--colour-accent-primary) !important;
   }
 
-  .search-container :global(.pagefind-ui__search-clear) {
+  .gw-search-container :global(.pagefind-ui__search-clear) {
     color: var(--colour-text-secondary) !important;
     background: none !important;
   }
 
-  .search-container :global(.pagefind-ui__result) {
+  .gw-search-container :global(.pagefind-ui__result) {
     padding: var(--space-3) !important;
     border-radius: 8px !important;
     border-bottom: 1px solid var(--colour-border) !important;
     transition: background var(--transition-fast) !important;
   }
 
-  .search-container :global(.pagefind-ui__result:hover) {
+  .gw-search-container :global(.pagefind-ui__result:hover) {
     background: var(--colour-bg-tertiary) !important;
   }
 
-  .search-container :global(.pagefind-ui__result-link) {
+  .gw-search-container :global(.pagefind-ui__result-link) {
     color: var(--colour-accent-primary) !important;
     text-decoration: none !important;
     font-weight: 500 !important;
   }
 
-  .search-container :global(.pagefind-ui__result-excerpt) {
+  .gw-search-container :global(.pagefind-ui__result-excerpt) {
     color: var(--colour-text-secondary) !important;
     font-size: var(--text-sm) !important;
   }
 
-  .search-container :global(.pagefind-ui__message) {
+  .gw-search-container :global(.pagefind-ui__message) {
     color: var(--colour-text-secondary) !important;
     font-size: var(--text-sm) !important;
   }
 
-  .search-container :global(.pagefind-ui__button) {
+  .gw-search-container :global(.pagefind-ui__button) {
     background: var(--colour-bg-tertiary) !important;
     color: var(--colour-text-primary) !important;
     border: 1px solid var(--colour-border) !important;
@@ -291,19 +291,19 @@
     transition: background var(--transition-fast) !important;
   }
 
-  .search-container :global(.pagefind-ui__button:hover) {
+  .gw-search-container :global(.pagefind-ui__button:hover) {
     background: var(--colour-bg-secondary) !important;
   }
 
-  .search-container :global(.pagefind-ui__form::before) {
+  .gw-search-container :global(.pagefind-ui__form::before) {
     display: none !important;
   }
 
-  .search-container :global(.pagefind-ui__search-input::placeholder) {
+  .gw-search-container :global(.pagefind-ui__search-input::placeholder) {
     color: var(--colour-text-muted) !important;
   }
 
-  .search-container :global(.pagefind-ui__result-title) {
+  .gw-search-container :global(.pagefind-ui__result-title) {
     color: var(--colour-text-primary) !important;
   }
 </style>
