@@ -83,6 +83,15 @@
     --width-content: 65ch;
     --width-wide: 80rem;
 
+    /* Border Radii */
+    --radius-sm: 2px;
+    --radius-md: 4px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+
+    /* Accent Border Width */
+    --border-accent: 3px;
+
     /* Spacing Scale (4px base) */
     --space-1: 0.25rem; /* 4px */
     --space-2: 0.5rem; /* 8px */
@@ -221,7 +230,7 @@ h3 {
 :focus-visible {
     outline: 2px solid var(--colour-accent-primary);
     outline-offset: 2px;
-    border-radius: 2px;
+    border-radius: var(--radius-sm);
 }
 
 :focus:not(:focus-visible) {
@@ -290,7 +299,7 @@ h3 {
 }
 
 .prose blockquote {
-    border-left: 3px solid var(--colour-accent-primary);
+    border-left: var(--border-accent) solid var(--colour-accent-primary);
     padding-left: 1rem;
     margin: 1.5rem 0;
     font-style: italic;
@@ -314,13 +323,13 @@ h3 {
     font-size: 0.9em;
     background: var(--colour-bg-tertiary);
     padding: 0.125em 0.375em;
-    border-radius: 4px;
+    border-radius: var(--radius-md);
 }
 
 .prose pre {
     background: var(--colour-bg-tertiary);
     padding: 1rem;
-    border-radius: 8px;
+    border-radius: var(--radius-lg);
     overflow-x: auto;
     margin: 1.5rem 0;
 }
