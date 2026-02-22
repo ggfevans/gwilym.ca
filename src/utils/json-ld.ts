@@ -128,5 +128,5 @@ export function breadcrumbSchema(items: BreadcrumbItem[]): object {
  * Serialize schema object to JSON-LD script content
  */
 export function toJsonLd(schema: object): string {
-  return JSON.stringify(schema);
+  return JSON.stringify(schema).replace(/</g, "\\u003c");
 }

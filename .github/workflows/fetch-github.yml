@@ -2,7 +2,7 @@ name: Fetch GitHub Data
 
 on:
   schedule:
-    - cron: "17 3 * * *" # Daily at 3:17 AM UTC (off-peak)
+    - cron: "17 3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,358 +11,36 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    env:
-      GH_USER: ${{ github.repository_owner }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch GitHub activity
-        id: fetch
-        env:
-          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-        run: |
-          set -euo pipefail
-
-          mkdir -p src/data
-
-          # ── 1. Contributions via GraphQL ──────────────────────────
-          GRAPHQL_QUERY='query($user: String!) {
-            user(login: $user) {
-              contributionsCollection {
-                totalCommitContributions
-                totalPullRequestContributions
-                totalPullRequestReviewContributions
-                totalIssueContributions
-                restrictedContributionsCount
-                contributionCalendar {
-                  totalContributions
-                  weeks {
-                    contributionDays {
-                      date
-                      contributionCount
-                      contributionLevel
-                    }
-                  }
-                }
-              }
-            }
-          }'
-
-          GRAPHQL_RESPONSE=$(curl -sf \
-            --connect-timeout 10 \
-            --max-time 30 \
-            -H "Authorization: bearer ${GH_TOKEN}" \
-            -H "Content-Type: application/json" \
-            -d "$(jq -n --arg q "$GRAPHQL_QUERY" --arg user "$GH_USER" '{query: $q, variables: {user: $user}}')" \
-            "https://api.github.com/graphql" \
-          ) || { echo "::warning::GraphQL query failed"; GRAPHQL_RESPONSE='{"data":{"user":{"contributionsCollection":null}}}'; }
-
-          # Extract contributions object
-          COLLECTION=$(echo "$GRAPHQL_RESPONSE" | jq '.data.user.contributionsCollection // empty')
-
-          if [ -z "$COLLECTION" ] || [ "$COLLECTION" = "null" ]; then
-            echo "::warning::No contributions data returned"
-            CONTRIBUTIONS='{"total":0,"commits":0,"pullRequests":0,"pullRequestReviews":0,"issues":0,"restricted":0}'
-            CALENDAR='{"weeks":[]}'
-          else
-            CONTRIBUTIONS=$(echo "$COLLECTION" | jq '{
-              total: .contributionCalendar.totalContributions,
-              commits: .totalCommitContributions,
-              pullRequests: .totalPullRequestContributions,
-              pullRequestReviews: .totalPullRequestReviewContributions,
-              issues: .totalIssueContributions,
-              restricted: .restrictedContributionsCount
-            }')
-
-            # Transform calendar — map contributionLevel enum to 0-4
-            CALENDAR=$(echo "$COLLECTION" | jq '{
-              weeks: [.contributionCalendar.weeks[] | {
-                days: [.contributionDays[] | {
-                  date: .date,
-                  count: .contributionCount,
-                  level: (
-                    if .contributionLevel == "NONE" then 0
-                    elif .contributionLevel == "FIRST_QUARTILE" then 1
-                    elif .contributionLevel == "SECOND_QUARTILE" then 2
-                    elif .contributionLevel == "THIRD_QUARTILE" then 3
-                    elif .contributionLevel == "FOURTH_QUARTILE" then 4
-                    else 0
-                    end
-                  )
-                }]
-              }]
-            }')
-          fi
-
-          # Calculate streak from calendar data
-          STREAK=$(echo "$CALENDAR" | jq '
-            [.weeks[].days[]] | sort_by(.date) | reverse |
-            {
-              today: (if length > 0 then (.[0].date == (now | strftime("%Y-%m-%d")) and .[0].count > 0) else false end),
-              current: (
-                reduce .[] as $day (
-                  {count: 0, done: false};
-                  if .done then .
-                  elif $day.count > 0 then .count += 1
-                  # Skip today if no contributions yet (streak not broken)
-                  elif (.count == 0 and $day.date == (now | strftime("%Y-%m-%d"))) then .
-                  else .done = true
-                  end
-                ) | .count
-              ),
-              longest: (
-                reduce .[] as $day (
-                  {current: 0, max: 0};
-                  if $day.count > 0 then
-                    .current += 1 |
-                    if .current > .max then .max = .current else . end
-                  else .current = 0
-                  end
-                ) | .max
-              )
-            }
-          ')
-
-          # ── 2. Recent events (commits, PRs, issues) ──────────────
-          EVENTS="[]"
-          for PAGE in 1 2 3; do
-            PAGE_DATA=$(curl -sf \
-              --connect-timeout 10 \
-              --max-time 30 \
-              -H "Authorization: token ${GH_TOKEN}" \
-              -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/users/${GH_USER}/events?per_page=100&page=${PAGE}" \
-            ) || { echo "::warning::Failed to fetch events page ${PAGE}"; break; }
-
-            echo "$PAGE_DATA" | jq empty 2>/dev/null || { echo "::warning::Invalid JSON on page ${PAGE}"; break; }
-            EVENTS=$(echo "$EVENTS" "$PAGE_DATA" | jq -s '.[0] + .[1]')
-
-            COUNT=$(echo "$PAGE_DATA" | jq 'length')
-            if [ "$COUNT" -lt 100 ]; then break; fi
-          done
-
-          EVENT_COUNT=$(echo "$EVENTS" | jq 'length')
-          if [ "$EVENT_COUNT" -eq 0 ]; then
-            echo "::warning::No events fetched — output will be sparse"
-          fi
-
-          # ── 2a. Parse PushEvents → commit activities ──────────────
-          PUSHES=$(echo "$EVENTS" | jq -c '[
-            .[]
-            | select(.type == "PushEvent" and .payload.before != null and .payload.head != null)
-            | {
-                repo: .repo.name,
-                before: .payload.before,
-                head: .payload.head,
-                date: .created_at
-              }
-          ] | unique_by(.head)')
-
-          COMMIT_ACTIVITIES="[]"
-          for PUSH in $(echo "$PUSHES" | jq -c '.[]'); do
-            REPO=$(echo "$PUSH" | jq -r '.repo')
-            BEFORE=$(echo "$PUSH" | jq -r '.before')
-            HEAD=$(echo "$PUSH" | jq -r '.head')
-            DATE=$(echo "$PUSH" | jq -r '.date')
-
-            COMPARE=$(curl -sf \
-              --connect-timeout 10 \
-              --max-time 30 \
-              -H "Authorization: token ${GH_TOKEN}" \
-              -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/${REPO}/compare/${BEFORE}...${HEAD}" \
-            ) || { echo "::warning::Failed to compare ${REPO} ${BEFORE}...${HEAD}"; continue; }
-
-            PUSH_ITEMS=$(echo "$COMPARE" | jq --arg repo "$REPO" --arg date "$DATE" '[
-              .commits[]
-              | {
-                  type: "commit",
-                  repo: ($repo | split("/") | last),
-                  repoUrl: ("https://github.com/" + $repo),
-                  title: (.commit.message | split("\n") | first),
-                  url: .html_url,
-                  date: ((.commit.author.date // .commit.committer.date // $date) | if . == "" then $date else . end)
-                }
-            ]' 2>/dev/null) || continue
-
-            COMMIT_ACTIVITIES=$(echo "$COMMIT_ACTIVITIES" "$PUSH_ITEMS" | jq -s '.[0] + .[1]')
-          done
-
-          COMMIT_ACTIVITIES=$(echo "$COMMIT_ACTIVITIES" | jq 'unique_by(.url) | sort_by(.date) | reverse')
-
-          # ── 2b. Parse PullRequestEvents → PR activities ───────────
-          PR_ACTIVITIES=$(echo "$EVENTS" | jq '[
-            .[]
-            | select(.type == "PullRequestEvent" and .payload.action != null)
-            | {
-                type: "pr",
-                repo: (.repo.name | split("/") | last),
-                repoUrl: ("https://github.com/" + .repo.name),
-                title: .payload.pull_request.title,
-                url: .payload.pull_request.html_url,
-                date: .created_at,
-                meta: {
-                  state: (.payload.pull_request.state | ascii_upcase),
-                  merged: (.payload.pull_request.merged // false)
-                }
-              }
-          ] | unique_by(.url)')
-
-          # ── 2c. Parse IssuesEvents → issue activities ─────────────
-          ISSUE_ACTIVITIES=$(echo "$EVENTS" | jq '[
-            .[]
-            | select(.type == "IssuesEvent" and .payload.action != null)
-            | {
-                type: "issue",
-                repo: (.repo.name | split("/") | last),
-                repoUrl: ("https://github.com/" + .repo.name),
-                title: .payload.issue.title,
-                url: .payload.issue.html_url,
-                date: .created_at,
-                meta: {
-                  state: (.payload.issue.state | ascii_upcase)
-                }
-              }
-          ] | unique_by(.url)')
-
-          # ── 2d. Merge all activities, sort by date desc ───────────
-          RECENT_ACTIVITY=$(echo "$COMMIT_ACTIVITIES" "$PR_ACTIVITIES" "$ISSUE_ACTIVITIES" \
-            | jq -s 'add | sort_by(.date) | reverse | .[0:30]')
-
-          # ── 3. Stats ─────────────────────────────────────────────
-          WEEK_AGO=$(date -u -d '7 days ago' '+%Y-%m-%dT%H:%M:%SZ' 2>/dev/null \
-            || date -u -v-7d '+%Y-%m-%dT%H:%M:%SZ')
-          MONTH_AGO=$(date -u -d '30 days ago' '+%Y-%m-%dT%H:%M:%SZ' 2>/dev/null \
-            || date -u -v-30d '+%Y-%m-%dT%H:%M:%SZ')
-
-          COMMITS_THIS_WEEK=$(echo "$COMMIT_ACTIVITIES" | jq --arg since "$WEEK_AGO" \
-            '[.[] | select(.date >= $since)] | length')
-          COMMITS_THIS_MONTH=$(echo "$COMMIT_ACTIVITIES" | jq --arg since "$MONTH_AGO" \
-            '[.[] | select(.date >= $since)] | length')
-          REPOS_THIS_WEEK=$(echo "$RECENT_ACTIVITY" | jq --arg since "$WEEK_AGO" \
-            '[.[] | select(.date >= $since) | .repo] | unique | length')
-
-          # Contribution counts from calendar (7-day and 30-day windows)
-          SINCE_WEEK_DATE=$(date -u -d '7 days ago' '+%Y-%m-%d' 2>/dev/null \
-            || date -u -v-7d '+%Y-%m-%d')
-          SINCE_MONTH_DATE=$(date -u -d '30 days ago' '+%Y-%m-%d' 2>/dev/null \
-            || date -u -v-30d '+%Y-%m-%d')
-
-          if [ -z "$SINCE_WEEK_DATE" ]; then
-            echo "::warning::SINCE_WEEK_DATE calculation failed, falling back to 1970-01-01"
-            SINCE_WEEK_DATE="1970-01-01"
-          fi
-          if [ -z "$SINCE_MONTH_DATE" ]; then
-            echo "::warning::SINCE_MONTH_DATE calculation failed, falling back to 1970-01-01"
-            SINCE_MONTH_DATE="1970-01-01"
-          fi
-
-          CONTRIBS_THIS_WEEK=$(echo "$CALENDAR" | jq --arg since "$SINCE_WEEK_DATE" \
-            '[.weeks[].days[] | select(.date >= $since) | .count] | add // 0')
-          CONTRIBS_THIS_MONTH=$(echo "$CALENDAR" | jq --arg since "$SINCE_MONTH_DATE" \
-            '[.weeks[].days[] | select(.date >= $since) | .count] | add // 0')
-
-          # ── 4. Repositories (with language colors) ────────────────
-          REPOS=$(curl -sf \
-            --connect-timeout 10 \
-            --max-time 30 \
-            -H "Authorization: token ${GH_TOKEN}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/users/${GH_USER}/repos?sort=pushed&per_page=100&type=owner" \
-          ) || { echo "::warning::Failed to fetch repositories"; REPOS="[]"; }
-
-          echo "$REPOS" | jq empty 2>/dev/null || { echo "::warning::Invalid repos JSON"; REPOS="[]"; }
-
-          # Language color mapping (GitHub Linguist subset for common languages)
-          LANG_COLORS='{
-            "Astro":"#ff5a03","CSS":"#563d7c","Dockerfile":"#384d54",
-            "Go":"#00ADD8","HTML":"#e34c26","Java":"#b07219",
-            "JavaScript":"#f1e05a","Kotlin":"#A97BFF","Lua":"#000080",
-            "Nix":"#7e7eff","Python":"#3572A5","Ruby":"#701516",
-            "Rust":"#dea584","Shell":"#89e051","Svelte":"#ff3e00",
-            "Swift":"#F05138","TypeScript":"#3178c6","Vue":"#41b883",
-            "SCSS":"#c6538c","Markdown":"#083fa1","C":"#555555",
-            "C++":"#f34b7d","C#":"#178600","PHP":"#4F5D95",
-            "Dart":"#00B4AB","Elixir":"#6e4a7e","Haskell":"#5e5086",
-            "Zig":"#ec915c","OCaml":"#3be133"
-          }'
-
-          REPOSITORIES=$(echo "$REPOS" | jq --argjson colors "$LANG_COLORS" '[
-            .[]
-            | select((.fork // false) == false and (.archived // false) == false)
-            | {
-                name: .name,
-                description: (.description // ""),
-                language: (.language // ""),
-                languageColor: ($colors[.language] // ""),
-                stars: .stargazers_count,
-                url: .html_url
-              }
-          ] | .[0:12]')
-
-          # ── 5. Assemble final JSON ────────────────────────────────
-          jq -n \
-            --arg lastUpdated "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" \
-            --argjson contributions "$CONTRIBUTIONS" \
-            --argjson calendar "$CALENDAR" \
-            --argjson streak "$STREAK" \
-            --argjson recentActivity "$RECENT_ACTIVITY" \
-            --argjson commitsThisWeek "$COMMITS_THIS_WEEK" \
-            --argjson commitsThisMonth "$COMMITS_THIS_MONTH" \
-            --argjson contributionsThisWeek "$CONTRIBS_THIS_WEEK" \
-            --argjson contributionsThisMonth "$CONTRIBS_THIS_MONTH" \
-            --argjson repositoriesThisWeek "$REPOS_THIS_WEEK" \
-            --argjson repositories "$REPOSITORIES" \
-            '{
-              lastUpdated: $lastUpdated,
-              contributions: $contributions,
-              calendar: $calendar,
-              streak: $streak,
-              recentActivity: $recentActivity,
-              stats: {
-                commitsThisWeek: $commitsThisWeek,
-                commitsThisMonth: $commitsThisMonth,
-                contributionsThisWeek: $contributionsThisWeek,
-                contributionsThisMonth: $contributionsThisMonth,
-                repositoriesThisWeek: $repositoriesThisWeek
-              },
-              repositories: $repositories
-            }' > src/data/github.json
-
-          # ── 6. Summary ────────────────────────────────────────────
-          echo "Successfully fetched GitHub data"
-          jq '{
-            contributions: .contributions.total,
-            calendar_weeks: (.calendar.weeks | length),
-            streak: .streak.current,
-            recent_activity: (.recentActivity | length),
-            repos: (.repositories | length),
-            contributions_this_week: .stats.contributionsThisWeek
-          }' src/data/github.json
+        uses: ggfevans/github-json-bourne@50551c5078028c1c678476cc1825811ea24cb28f
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          output-path: src/data/github.json
 
       - name: Commit and push if changed
-        if: steps.fetch.outcome == 'success' && hashFiles('src/data/github.json') != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/github.json
           if ! git diff --staged --quiet; then
             git commit -m "chore: update github activity data"
-
-            MAX_RETRIES=3
-            for i in $(seq 1 $MAX_RETRIES); do
-              git pull --rebase 2>&1 || true
-              if git push 2>&1; then
+            max_retries=3
+            for i in $(seq 1 "$max_retries"); do
+              git pull --rebase || true
+              if git push; then
                 echo "Push succeeded on attempt $i"
                 exit 0
               fi
-              echo "::warning::git push failed (attempt $i/$MAX_RETRIES)"
+              echo "::warning::git push failed (attempt $i/$max_retries)"
               sleep $((i * 5))
             done
-
-            echo "::error::git push failed after $MAX_RETRIES attempts"
+            echo "::error::git push failed after $max_retries attempts"
             exit 1
           else
             echo "No changes to commit"

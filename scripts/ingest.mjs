@@ -13,6 +13,7 @@
 import { input, checkbox, confirm } from "@inquirer/prompts";
 import { readFile, mkdir, writeFile } from "node:fs/promises";
 import { join, basename, resolve } from "node:path";
+import { homedir } from "node:os";
 import { fileURLToPath } from "node:url";
 import {
   slugify,
@@ -20,11 +21,21 @@ import {
   findUniqueSlug,
   escapeYamlString,
   collectSlugs,
+  convertWikilinks,
   TAG_CATEGORIES,
 } from "./lib/cli-utils.mjs";
 
 const ROOT = join(fileURLToPath(import.meta.url), "..", "..");
 const WRITING_DIR = join(ROOT, "src", "content", "writing");
+const HOME_DIR = process.env.HOME || process.env.USERPROFILE || homedir();
+const VAULT_DRAFTS = join(
+  HOME_DIR,
+  "notes",
+  "gVault",
+  "02-AREAS",
+  "writing",
+  "drafts",
+);
 
 // Keyword-to-tag mapping for content-based tag suggestion.
 // NOTE: This is intentionally duplicated from src/utils/tags.ts because .mjs
@@ -183,9 +194,11 @@ function hasFrontmatter(content) {
 }
 
 async function main() {
-  const filePath = process.argv[2];
+  const args = process.argv.slice(2);
+  const quick = args.includes("--quick");
+  const filePath = args.find((a) => !a.startsWith("--"));
   if (!filePath) {
-    console.error("Usage: npm run ingest -- path/to/file.md");
+    console.error("Usage: npm run ingest -- [--quick] path/to/file.md");
     process.exit(1);
   }
 
@@ -205,6 +218,74 @@ async function main() {
     process.exit(1);
   }
 
+  // Strip frontmatter for processing
+  let body = content.replace(/^---[\s\S]*?---\n*/, "");
+  const taken = await collectSlugs(WRITING_DIR);
+
+  // Convert Obsidian wikilinks to standard markdown links
+  body = convertWikilinks(body, taken);
+
+  const extractedTitle = extractTitle(body, filename);
+
+  // --- Quick mode: no prompts, all defaults ---
+  if (quick) {
+    if (hasFrontmatter(content)) {
+      console.warn("Warning: stripping existing frontmatter in quick mode");
+    }
+
+    const title = extractedTitle;
+    const description = extractDescription(body);
+    const suggested = suggestTags(body);
+    const selectedTags = suggested.length > 0 ? suggested.slice(0, 4) : ["meta"];
+
+    let slug = slugify(title);
+    if (!slug) slug = slugify(filename.replace(/\.md$/i, ""));
+    if (!slug) slug = "untitled";
+    slug = findUniqueSlug(slug, taken);
+
+    const { iso, year, month } = today();
+    const dir = join(WRITING_DIR, year, month);
+    await mkdir(dir, { recursive: true });
+    const outPath = join(dir, `${slug}.md`);
+
+    const headingMatch = body.match(/^#\s+(.+)$/m);
+    const cleanBody =
+      headingMatch && headingMatch[1].trim() === extractedTitle
+        ? body.replace(/^#\s+.+\n*/m, "").trim()
+        : body.trim();
+
+    const frontmatter = [
+      "---",
+      `title: "${escapeYamlString(title)}"`,
+      `description: "${escapeYamlString(description)}"`,
+      `pubDate: ${iso}`,
+      `tags: [${selectedTags.map((t) => `"${t}"`).join(", ")}]`,
+      "draft: true",
+      "---",
+      "",
+    ];
+
+    const output = frontmatter.join("\n") + "\n" + cleanBody + "\n";
+
+    try {
+      await writeFile(outPath, output, { encoding: "utf-8", flag: "wx" });
+    } catch (err) {
+      if (err.code === "EEXIST") {
+        console.error(`File already exists: ${outPath}`);
+      } else {
+        console.error(`Failed to write file: ${err.message}`);
+      }
+      process.exit(1);
+    }
+
+    console.log(`Ingested: ${slug}`);
+    console.log(`  → ${outPath}`);
+    console.log(`  Tags: ${selectedTags.join(", ")}`);
+    console.log(`  Status: draft`);
+    return;
+  }
+
+  // --- Interactive mode ---
   if (hasFrontmatter(content)) {
     console.log(
       "File already has frontmatter. Use this for bare markdown files.",
@@ -216,11 +297,6 @@ async function main() {
     if (!proceed) process.exit(0);
   }
 
-  // Strip frontmatter for processing
-  const body = content.replace(/^---[\s\S]*?---\n*/, "");
-
-  // Extract/generate metadata
-  const extractedTitle = extractTitle(body, filename);
   const title = await input({
     message: "Title:",
     default: extractedTitle,
@@ -267,23 +343,21 @@ async function main() {
 
   // Slug
   let slug = slugify(title);
-  const taken = await collectSlugs(WRITING_DIR);
-  const slugValidate = (v) => {
-    const normalized = slugify(v.trim());
-    if (!normalized) return "Slug required";
-    if (taken.has(normalized)) return `Slug "${normalized}" already exists`;
-    return true;
-  };
 
   if (!slug || taken.has(slug)) {
-    const suggested = slug ? findUniqueSlug(slug, taken) : "";
+    const suggestedSlug = slug ? findUniqueSlug(slug, taken) : "";
     const message = slug
       ? `Slug "${slug}" exists. Enter new slug:`
       : "Title produced empty slug. Enter slug:";
     const choice = await input({
       message,
-      default: suggested || undefined,
-      validate: slugValidate,
+      default: suggestedSlug || undefined,
+      validate: (v) => {
+        const normalized = slugify(v.trim());
+        if (!normalized) return "Slug required";
+        if (taken.has(normalized)) return `Slug "${normalized}" already exists`;
+        return true;
+      },
     });
     slug = slugify(choice.trim());
   }
