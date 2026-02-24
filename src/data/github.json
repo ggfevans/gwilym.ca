@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-02-23T04:07:26.723Z",
+  "lastUpdated": "2026-02-24T04:03:59.049Z",
   "contributions": {
-    "total": 6859,
-    "commits": 4663,
-    "pullRequests": 772,
+    "total": 6849,
+    "commits": 4657,
+    "pullRequests": 771,
     "pullRequestReviews": 10,
-    "issues": 1275,
+    "issues": 1273,
     "restricted": 0
   },
   "calendar": {
@@ -2044,14 +2044,19 @@
             "date": "2026-02-22",
             "count": 12,
             "level": 1
+          },
+          {
+            "date": "2026-02-23",
+            "count": 9,
+            "level": 1
           }
         ]
       }
     ]
   },
   "streak": {
-    "current": 106,
-    "longest": 106,
+    "current": 107,
+    "longest": 107,
     "today": false
   },
   "recentActivity": [
@@ -2241,14 +2246,135 @@
       "meta": {
         "state": "CLOSED"
       }
+    },
+    {
+      "type": "issue",
+      "repo": "xonora-ios",
+      "repoUrl": "https://github.com/hayupadhyaya/xonora-ios",
+      "title": "Add LICENSE",
+      "url": "https://github.com/hayupadhyaya/xonora-ios/issues/22",
+      "date": "2026-02-22T02:24:39Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Warp",
+      "repoUrl": "https://github.com/warpdotdev/Warp",
+      "title": "Add “Move tab to new window” with session-state preservation",
+      "url": "https://github.com/warpdotdev/Warp/issues/8735",
+      "date": "2026-02-22T01:32:28Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "whoopskill",
+      "repoUrl": "https://github.com/koala73/whoopskill",
+      "title": "Thanks for making this!",
+      "url": "https://github.com/koala73/whoopskill/issues/3",
+      "date": "2026-02-20T22:51:33Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "False-Positive Test Fixes",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1229",
+      "date": "2026-02-20T21:36:54Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: Save/load restores half-width devices as full-width",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1248",
+      "date": "2026-02-20T21:07:30Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "feat: support for cabling between devices (network, fiber, etc.)",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1296",
+      "date": "2026-02-20T10:18:03Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Epic: network interface visualization and connectivity",
+      "url": "https://github.com/RackulaLives/Rackula/issues/71",
+      "date": "2026-02-20T10:17:10Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "rackula:v0.8.2-persist restarting",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1295",
+      "date": "2026-02-20T10:05:56Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "chorographia",
+      "repoUrl": "https://github.com/teleologia/chorographia",
+      "title": "Enhancement: make Ollama embedding batch size configurable",
+      "url": "https://github.com/teleologia/chorographia/issues/2",
+      "date": "2026-02-20T04:16:35Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "chorographia",
+      "repoUrl": "https://github.com/teleologia/chorographia",
+      "title": "Enhancement: add structured logging for embedding pipeline diagnostics",
+      "url": "https://github.com/teleologia/chorographia/issues/1",
+      "date": "2026-02-20T04:02:20Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "osaurus",
+      "repoUrl": "https://github.com/osaurus-ai/osaurus",
+      "title": "Feature: Embeddings API endpoint support",
+      "url": "https://github.com/osaurus-ai/osaurus/issues/506",
+      "date": "2026-02-20T03:06:56Z",
+      "meta": {
+        "state": "OPEN"
+      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 207,
-    "contributionsThisMonth": 1635,
-    "repositoriesThisWeek": 3
+    "contributionsThisWeek": 202,
+    "contributionsThisMonth": 1616,
+    "repositoriesThisWeek": 8
   },
   "repositories": [
     {
@@ -2266,6 +2392,14 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gwilym.ca"
+    },
+    {
+      "name": "alseerr",
+      "description": "",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/alseerr"
     },
     {
       "name": "SearXNG-Community-Scripts-ProxmoxVE",
@@ -2338,14 +2472,6 @@
       "languageColor": "#89e051",
       "stars": 0,
       "url": "https://github.com/ggfevans/green-squares-action"
-    },
-    {
-      "name": "hardcover-json-bourne",
-      "description": "Fetch your Hardcover.app reading data as JSON for static sites. ",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/hardcover-json-bourne"
     }
   ]
 }
