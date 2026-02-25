@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-02-24T04:03:59.049Z",
+  "lastUpdated": "2026-02-25T04:05:02.530Z",
   "contributions": {
-    "total": 6849,
-    "commits": 4657,
-    "pullRequests": 771,
+    "total": 6781,
+    "commits": 4581,
+    "pullRequests": 773,
     "pullRequestReviews": 10,
-    "issues": 1273,
+    "issues": 1281,
     "restricted": 0
   },
   "calendar": {
@@ -989,17 +989,17 @@
         "days": [
           {
             "date": "2025-08-17",
-            "count": 47,
-            "level": 2
+            "count": 3,
+            "level": 1
           },
           {
             "date": "2025-08-18",
-            "count": 42,
-            "level": 2
+            "count": 6,
+            "level": 1
           },
           {
             "date": "2025-08-19",
-            "count": 10,
+            "count": 7,
             "level": 1
           },
           {
@@ -1633,12 +1633,12 @@
           },
           {
             "date": "2025-12-11",
-            "count": 33,
+            "count": 27,
             "level": 1
           },
           {
             "date": "2025-12-12",
-            "count": 29,
+            "count": 28,
             "level": 1
           },
           {
@@ -2049,17 +2049,121 @@
             "date": "2026-02-23",
             "count": 9,
             "level": 1
+          },
+          {
+            "date": "2026-02-24",
+            "count": 22,
+            "level": 1
           }
         ]
       }
     ]
   },
   "streak": {
-    "current": 107,
-    "longest": 107,
+    "current": 108,
+    "longest": 108,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Switch versioning from semver to CalVer (vYYYY-MM-DD)",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/18",
+      "date": "2026-02-24T11:22:40Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Update documentation for enriched search results",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/17",
+      "date": "2026-02-24T10:57:06Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Expand search scoring to match type and notes fields",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/16",
+      "date": "2026-02-24T10:57:05Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Enrich SearXNG MainResult output with metadata fields",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/15",
+      "date": "2026-02-24T10:57:04Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Construct install commands from API script paths",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/14",
+      "date": "2026-02-24T10:57:03Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Expand data extraction and caching for enriched metadata",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/13",
+      "date": "2026-02-24T10:57:00Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Epic: Enrich search results with install commands and metadata",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/12",
+      "date": "2026-02-24T10:52:06Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Add conditional fetch (ETag/If-Modified-Since) for upstream API requests",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/11",
+      "date": "2026-02-24T10:51:06Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "searxng-seek-alfred",
+      "repoUrl": "https://github.com/ggfevans/searxng-seek-alfred",
+      "title": "Release v1.0.0",
+      "url": "https://github.com/ggfevans/searxng-seek-alfred/issues/29",
+      "date": "2026-02-24T06:47:35Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2268,123 +2372,16 @@
       "meta": {
         "state": "OPEN"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "whoopskill",
-      "repoUrl": "https://github.com/koala73/whoopskill",
-      "title": "Thanks for making this!",
-      "url": "https://github.com/koala73/whoopskill/issues/3",
-      "date": "2026-02-20T22:51:33Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "False-Positive Test Fixes",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1229",
-      "date": "2026-02-20T21:36:54Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: Save/load restores half-width devices as full-width",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1248",
-      "date": "2026-02-20T21:07:30Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "feat: support for cabling between devices (network, fiber, etc.)",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1296",
-      "date": "2026-02-20T10:18:03Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Epic: network interface visualization and connectivity",
-      "url": "https://github.com/RackulaLives/Rackula/issues/71",
-      "date": "2026-02-20T10:17:10Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "rackula:v0.8.2-persist restarting",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1295",
-      "date": "2026-02-20T10:05:56Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "chorographia",
-      "repoUrl": "https://github.com/teleologia/chorographia",
-      "title": "Enhancement: make Ollama embedding batch size configurable",
-      "url": "https://github.com/teleologia/chorographia/issues/2",
-      "date": "2026-02-20T04:16:35Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "chorographia",
-      "repoUrl": "https://github.com/teleologia/chorographia",
-      "title": "Enhancement: add structured logging for embedding pipeline diagnostics",
-      "url": "https://github.com/teleologia/chorographia/issues/1",
-      "date": "2026-02-20T04:02:20Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "osaurus",
-      "repoUrl": "https://github.com/osaurus-ai/osaurus",
-      "title": "Feature: Embeddings API endpoint support",
-      "url": "https://github.com/osaurus-ai/osaurus/issues/506",
-      "date": "2026-02-20T03:06:56Z",
-      "meta": {
-        "state": "OPEN"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
     "contributionsThisWeek": 202,
-    "contributionsThisMonth": 1616,
-    "repositoriesThisWeek": 8
+    "contributionsThisMonth": 1606,
+    "repositoriesThisWeek": 6
   },
   "repositories": [
-    {
-      "name": "gvns.ca",
-      "description": "",
-      "language": "Astro",
-      "languageColor": "#ff5a03",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/gvns.ca"
-    },
     {
       "name": "gwilym.ca",
       "description": "",
@@ -2394,20 +2391,28 @@
       "url": "https://github.com/ggfevans/gwilym.ca"
     },
     {
-      "name": "alseerr",
+      "name": "gvns.ca",
       "description": "",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
       "stars": 0,
-      "url": "https://github.com/ggfevans/alseerr"
+      "url": "https://github.com/ggfevans/gvns.ca"
     },
     {
       "name": "SearXNG-Community-Scripts-ProxmoxVE",
       "description": "SearXNG engine for searching the Proxmox VE Community Scripts catalogue (~480 scripts). Offline, cached, zero dependencies",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 9,
+      "stars": 10,
       "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE"
+    },
+    {
+      "name": "alseerr",
+      "description": "Search and request movies & TV shows from your Seerr instance, right from Alfred.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/alseerr"
     },
     {
       "name": "github-json-bourne",
