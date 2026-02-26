@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-02-25T04:05:02.530Z",
+  "lastUpdated": "2026-02-26T04:02:45.645Z",
   "contributions": {
-    "total": 6781,
-    "commits": 4581,
-    "pullRequests": 773,
+    "total": 6830,
+    "commits": 4612,
+    "pullRequests": 782,
     "pullRequestReviews": 10,
-    "issues": 1281,
+    "issues": 1290,
     "restricted": 0
   },
   "calendar": {
@@ -1950,7 +1950,7 @@
           },
           {
             "date": "2026-02-06",
-            "count": 54,
+            "count": 56,
             "level": 2
           },
           {
@@ -2033,8 +2033,8 @@
           },
           {
             "date": "2026-02-21",
-            "count": 36,
-            "level": 1
+            "count": 50,
+            "level": 2
           }
         ]
       },
@@ -2042,17 +2042,22 @@
         "days": [
           {
             "date": "2026-02-22",
-            "count": 12,
+            "count": 13,
             "level": 1
           },
           {
             "date": "2026-02-23",
-            "count": 9,
+            "count": 11,
             "level": 1
           },
           {
             "date": "2026-02-24",
             "count": 22,
+            "level": 1
+          },
+          {
+            "date": "2026-02-25",
+            "count": 30,
             "level": 1
           }
         ]
@@ -2060,11 +2065,154 @@
     ]
   },
   "streak": {
-    "current": 108,
-    "longest": 108,
+    "current": 109,
+    "longest": 109,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Extract YAML editor feature from dev/yamllama-ding-dong",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1323",
+      "date": "2026-02-26T03:17:08Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "feature: Add success feedback after custom device creation",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1314",
+      "date": "2026-02-26T03:06:35Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: Custom device name validation error persists after filling in the field",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1313",
+      "date": "2026-02-26T03:06:35Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "feature: Submit Rackula as Unraid Community App",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1317",
+      "date": "2026-02-26T03:02:58Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore: v0.8.x milestone hygiene and carryover cleanup",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1273",
+      "date": "2026-02-26T02:33:16Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Consider switching to CalVer versioning",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1315",
+      "date": "2026-02-26T02:30:02Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore: GitHub Actions workflow cleanup and hardening audit",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1276",
+      "date": "2026-02-26T01:41:26Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "alseerr",
+      "repoUrl": "https://github.com/ggfevans/alseerr",
+      "title": "share for feedback/visiblity",
+      "url": "https://github.com/ggfevans/alseerr/issues/3",
+      "date": "2026-02-26T00:56:27Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "alseerr",
+      "repoUrl": "https://github.com/ggfevans/alseerr",
+      "title": "record & add hero gif animation",
+      "url": "https://github.com/ggfevans/alseerr/issues/2",
+      "date": "2026-02-26T00:53:01Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Unable to save custom device height as whole number.",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1307",
+      "date": "2026-02-26T00:05:50Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore(ci): wire required PR/push validation workflow",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1278",
+      "date": "2026-02-25T09:31:11Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "feat: Basic authentication event logging",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1104",
+      "date": "2026-02-25T09:26:43Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: Save/load restores half-width devices as full-width",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1248",
+      "date": "2026-02-25T09:05:03Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
     {
       "type": "issue",
       "repo": "SearXNG-Community-Scripts-ProxmoxVE",
@@ -2251,135 +2399,14 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "Theme toggle throws in restricted localStorage environments",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/30",
-      "date": "2026-02-22T04:01:13Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "GitHub Actions workflow uses mutable tag ref",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/29",
-      "date": "2026-02-22T04:01:13Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "Activity timeline timestamps hidden on mobile",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/27",
-      "date": "2026-02-22T04:01:13Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "Watch page crashes on malformed JSON data",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/26",
-      "date": "2026-02-22T04:01:13Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "Tag URLs not encoded for special characters",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/28",
-      "date": "2026-02-22T04:01:13Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "Work portfolio URLs accept unsafe schemes",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/25",
-      "date": "2026-02-22T04:01:13Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "Duplicate Search component mounting with duplicate Cmd+K handlers",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/24",
-      "date": "2026-02-22T04:01:13Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "Deploy gwilym.ca on Cloudflare Pages",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/9",
-      "date": "2026-02-22T03:57:09Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "XSS: JSON-LD injection via set:html",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/23",
-      "date": "2026-02-22T03:56:41Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "xonora-ios",
-      "repoUrl": "https://github.com/hayupadhyaya/xonora-ios",
-      "title": "Add LICENSE",
-      "url": "https://github.com/hayupadhyaya/xonora-ios/issues/22",
-      "date": "2026-02-22T02:24:39Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Warp",
-      "repoUrl": "https://github.com/warpdotdev/Warp",
-      "title": "Add “Move tab to new window” with session-state preservation",
-      "url": "https://github.com/warpdotdev/Warp/issues/8735",
-      "date": "2026-02-22T01:32:28Z",
-      "meta": {
-        "state": "OPEN"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 202,
-    "contributionsThisMonth": 1606,
-    "repositoriesThisWeek": 6
+    "contributionsThisWeek": 210,
+    "contributionsThisMonth": 1578,
+    "repositoriesThisWeek": 5
   },
   "repositories": [
     {
@@ -2411,7 +2438,7 @@
       "description": "Search and request movies & TV shows from your Seerr instance, right from Alfred.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 0,
+      "stars": 1,
       "url": "https://github.com/ggfevans/alseerr"
     },
     {
@@ -2419,7 +2446,7 @@
       "description": "",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 0,
+      "stars": 1,
       "url": "https://github.com/ggfevans/github-json-bourne"
     },
     {
