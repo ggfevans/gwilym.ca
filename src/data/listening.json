@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-02-26T03:15:00Z",
+  "lastUpdated": "2026-02-27T03:12:47Z",
   "recentListens": [
+    {
+      "track": "From You",
+      "artist": "Bonobo",
+      "album": "Fragments",
+      "listenedAt": "2026-02-27T00:00:12Z",
+      "caaReleaseMbid": "5dcaabc0-5038-47fb-bd7d-783793846bc0",
+      "caaId": 31635402236,
+      "recordingMbid": "da1899fd-fcd2-42e1-bd2d-94465ee80e03",
+      "artistMbids": [
+        "9a709693-b4f8-4da9-8cc1-038c911a61be",
+        "8264722b-df00-467a-858e-5c97cda169c9"
+      ]
+    },
+    {
+      "track": "Some Resolve",
+      "artist": "Röyksopp",
+      "album": "Profound Mysteries II",
+      "listenedAt": "2026-02-26T23:46:44Z",
+      "caaReleaseMbid": "f1418001-7f1e-46af-bfdb-95faeded8841",
+      "caaId": 32916450708,
+      "recordingMbid": "30d08f4c-d825-4ae1-b79c-44242cddd7c0",
+      "artistMbids": [
+        "1c70a3fc-fa3c-4be1-8b55-c3192db8a884"
+      ]
+    },
+    {
+      "track": "Remembering the Departed",
+      "artist": "Röyksopp",
+      "album": "Profound Mysteries II",
+      "listenedAt": "2026-02-26T23:38:55Z",
+      "caaReleaseMbid": "f1418001-7f1e-46af-bfdb-95faeded8841",
+      "caaId": 32916450708,
+      "recordingMbid": "a8eb2940-b706-4e35-afd2-f15feec4eb20",
+      "artistMbids": [
+        "1c70a3fc-fa3c-4be1-8b55-c3192db8a884"
+      ]
+    },
+    {
+      "track": "Some Resolve",
+      "artist": "Röyksopp",
+      "album": "Profound Mysteries II",
+      "listenedAt": "2026-02-26T23:31:37Z",
+      "caaReleaseMbid": "f1418001-7f1e-46af-bfdb-95faeded8841",
+      "caaId": 32916450708,
+      "recordingMbid": "30d08f4c-d825-4ae1-b79c-44242cddd7c0",
+      "artistMbids": [
+        "1c70a3fc-fa3c-4be1-8b55-c3192db8a884"
+      ]
+    },
     {
       "track": "From You",
       "artist": "Bonobo",
@@ -75,54 +124,6 @@
       "artistMbids": [
         "a505bb48-ad65-4af4-ae47-29149715bff9"
       ]
-    },
-    {
-      "track": "Time Is the Enemy",
-      "artist": "Quantic",
-      "album": "The 5th Exotic",
-      "listenedAt": "2026-02-10T20:47:23Z",
-      "caaReleaseMbid": "5cbf9bb5-6b4d-4b4e-843e-0db79f8f3a58",
-      "caaId": 4396377486,
-      "recordingMbid": "49ae589f-3af4-4c1c-8205-bdc65be7e001",
-      "artistMbids": [
-        "f1560407-8826-4ec9-b78f-e0c3fa3ea4f5"
-      ]
-    },
-    {
-      "track": "Tonto Rides the Gain",
-      "artist": "Jon Kennedy",
-      "album": "Corporeal",
-      "listenedAt": "2026-02-10T20:44:20Z",
-      "caaReleaseMbid": "a5b6c32b-2e0a-4122-9114-48910e0e6919",
-      "caaId": 42350940722,
-      "recordingMbid": "512201dc-5ded-47a0-867e-0675a09266b8",
-      "artistMbids": [
-        "69ead53e-b2d4-45f4-b777-71363fdeff28"
-      ]
-    },
-    {
-      "track": "C.R.E.A.M.",
-      "artist": "El Michels Affair",
-      "album": "Enter the 37th Chamber",
-      "listenedAt": "2026-02-10T20:41:18Z",
-      "caaReleaseMbid": "9efbc7c3-1d5a-42a4-8230-9afb02abdd04",
-      "caaId": 28388842087,
-      "recordingMbid": "c927b8c8-8fd6-476d-8429-6ece79e0b637",
-      "artistMbids": [
-        "dbf0a5c5-3665-4495-b13b-99438a6a0900"
-      ]
-    },
-    {
-      "track": "The Sensual Woman",
-      "artist": "The Herbaliser",
-      "album": "Very Mercenary",
-      "listenedAt": "2026-02-10T20:38:15Z",
-      "caaReleaseMbid": "d33ce12c-6973-4b81-bdfe-21ebabedc158",
-      "caaId": 9828849514,
-      "recordingMbid": "145b8ef0-7592-430a-806e-35980e3e195d",
-      "artistMbids": [
-        "bf48d271-9595-4043-9064-52f43707d4ab"
-      ]
     }
   ],
   "recentListensStatus": "ok",
@@ -158,6 +159,11 @@
       "artistMbid": "9a709693-b4f8-4da9-8cc1-038c911a61be"
     },
     {
+      "name": "Röyksopp",
+      "listenCount": 3,
+      "artistMbid": "1c70a3fc-fa3c-4be1-8b55-c3192db8a884"
+    },
+    {
       "name": "Thievery Corporation",
       "listenCount": 2,
       "artistMbid": "a505bb48-ad65-4af4-ae47-29149715bff9"
@@ -171,11 +177,6 @@
       "name": "Jon Kennedy",
       "listenCount": 2,
       "artistMbid": "69ead53e-b2d4-45f4-b777-71363fdeff28"
-    },
-    {
-      "name": "El Michels Affair",
-      "listenCount": 2,
-      "artistMbid": "dbf0a5c5-3665-4495-b13b-99438a6a0900"
     }
   ],
   "topArtistsStatus": "ok",
@@ -211,6 +212,14 @@
       "recordingMbid": "f116a888-16b3-4940-a78b-510e7957acf5",
       "caaReleaseMbid": "2b472acf-6751-4d5d-b448-76ca31c1ac6f",
       "caaId": 37568706791
+    },
+    {
+      "track": "Some Resolve",
+      "artist": "Röyksopp",
+      "listenCount": 2,
+      "recordingMbid": "30d08f4c-d825-4ae1-b79c-44242cddd7c0",
+      "caaReleaseMbid": "e96c2e7b-94fd-4fbe-9c44-1a27d8664825",
+      "caaId": 33349435207
     },
     {
       "track": "Sisyphus",
@@ -251,14 +260,6 @@
       "recordingMbid": "9909e8a4-eed4-4a9f-ac5f-2525e07e14c6",
       "caaReleaseMbid": "d28ac66c-7fd1-4872-88ae-1a820a9c7e9d",
       "caaId": 23728700898
-    },
-    {
-      "track": "C.R.E.A.M.",
-      "artist": "El Michels Affair",
-      "listenCount": 2,
-      "recordingMbid": "c927b8c8-8fd6-476d-8429-6ece79e0b637",
-      "caaReleaseMbid": "9efbc7c3-1d5a-42a4-8230-9afb02abdd04",
-      "caaId": 28388842087
     }
   ],
   "topTracksStatus": "ok",
@@ -299,6 +300,13 @@
       "caaId": 4396377486
     },
     {
+      "album": "Profound Mysteries II",
+      "artist": "Röyksopp",
+      "listenCount": 3,
+      "caaReleaseMbid": "e96c2e7b-94fd-4fbe-9c44-1a27d8664825",
+      "caaId": 33349435207
+    },
+    {
       "album": "Very Mercenary",
       "artist": "The Herbaliser",
       "listenCount": 2,
@@ -325,22 +333,15 @@
       "listenCount": 2,
       "caaReleaseMbid": "2b50b9a7-84de-45a6-8c73-aeeca446e24c",
       "caaId": 33344850420
-    },
-    {
-      "album": "Enter the 37th Chamber",
-      "artist": "El Michels Affair",
-      "listenCount": 2,
-      "caaReleaseMbid": "9efbc7c3-1d5a-42a4-8230-9afb02abdd04",
-      "caaId": 28388842087
     }
   ],
   "topAlbumsStatus": "ok",
   "stats": {
-    "totalListenCount": 212608,
-    "rangeListenCount": 68,
+    "totalListenCount": 212612,
+    "rangeListenCount": 71,
     "range": "this_month",
-    "artistCount": 26,
-    "albumCount": 29,
-    "trackCount": 57
+    "artistCount": 27,
+    "albumCount": 30,
+    "trackCount": 59
   }
 }
