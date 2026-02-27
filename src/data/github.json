@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-02-26T04:02:45.645Z",
+  "lastUpdated": "2026-02-27T03:59:35.715Z",
   "contributions": {
-    "total": 6830,
-    "commits": 4612,
-    "pullRequests": 782,
+    "total": 6877,
+    "commits": 4635,
+    "pullRequests": 796,
     "pullRequestReviews": 10,
-    "issues": 1290,
+    "issues": 1300,
     "restricted": 0
   },
   "calendar": {
@@ -2057,7 +2057,12 @@
           },
           {
             "date": "2026-02-25",
-            "count": 30,
+            "count": 42,
+            "level": 2
+          },
+          {
+            "date": "2026-02-26",
+            "count": 35,
             "level": 1
           }
         ]
@@ -2065,18 +2070,216 @@
     ]
   },
   "streak": {
-    "current": 109,
-    "longest": 109,
+    "current": 110,
+    "longest": 110,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Add AI usage acknowledgement",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/21",
+      "date": "2026-02-27T00:42:07Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: fix auth context mismatch causing authenticated write 401s",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1334",
+      "date": "2026-02-26T23:32:52Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: enforce idle-timeout correctly for OIDC fallback sessions",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1336",
+      "date": "2026-02-26T20:34:15Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: resolve Entra common issuer validation mismatch in OIDC flow",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1335",
+      "date": "2026-02-26T20:34:13Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: restore deny-by-default auth gate in auth-enabled mode",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1333",
+      "date": "2026-02-26T20:34:10Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: align nginx auth-mode routing contract with API auth endpoints",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1332",
+      "date": "2026-02-26T20:34:08Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore: Epic #1095 audit notes and follow-up risks",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1331",
+      "date": "2026-02-26T20:31:55Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "10\" rack palette: add optional \"show all devices\" override",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1330",
+      "date": "2026-02-26T20:01:18Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: Layout auto-created on splash page when API is active with no existing layouts",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1326",
+      "date": "2026-02-26T11:09:57Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore(metrics): replace weekly code-health issue spam with rolling reports",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1281",
+      "date": "2026-02-26T10:59:46Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore(release): harden deploy-prod trigger and tag/ref guards",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1279",
+      "date": "2026-02-26T10:44:08Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
       "repoUrl": "https://github.com/RackulaLives/Rackula",
       "title": "Extract YAML editor feature from dev/yamllama-ding-dong",
       "url": "https://github.com/RackulaLives/Rackula/issues/1323",
-      "date": "2026-02-26T03:17:08Z",
+      "date": "2026-02-26T10:42:48Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore(metrics): make Octocov publication non-mutating and failure-visible",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1282",
+      "date": "2026-02-26T10:02:10Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore: Performance and accessibility audit",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/102",
+      "date": "2026-02-26T09:51:23Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "Search fails silently with browser console showing CSP error",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/149",
+      "date": "2026-02-26T09:03:44Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore: Secure d.racku.la with Cloudflare Access (GitHub login)",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1325",
+      "date": "2026-02-26T05:27:37Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore: label taxonomy normalization and enforcement",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1275",
+      "date": "2026-02-26T04:14:48Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore(security): tighten Claude workflow trust boundary and permissions",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1280",
+      "date": "2026-02-26T04:10:55Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "feat: Generic OIDC authentication integration",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1102",
+      "date": "2026-02-26T04:04:24Z",
       "meta": {
         "state": "OPEN"
       }
@@ -2168,245 +2371,14 @@
       "meta": {
         "state": "OPEN"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Unable to save custom device height as whole number.",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1307",
-      "date": "2026-02-26T00:05:50Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "chore(ci): wire required PR/push validation workflow",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1278",
-      "date": "2026-02-25T09:31:11Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "feat: Basic authentication event logging",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1104",
-      "date": "2026-02-25T09:26:43Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: Save/load restores half-width devices as full-width",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1248",
-      "date": "2026-02-25T09:05:03Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Switch versioning from semver to CalVer (vYYYY-MM-DD)",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/18",
-      "date": "2026-02-24T11:22:40Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Update documentation for enriched search results",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/17",
-      "date": "2026-02-24T10:57:06Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Expand search scoring to match type and notes fields",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/16",
-      "date": "2026-02-24T10:57:05Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Enrich SearXNG MainResult output with metadata fields",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/15",
-      "date": "2026-02-24T10:57:04Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Construct install commands from API script paths",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/14",
-      "date": "2026-02-24T10:57:03Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Expand data extraction and caching for enriched metadata",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/13",
-      "date": "2026-02-24T10:57:00Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Epic: Enrich search results with install commands and metadata",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/12",
-      "date": "2026-02-24T10:52:06Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Add conditional fetch (ETag/If-Modified-Since) for upstream API requests",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/11",
-      "date": "2026-02-24T10:51:06Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "searxng-seek-alfred",
-      "repoUrl": "https://github.com/ggfevans/searxng-seek-alfred",
-      "title": "Release v1.0.0",
-      "url": "https://github.com/ggfevans/searxng-seek-alfred/issues/29",
-      "date": "2026-02-24T06:47:35Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "persist tag for current release is missing",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1290",
-      "date": "2026-02-22T10:31:46Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "rackula:v0.8.3-persist still restarting as rackula:v0.8.2-persist",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1297",
-      "date": "2026-02-22T10:31:29Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "documentation: Align disabled default guidance across files",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/6",
-      "date": "2026-02-22T10:13:00Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "enhancement: Add automated tests for engine scoring and parsing",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/5",
-      "date": "2026-02-22T10:08:15Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "enhancement: Use SearXNG request stack for API fetches",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/4",
-      "date": "2026-02-22T09:44:49Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "bug: Harden API payload parsing against schema drift",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/3",
-      "date": "2026-02-22T09:44:49Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "Configure GitHub Actions secrets for data-fetching workflows",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/12",
-      "date": "2026-02-22T07:12:44Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gwilym.ca",
-      "repoUrl": "https://github.com/ggfevans/gwilym.ca",
-      "title": "Tag taxonomy duplicated across source files",
-      "url": "https://github.com/ggfevans/gwilym.ca/issues/31",
-      "date": "2026-02-22T04:01:13Z",
-      "meta": {
-        "state": "CLOSED"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 210,
-    "contributionsThisMonth": 1578,
-    "repositoriesThisWeek": 5
+    "contributionsThisWeek": 198,
+    "contributionsThisMonth": 1482,
+    "repositoriesThisWeek": 4
   },
   "repositories": [
     {
@@ -2416,6 +2388,14 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gwilym.ca"
+    },
+    {
+      "name": "endorse",
+      "description": "LinkedIn CLI / TUI. LinkedIn messaging without the feed, the ads, or the \"Thoughts?\" posts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12,
+      "url": "https://github.com/ggfevans/endorse"
     },
     {
       "name": "gvns.ca",
@@ -2430,7 +2410,7 @@
       "description": "SearXNG engine for searching the Proxmox VE Community Scripts catalogue (~480 scripts). Offline, cached, zero dependencies",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 10,
+      "stars": 11,
       "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE"
     },
     {
@@ -2456,14 +2436,6 @@
       "languageColor": "#3178c6",
       "stars": 0,
       "url": "https://github.com/ggfevans/cloud-observe"
-    },
-    {
-      "name": "endorse",
-      "description": "LinkedIn CLI / TUI. LinkedIn messaging without the feed, the ads, or the \"Thoughts?\" posts.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 12,
-      "url": "https://github.com/ggfevans/endorse"
     },
     {
       "name": "trakt-json-bourne",
