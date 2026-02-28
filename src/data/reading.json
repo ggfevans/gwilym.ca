@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-27T00:10:42Z",
+  "lastUpdated": "2026-02-28T00:08:02Z",
   "currentlyReading": [
     {
       "title": "Radicalized: Four Tales of Our Present Moment",
@@ -15,6 +15,14 @@
     }
   ],
   "finished": [
+    {
+      "title": "The Hobbit, or There and Back Again",
+      "author": "J.R.R. Tolkien",
+      "coverUrl": "https://assets.hardcover.app/edition/17456445/d34448a9-bf3f-441d-93f2-1cd32dd3867c.jpg",
+      "hardcoverUrl": "https://hardcover.app/books/the-hobbit",
+      "rating": null,
+      "dateFinished": "2026-02-27T19:14:09.618267+00:00"
+    },
     {
       "title": "A Midsummer Night's Dream: Shakespeare: The Critical Tradition, Volume 7",
       "author": "Judith M. Kennedy",
@@ -118,17 +126,15 @@
       "hardcoverUrl": "https://hardcover.app/books/x-com",
       "rating": 3.5,
       "dateFinished": "2025-07-26T07:38:04.6908+00:00"
-    },
-    {
-      "title": "Tripwire",
-      "author": "Lee Child",
-      "coverUrl": "https://assets.hardcover.app/editions/31803235/9167679358389894.jpg",
-      "hardcoverUrl": "https://hardcover.app/books/tripwire",
-      "rating": null,
-      "dateFinished": "2025-07-22T07:42:37.906215+00:00"
     }
   ],
   "wantToRead": [
+    {
+      "title": "Un chant de Noël",
+      "author": "Charles Dickens",
+      "coverUrl": "https://assets.hardcover.app/edition/32696639/0f17ba13-4871-4ef2-8753-652747ee2c5d.jpg",
+      "hardcoverUrl": "https://hardcover.app/books/un-chant-de-noel-195"
+    },
     {
       "title": "Game Changer",
       "author": "Rachel Reid",
@@ -314,12 +320,6 @@
       "author": "David Leigh",
       "coverUrl": "https://assets.hardcover.app/external_data/2482750/2291b4ee9b2a7e35c40550373d20f517385b7b48.jpeg",
       "hardcoverUrl": "https://hardcover.app/books/wikileaks-inside-julian-assanges-war-on-secrecy-2011"
-    },
-    {
-      "title": "Die Trying",
-      "author": "Lee Child",
-      "coverUrl": "https://assets.hardcover.app/edition/19744953/69f4c90c1fa7a96e01a7c37c0ef21b77e8512eb1.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/die-trying-1998"
     }
   ]
 }
