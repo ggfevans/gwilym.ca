@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-27T03:12:47Z",
+  "lastUpdated": "2026-02-28T03:02:07Z",
   "recentListens": [
     {
       "track": "From You",
@@ -180,89 +180,8 @@
     }
   ],
   "topArtistsStatus": "ok",
-  "topTracks": [
-    {
-      "track": "Time Is the Enemy",
-      "artist": "Quantic",
-      "listenCount": 3,
-      "recordingMbid": "49ae589f-3af4-4c1c-8205-bdc65be7e001",
-      "caaReleaseMbid": "5cbf9bb5-6b4d-4b4e-843e-0db79f8f3a58",
-      "caaId": 4396377486
-    },
-    {
-      "track": "Tonto Rides the Gain",
-      "artist": "Jon Kennedy",
-      "listenCount": 2,
-      "recordingMbid": "512201dc-5ded-47a0-867e-0675a09266b8",
-      "caaReleaseMbid": "a5b6c32b-2e0a-4122-9114-48910e0e6919",
-      "caaId": 42350940722
-    },
-    {
-      "track": "The Sensual Woman",
-      "artist": "The Herbaliser",
-      "listenCount": 2,
-      "recordingMbid": "145b8ef0-7592-430a-806e-35980e3e195d",
-      "caaReleaseMbid": "d33ce12c-6973-4b81-bdfe-21ebabedc158",
-      "caaId": 9828849514
-    },
-    {
-      "track": "Swift Automatons",
-      "artist": "Eluvium",
-      "listenCount": 2,
-      "recordingMbid": "f116a888-16b3-4940-a78b-510e7957acf5",
-      "caaReleaseMbid": "2b472acf-6751-4d5d-b448-76ca31c1ac6f",
-      "caaId": 37568706791
-    },
-    {
-      "track": "Some Resolve",
-      "artist": "Röyksopp",
-      "listenCount": 2,
-      "recordingMbid": "30d08f4c-d825-4ae1-b79c-44242cddd7c0",
-      "caaReleaseMbid": "e96c2e7b-94fd-4fbe-9c44-1a27d8664825",
-      "caaId": 33349435207
-    },
-    {
-      "track": "Sisyphus",
-      "artist": "Andrew Bird",
-      "listenCount": 2,
-      "recordingMbid": "adce11b2-de0f-4cb4-9371-a09467f09ad7",
-      "caaReleaseMbid": "488ea3c5-0615-452d-96e4-c2b7e13fda50",
-      "caaId": 22168031137
-    },
-    {
-      "track": "Lebanese Blonde",
-      "artist": "Thievery Corporation",
-      "listenCount": 2,
-      "recordingMbid": "27a32525-c99d-47d3-8f58-58e924313136",
-      "caaReleaseMbid": "1de73c08-5755-3646-ad2c-a6657aa00fd4",
-      "caaId": 1769287326
-    },
-    {
-      "track": "From You",
-      "artist": "Bonobo",
-      "listenCount": 2,
-      "recordingMbid": "da1899fd-fcd2-42e1-bd2d-94465ee80e03",
-      "caaReleaseMbid": "2b50b9a7-84de-45a6-8c73-aeeca446e24c",
-      "caaId": 33344850420
-    },
-    {
-      "track": "Escapement",
-      "artist": "Eluvium",
-      "listenCount": 2,
-      "recordingMbid": "64280736-b571-49b0-a8d2-d5fd41935765",
-      "caaReleaseMbid": "2b472acf-6751-4d5d-b448-76ca31c1ac6f",
-      "caaId": 37568706791
-    },
-    {
-      "track": "Elegy",
-      "artist": "Tycho",
-      "listenCount": 2,
-      "recordingMbid": "9909e8a4-eed4-4a9f-ac5f-2525e07e14c6",
-      "caaReleaseMbid": "d28ac66c-7fd1-4872-88ae-1a820a9c7e9d",
-      "caaId": 23728700898
-    }
-  ],
-  "topTracksStatus": "ok",
+  "topTracks": [],
+  "topTracksStatus": "error",
   "topAlbums": [
     {
       "album": "(Whirring Marvels In) Consensus Reality",
@@ -340,8 +259,8 @@
     "totalListenCount": 212612,
     "rangeListenCount": 71,
     "range": "this_month",
-    "artistCount": 27,
-    "albumCount": 30,
-    "trackCount": 59
+    "artistCount": 28,
+    "albumCount": 31,
+    "trackCount": null
   }
 }
