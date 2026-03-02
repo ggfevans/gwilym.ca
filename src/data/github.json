@@ -1,54 +1,15 @@
 {
-  "lastUpdated": "2026-03-01T04:07:40.089Z",
+  "lastUpdated": "2026-03-02T04:00:14.357Z",
   "contributions": {
-    "total": 6924,
-    "commits": 4665,
-    "pullRequests": 804,
+    "total": 6937,
+    "commits": 4674,
+    "pullRequests": 805,
     "pullRequestReviews": 10,
-    "issues": 1308,
+    "issues": 1311,
     "restricted": 0
   },
   "calendar": {
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-02-23",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-02-24",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-02-25",
-            "count": 1,
-            "level": 1
-          },
-          {
-            "date": "2025-02-26",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-02-27",
-            "count": 1,
-            "level": 1
-          },
-          {
-            "date": "2025-02-28",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-03-01",
-            "count": 0,
-            "level": 0
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -2072,7 +2033,16 @@
           },
           {
             "date": "2026-02-28",
-            "count": 4,
+            "count": 9,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-03-01",
+            "count": 8,
             "level": 1
           }
         ]
@@ -2080,11 +2050,44 @@
     ]
   },
   "streak": {
-    "current": 112,
-    "longest": 112,
+    "current": 113,
+    "longest": 113,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: remove persistent 'offline' error banner in non-persist deployments",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1362",
+      "date": "2026-03-01T08:49:13Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: move 'compatible only' toggle from device palette to Settings menu",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1361",
+      "date": "2026-03-01T08:49:12Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: restore Trivy scan gating in deploy-prod workflow",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1360",
+      "date": "2026-03-01T08:46:31Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2148,7 +2151,7 @@
       "url": "https://github.com/Pardesco/hypernovum/issues/2",
       "date": "2026-02-27T22:48:50Z",
       "meta": {
-        "state": "OPEN"
+        "state": "CLOSED"
       }
     },
     {
@@ -2183,14 +2186,113 @@
       "meta": {
         "state": "CLOSED"
       }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore: release v0.8.5 preparation",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1343",
+      "date": "2026-02-27T09:00:55Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: align nginx auth-mode routing contract with API auth endpoints",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1332",
+      "date": "2026-02-27T08:38:50Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: enforce idle-timeout correctly for OIDC fallback sessions",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1336",
+      "date": "2026-02-27T08:35:03Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "10\" rack palette: add optional \"show all devices\" override",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1330",
+      "date": "2026-02-27T07:24:37Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Add conditional fetch (ETag/If-Modified-Since) for upstream API requests",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/11",
+      "date": "2026-02-27T06:50:52Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Add AI usage acknowledgement",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/21",
+      "date": "2026-02-27T06:33:15Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: restore deny-by-default auth gate in auth-enabled mode",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1333",
+      "date": "2026-02-27T06:27:30Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: resolve Entra common issuer validation mismatch in OIDC flow",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1335",
+      "date": "2026-02-27T06:27:30Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: fix auth context mismatch causing authenticated write 401s",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1334",
+      "date": "2026-02-26T23:32:52Z",
+      "meta": {
+        "state": "CLOSED"
+      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
     "contributionsThisWeek": 171,
-    "contributionsThisMonth": 1406,
-    "repositoriesThisWeek": 2
+    "contributionsThisMonth": 1344,
+    "repositoriesThisWeek": 3
   },
   "repositories": [
     {
