@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T00:08:26Z",
+  "lastUpdated": "2026-03-03T00:10:15Z",
   "currentlyReading": [
     {
       "title": "Radicalized: Four Tales of Our Present Moment",
@@ -129,6 +129,12 @@
     }
   ],
   "wantToRead": [
+    {
+      "title": "Adult Children of Emotionally Immature Parents",
+      "author": "Lindsay C. Gibson",
+      "coverUrl": "https://assets.hardcover.app/external_data/41549765/6c6f7ea22215111389446a672c72de619d8bff21.jpeg",
+      "hardcoverUrl": "https://hardcover.app/books/adult-children-of-emotionally-immature-parents"
+    },
     {
       "title": "Un chant de Noël",
       "author": "Charles Dickens",
@@ -314,12 +320,6 @@
       "author": "Tony Buzan",
       "coverUrl": "https://assets.hardcover.app/edition/31991992/43a8d542d859caed0a67ef9ccbd20e3d0a5fa8b4.jpeg",
       "hardcoverUrl": "https://hardcover.app/books/mind-map-handbook"
-    },
-    {
-      "title": "WikiLeaks: Inside Julian Assange's War on Secrecy",
-      "author": "David Leigh",
-      "coverUrl": "https://assets.hardcover.app/external_data/2482750/2291b4ee9b2a7e35c40550373d20f517385b7b48.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/wikileaks-inside-julian-assanges-war-on-secrecy-2011"
     }
   ]
 }
