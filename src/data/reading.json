@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-03T00:10:15Z",
+  "lastUpdated": "2026-03-04T00:09:13Z",
   "currentlyReading": [
     {
       "title": "Radicalized: Four Tales of Our Present Moment",
@@ -130,6 +130,12 @@
   ],
   "wantToRead": [
     {
+      "title": "There Is No Antimemetics Division",
+      "author": "qntm",
+      "coverUrl": "https://assets.hardcover.app/edition/30410256/1b50835a-b0dd-4d43-9ec5-cc0038fea7e5.jpg",
+      "hardcoverUrl": "https://hardcover.app/books/there-is-no-antimemetics-division"
+    },
+    {
       "title": "Adult Children of Emotionally Immature Parents",
       "author": "Lindsay C. Gibson",
       "coverUrl": "https://assets.hardcover.app/external_data/41549765/6c6f7ea22215111389446a672c72de619d8bff21.jpeg",
@@ -198,7 +204,7 @@
     {
       "title": "Broken Angels",
       "author": "Richard K. Morgan",
-      "coverUrl": "https://assets.hardcover.app/edition/31402171/34a44a919344f25953dd8788677ee747b752b190.jpeg",
+      "coverUrl": "https://assets.hardcover.app/edition/2219140/5f748240-cfda-4b3f-a8c0-3eee5875614f.jpg",
       "hardcoverUrl": "https://hardcover.app/books/broken-angels"
     },
     {
@@ -314,12 +320,6 @@
       "author": "Kurt Vonnegut",
       "coverUrl": "https://assets.hardcover.app/external_data/887009/0df65a9b92d2a2c357a3e1707b3478e9a7357ed0.jpeg",
       "hardcoverUrl": "https://hardcover.app/books/the-big-trip-up-yonder"
-    },
-    {
-      "title": "Mind Map Handbook",
-      "author": "Tony Buzan",
-      "coverUrl": "https://assets.hardcover.app/edition/31991992/43a8d542d859caed0a67ef9ccbd20e3d0a5fa8b4.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/mind-map-handbook"
     }
   ]
 }
