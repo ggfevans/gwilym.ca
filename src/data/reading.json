@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T00:09:13Z",
+  "lastUpdated": "2026-03-05T00:10:05Z",
   "currentlyReading": [
     {
       "title": "Radicalized: Four Tales of Our Present Moment",
@@ -24,9 +24,9 @@
       "dateFinished": "2026-02-27T19:14:09.618267+00:00"
     },
     {
-      "title": "A Midsummer Night's Dream: Shakespeare: The Critical Tradition, Volume 7",
-      "author": "Judith M. Kennedy",
-      "coverUrl": "https://assets.hardcover.app/external_data/32809286/3e05d1edc109c73683598e323046555da7a544a2.jpeg",
+      "title": "A Midsummer Night's Dream",
+      "author": "William Shakespeare",
+      "coverUrl": "https://assets.hardcover.app/edition/7796402/41b97beb-9383-4757-91ea-0c6f9d872ec7.jpg",
       "hardcoverUrl": "https://hardcover.app/books/a-midsummer-nights-dream",
       "rating": null,
       "dateFinished": "2026-02-20T19:47:26.936503+00:00"
@@ -118,17 +118,21 @@
       "hardcoverUrl": "https://hardcover.app/books/project-hail-mary",
       "rating": 4.5,
       "dateFinished": "2025-08-29T09:34:11.994705+00:00"
-    },
-    {
-      "title": "X-COM: UFO Defense",
-      "author": "Diane Duane",
-      "coverUrl": "https://assets.hardcover.app/edition/31639183/514458aaf5d982ee9e3cec6967208a06eab8cf1b.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/x-com",
-      "rating": 3.5,
-      "dateFinished": "2025-07-26T07:38:04.6908+00:00"
     }
   ],
   "wantToRead": [
+    {
+      "title": "The Information: A History, a Theory, a Flood",
+      "author": "James Gleick",
+      "coverUrl": "https://assets.hardcover.app/edition/30704237/46fdac0db12687412956af65d35f3beab24bc48c.jpeg",
+      "hardcoverUrl": "https://hardcover.app/books/the-information-a-history-a-theory-a-flood"
+    },
+    {
+      "title": "Consider Phlebas",
+      "author": "Iain M. Banks",
+      "coverUrl": "https://assets.hardcover.app/edition/25245221/035c7c4e-7508-410f-9a6b-71e048c2daa6.jpg",
+      "hardcoverUrl": "https://hardcover.app/books/consider-phlebas"
+    },
     {
       "title": "There Is No Antimemetics Division",
       "author": "qntm",
@@ -145,7 +149,7 @@
       "title": "Un chant de Noël",
       "author": "Charles Dickens",
       "coverUrl": "https://assets.hardcover.app/edition/32696639/0f17ba13-4871-4ef2-8753-652747ee2c5d.jpg",
-      "hardcoverUrl": "https://hardcover.app/books/un-chant-de-noel-195"
+      "hardcoverUrl": "https://hardcover.app/books/un-chant-de-noel-1843"
     },
     {
       "title": "Game Changer",
@@ -314,12 +318,6 @@
       "author": "Blake Mycoskie",
       "coverUrl": "https://assets.hardcover.app/edition/30428765/8ea49e7ad201f461c08c2d8b0d62fef44043844d.jpeg",
       "hardcoverUrl": "https://hardcover.app/books/start-something-that-matters"
-    },
-    {
-      "title": "The Big Trip Up Yonder",
-      "author": "Kurt Vonnegut",
-      "coverUrl": "https://assets.hardcover.app/external_data/887009/0df65a9b92d2a2c357a3e1707b3478e9a7357ed0.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/the-big-trip-up-yonder"
     }
   ]
 }
