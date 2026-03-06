@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-05T03:59:20.592Z",
+  "lastUpdated": "2026-03-06T03:58:28.406Z",
   "contributions": {
-    "total": 6962,
-    "commits": 4697,
-    "pullRequests": 807,
+    "total": 6993,
+    "commits": 4708,
+    "pullRequests": 812,
     "pullRequestReviews": 10,
-    "issues": 1312,
+    "issues": 1326,
     "restricted": 1
   },
   "calendar": {
@@ -2057,7 +2057,12 @@
           },
           {
             "date": "2026-03-04",
-            "count": 12,
+            "count": 14,
+            "level": 1
+          },
+          {
+            "date": "2026-03-05",
+            "count": 29,
             "level": 1
           }
         ]
@@ -2065,11 +2070,264 @@
     ]
   },
   "streak": {
-    "current": 116,
-    "longest": 116,
+    "current": 117,
+    "longest": 117,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "refactor: Split EditPanel.svelte into tabbed sections",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1398",
+      "date": "2026-03-06T03:17:08Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "refactor: Split Rack.svelte into rendering + interaction layers",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1397",
+      "date": "2026-03-06T03:17:06Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "refactor: Split export.ts into format-specific modules",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1396",
+      "date": "2026-03-06T03:17:05Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "refactor: Split App.svelte into shell + feature modules",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1395",
+      "date": "2026-03-06T03:17:03Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore: CI/Build reliability improvements",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1394",
+      "date": "2026-03-06T03:16:03Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "spike: Define E2E testing architecture (data-testid, page objects, fixtures)",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1393",
+      "date": "2026-03-06T03:16:01Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: Storage resilience — handle localStorage/sessionStorage failures gracefully",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1392",
+      "date": "2026-03-06T03:15:35Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: Import/load failures should show user feedback instead of empty rack",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1391",
+      "date": "2026-03-06T03:15:35Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: Persistence errors should surface to user with retry option",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1390",
+      "date": "2026-03-06T03:15:32Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: Export failures should surface to user via toast",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1389",
+      "date": "2026-03-06T03:15:31Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Epic: Component Decomposition (large file splits)",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1388",
+      "date": "2026-03-06T03:15:04Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Epic: User-Facing Error Handling Audit",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1387",
+      "date": "2026-03-06T03:14:51Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Cannot Load Saved Layout",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1363",
+      "date": "2026-03-06T02:00:09Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Epic: Authentication and Access Control for Persistent Deployments",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1095",
+      "date": "2026-03-06T01:40:58Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore: release v0.9.0",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1383",
+      "date": "2026-03-06T00:30:01Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Fix 102 E2E test failures blocking CI",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1385",
+      "date": "2026-03-05T12:23:55Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "CI Alert: Deploy Prod failed for v0.9.0",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1384",
+      "date": "2026-03-05T11:05:02Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Security: OIDC issuer validation bypass with direct discovery URL",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1372",
+      "date": "2026-03-05T10:33:18Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Security: CRLF injection in normalizeNextPath()",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1371",
+      "date": "2026-03-05T10:33:18Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: restore Trivy scan gating in deploy-prod workflow",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1360",
+      "date": "2026-03-05T09:28:04Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: remove persistent 'offline' error banner in non-persist deployments",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1362",
+      "date": "2026-03-05T09:25:13Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: Export dialog preview image is cut off for 42U rack",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1350",
+      "date": "2026-03-05T09:23:47Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: move 'compatible only' toggle from device palette to Settings menu",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1361",
+      "date": "2026-03-05T07:07:56Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2118,66 +2376,11 @@
       "type": "issue",
       "repo": "Rackula",
       "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Security: OIDC issuer validation bypass with direct discovery URL",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1372",
-      "date": "2026-03-04T08:54:45Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Security: CRLF injection in normalizeNextPath()",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1371",
-      "date": "2026-03-04T08:54:34Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
       "title": "feat: Local authentication mode (username/password)",
       "url": "https://github.com/RackulaLives/Rackula/issues/1117",
       "date": "2026-03-03T08:16:40Z",
       "meta": {
         "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: remove persistent 'offline' error banner in non-persist deployments",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1362",
-      "date": "2026-03-01T08:49:13Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: move 'compatible only' toggle from device palette to Settings menu",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1361",
-      "date": "2026-03-01T08:49:12Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: restore Trivy scan gating in deploy-prod workflow",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1360",
-      "date": "2026-03-01T08:46:31Z",
-      "meta": {
-        "state": "OPEN"
       }
     },
     {
@@ -2201,113 +2404,14 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: E2E failures in archive filename + responsive header visibility (blocks #1343)",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1344",
-      "date": "2026-02-28T09:04:35Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Refresh README for FOSS professionalism and expanded audience",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1353",
-      "date": "2026-02-28T02:12:57Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "hypernovum",
-      "repoUrl": "https://github.com/Pardesco/hypernovum",
-      "title": "Obsidian plugin install steps - no main.js in plugin root",
-      "url": "https://github.com/Pardesco/hypernovum/issues/2",
-      "date": "2026-02-27T22:48:50Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: webkit responsive e2e cannot find brand name at 900px viewport",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1347",
-      "date": "2026-02-27T10:46:35Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: Export dialog preview image is cut off for 42U rack",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1350",
-      "date": "2026-02-27T10:36:09Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: file menu Load cannot access Persist API layouts after initial load",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1348",
-      "date": "2026-02-27T10:20:49Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: align nginx auth-mode routing contract with API auth endpoints",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1332",
-      "date": "2026-02-27T08:38:50Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: enforce idle-timeout correctly for OIDC fallback sessions",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1336",
-      "date": "2026-02-27T08:35:03Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "10\" rack palette: add optional \"show all devices\" override",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1330",
-      "date": "2026-02-27T07:24:37Z",
-      "meta": {
-        "state": "CLOSED"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 123,
-    "contributionsThisMonth": 1213,
-    "repositoriesThisWeek": 2
+    "contributionsThisWeek": 102,
+    "contributionsThisMonth": 1087,
+    "repositoriesThisWeek": 1
   },
   "repositories": [
     {
@@ -2317,6 +2421,14 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gwilym.ca"
+    },
+    {
+      "name": "steam-json-bourne",
+      "description": "",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/steam-json-bourne"
     },
     {
       "name": "gvns.ca",
@@ -2397,14 +2509,6 @@
       "languageColor": "#89e051",
       "stars": 1,
       "url": "https://github.com/ggfevans/listenbrainz-json-bourne"
-    },
-    {
-      "name": "green-squares-action",
-      "description": "",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/green-squares-action"
     }
   ]
 }
