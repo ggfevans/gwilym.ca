@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-06T03:58:28.406Z",
+  "lastUpdated": "2026-03-07T03:56:56.488Z",
   "contributions": {
-    "total": 6993,
-    "commits": 4708,
-    "pullRequests": 812,
+    "total": 6978,
+    "commits": 4709,
+    "pullRequests": 809,
     "pullRequestReviews": 10,
-    "issues": 1326,
+    "issues": 1333,
     "restricted": 1
   },
   "calendar": {
@@ -190,8 +190,8 @@
           },
           {
             "date": "2025-04-03",
-            "count": 1,
-            "level": 1
+            "count": 0,
+            "level": 0
           },
           {
             "date": "2025-04-04",
@@ -307,8 +307,8 @@
           },
           {
             "date": "2025-04-24",
-            "count": 1,
-            "level": 1
+            "count": 0,
+            "level": 0
           },
           {
             "date": "2025-04-25",
@@ -331,12 +331,12 @@
           },
           {
             "date": "2025-04-28",
-            "count": 6,
+            "count": 5,
             "level": 1
           },
           {
             "date": "2025-04-29",
-            "count": 5,
+            "count": 2,
             "level": 1
           },
           {
@@ -775,12 +775,12 @@
           },
           {
             "date": "2025-07-17",
-            "count": 10,
+            "count": 7,
             "level": 1
           },
           {
             "date": "2025-07-18",
-            "count": 36,
+            "count": 35,
             "level": 1
           },
           {
@@ -848,7 +848,7 @@
           },
           {
             "date": "2025-07-30",
-            "count": 37,
+            "count": 36,
             "level": 1
           },
           {
@@ -1243,7 +1243,7 @@
           },
           {
             "date": "2025-10-09",
-            "count": 8,
+            "count": 7,
             "level": 1
           },
           {
@@ -1521,7 +1521,7 @@
           },
           {
             "date": "2025-11-28",
-            "count": 34,
+            "count": 33,
             "level": 1
           },
           {
@@ -1633,7 +1633,7 @@
           },
           {
             "date": "2025-12-18",
-            "count": 33,
+            "count": 32,
             "level": 1
           },
           {
@@ -1706,7 +1706,7 @@
           },
           {
             "date": "2025-12-31",
-            "count": 83,
+            "count": 81,
             "level": 3
           },
           {
@@ -1740,7 +1740,7 @@
           },
           {
             "date": "2026-01-06",
-            "count": 7,
+            "count": 6,
             "level": 1
           },
           {
@@ -1818,8 +1818,8 @@
           },
           {
             "date": "2026-01-20",
-            "count": 118,
-            "level": 4
+            "count": 115,
+            "level": 3
           },
           {
             "date": "2026-01-21",
@@ -1828,7 +1828,7 @@
           },
           {
             "date": "2026-01-22",
-            "count": 67,
+            "count": 65,
             "level": 2
           },
           {
@@ -1872,7 +1872,7 @@
           },
           {
             "date": "2026-01-30",
-            "count": 75,
+            "count": 73,
             "level": 2
           },
           {
@@ -1896,7 +1896,7 @@
           },
           {
             "date": "2026-02-03",
-            "count": 157,
+            "count": 156,
             "level": 4
           },
           {
@@ -1950,7 +1950,7 @@
           },
           {
             "date": "2026-02-13",
-            "count": 36,
+            "count": 35,
             "level": 1
           },
           {
@@ -1964,12 +1964,12 @@
         "days": [
           {
             "date": "2026-02-15",
-            "count": 66,
+            "count": 65,
             "level": 2
           },
           {
             "date": "2026-02-16",
-            "count": 14,
+            "count": 13,
             "level": 1
           },
           {
@@ -1984,7 +1984,7 @@
           },
           {
             "date": "2026-02-19",
-            "count": 59,
+            "count": 58,
             "level": 2
           },
           {
@@ -2062,7 +2062,12 @@
           },
           {
             "date": "2026-03-05",
-            "count": 29,
+            "count": 31,
+            "level": 1
+          },
+          {
+            "date": "2026-03-06",
+            "count": 12,
             "level": 1
           }
         ]
@@ -2070,11 +2075,99 @@
     ]
   },
   "streak": {
-    "current": 117,
-    "longest": 117,
+    "current": 118,
+    "longest": 118,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Follow-up: Validate keyboard viewport input type coverage",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1115",
+      "date": "2026-03-06T12:21:52Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Rewrite shelf-category E2E tests for accordion palette structure",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1400",
+      "date": "2026-03-06T12:16:47Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Fix device-name undo/redo and metadata cross-rack E2E tests",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1405",
+      "date": "2026-03-06T09:12:29Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Implement session auto-save (preserve work on refresh)",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1404",
+      "date": "2026-03-06T09:12:23Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Enable file chooser E2E tests with clickLoad helper",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1403",
+      "date": "2026-03-06T09:12:18Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Implement descending units, starting unit, and form factor in NewRackForm",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1402",
+      "date": "2026-03-06T09:12:13Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Fix migration E2E tests for current YAML schema",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1401",
+      "date": "2026-03-06T09:12:08Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "docs: Trim SPEC.md to essentials (~200 lines)",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1399",
+      "date": "2026-03-06T04:47:14Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2316,101 +2409,13 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: move 'compatible only' toggle from device palette to Settings menu",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1361",
-      "date": "2026-03-05T07:07:56Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "chore: Epic #1095 audit notes and follow-up risks",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1331",
-      "date": "2026-03-05T02:24:20Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "chore: release v0.8.5 preparation",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1343",
-      "date": "2026-03-05T02:24:08Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "CI Alert: Deploy Prod failed for v0.8.5",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1359",
-      "date": "2026-03-05T02:22:18Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "feat: Generic OIDC authentication integration",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1102",
-      "date": "2026-03-04T11:04:35Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "feat: Local authentication mode (username/password)",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1117",
-      "date": "2026-03-03T08:16:40Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: archive-format e2e expects .Rackula.zip but app returns <layout>-<uuid>.zip",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1346",
-      "date": "2026-02-28T09:04:35Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: Save As currently auto-downloads ZIP instead of showing save dialog",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1345",
-      "date": "2026-02-28T09:04:35Z",
-      "meta": {
-        "state": "CLOSED"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 102,
-    "contributionsThisMonth": 1087,
+    "contributionsThisWeek": 89,
+    "contributionsThisMonth": 1010,
     "repositoriesThisWeek": 1
   },
   "repositories": [
@@ -2429,6 +2434,14 @@
       "languageColor": "#f1e05a",
       "stars": 0,
       "url": "https://github.com/ggfevans/steam-json-bourne"
+    },
+    {
+      "name": "cloud-observe",
+      "description": "",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/cloud-observe"
     },
     {
       "name": "gvns.ca",
@@ -2469,14 +2482,6 @@
       "languageColor": "#f1e05a",
       "stars": 1,
       "url": "https://github.com/ggfevans/github-json-bourne"
-    },
-    {
-      "name": "cloud-observe",
-      "description": "",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/cloud-observe"
     },
     {
       "name": "trakt-json-bourne",
