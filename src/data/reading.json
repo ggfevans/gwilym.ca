@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-09T00:08:54Z",
+  "lastUpdated": "2026-03-10T00:07:19Z",
   "currentlyReading": [
     {
-      "title": "Radicalized: Four Tales of Our Present Moment",
+      "title": "Enshittification: Why Everything Suddenly Got Worse and What to Do About It",
       "author": "Cory Doctorow",
-      "coverUrl": "https://assets.hardcover.app/external_data/28473324/bbfc1d3a639d337468a9dae5bddf40bd9f918f9e.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/radicalized"
+      "coverUrl": "https://assets.hardcover.app/edition/32209337/825022aba6548731b3171ce509f5f469ed903d2a.jpeg",
+      "hardcoverUrl": "https://hardcover.app/books/enshittification"
     },
     {
       "title": "Heaven's River",
@@ -15,6 +15,22 @@
     }
   ],
   "finished": [
+    {
+      "title": "Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers",
+      "author": "Andy Greenberg",
+      "coverUrl": "https://assets.hardcover.app/external_data/36164466/d87c82e88299c17da21c60b069381fa4c2dd8b37.jpeg",
+      "hardcoverUrl": "https://hardcover.app/books/sandworm",
+      "rating": 4.0,
+      "dateFinished": "2026-03-09T11:12:31.626263+00:00"
+    },
+    {
+      "title": "Radicalized: Four Tales of Our Present Moment",
+      "author": "Cory Doctorow",
+      "coverUrl": "https://assets.hardcover.app/external_data/28473324/bbfc1d3a639d337468a9dae5bddf40bd9f918f9e.jpeg",
+      "hardcoverUrl": "https://hardcover.app/books/radicalized",
+      "rating": null,
+      "dateFinished": "2026-03-09T11:00:59.434707+00:00"
+    },
     {
       "title": "The Hobbit, or There and Back Again",
       "author": "J.R.R. Tolkien",
@@ -102,25 +118,39 @@
       "hardcoverUrl": "https://hardcover.app/books/we-are-legion",
       "rating": 4.5,
       "dateFinished": "2025-09-10T20:48:46.461072+00:00"
-    },
-    {
-      "title": "Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers",
-      "author": "Andy Greenberg",
-      "coverUrl": "https://assets.hardcover.app/external_data/36164466/d87c82e88299c17da21c60b069381fa4c2dd8b37.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/sandworm",
-      "rating": 4.0,
-      "dateFinished": "2025-09-05T20:20:47.704877+00:00"
-    },
-    {
-      "title": "Project Hail Mary",
-      "author": "Andy Weir",
-      "coverUrl": "https://assets.hardcover.app/editions/3274049/8741341047797682-91mYu67RfUL._SL1500_.jpg",
-      "hardcoverUrl": "https://hardcover.app/books/project-hail-mary",
-      "rating": 4.5,
-      "dateFinished": "2025-08-29T09:34:11.994705+00:00"
     }
   ],
   "wantToRead": [
+    {
+      "title": "The Man Without a Face",
+      "author": "Masha Gessen",
+      "coverUrl": "https://assets.hardcover.app/edition/9877157/7246400-L.jpg",
+      "hardcoverUrl": "https://hardcover.app/books/the-man-without-a-face"
+    },
+    {
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "coverUrl": "https://assets.hardcover.app/editions/8933288/8719175186248367.jpg",
+      "hardcoverUrl": "https://hardcover.app/books/the-song-of-achilles"
+    },
+    {
+      "title": "I Who Have Never Known Men",
+      "author": "Jacqueline Harpman",
+      "coverUrl": "https://assets.hardcover.app/edition/30584481/30b8077a24fe1e99055ff4e2c9a0fc0f73104b4a.jpeg",
+      "hardcoverUrl": "https://hardcover.app/books/i-who-have-never-known-men"
+    },
+    {
+      "title": "Morning Star",
+      "author": "Pierce Brown",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332844/702879986b75f035349c34acad3d94f88bb737ed.jpeg",
+      "hardcoverUrl": "https://hardcover.app/books/morning-star"
+    },
+    {
+      "title": "Against the Machine The Fight to Stay Human",
+      "author": "Paul Kingsnorth",
+      "coverUrl": "https://assets.hardcover.app/edition/31984054/f4cc9f67064607aa0ce510c10edb55ea40d1ed91.jpeg",
+      "hardcoverUrl": "https://hardcover.app/books/against-the-machine-the-fight-to-stay-human"
+    },
     {
       "title": "The Information: A History, a Theory, a Flood",
       "author": "James Gleick",
@@ -136,7 +166,7 @@
     {
       "title": "There Is No Antimemetics Division",
       "author": "qntm",
-      "coverUrl": "https://assets.hardcover.app/edition/30410256/1b50835a-b0dd-4d43-9ec5-cc0038fea7e5.jpg",
+      "coverUrl": "https://assets.hardcover.app/external_data/193765/b3af02e08dc537afe1627e9cc6a20131874e056d.jpeg",
       "hardcoverUrl": "https://hardcover.app/books/there-is-no-antimemetics-division"
     },
     {
@@ -152,12 +182,6 @@
       "hardcoverUrl": "https://hardcover.app/books/un-chant-de-noel-1843"
     },
     {
-      "title": "Game Changer",
-      "author": "Rachel Reid",
-      "coverUrl": "https://assets.hardcover.app/edition/30478872/80c27efd73b01e56e2c6405846656be0e608f959.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/game-changer-2018"
-    },
-    {
       "title": "The Will of the Many",
       "author": "James Islington",
       "coverUrl": "https://assets.hardcover.app/edition/30615590/1fe836a2-7004-4378-add0-dc78b96b2d17.jpg",
@@ -168,12 +192,6 @@
       "author": "Susanna Clarke",
       "coverUrl": "https://assets.hardcover.app/editions/30480426/ec301cb7-b118-48fd-aa3a-5d336e61c182.jpg",
       "hardcoverUrl": "https://hardcover.app/books/piranesi"
-    },
-    {
-      "title": "Heated Rivalry",
-      "author": "Rachel Reid",
-      "coverUrl": "https://assets.hardcover.app/edition/32508798/62c09422-138d-42ef-81d9-a9599e2fba5c.jpg",
-      "hardcoverUrl": "https://hardcover.app/books/heated-rivalry"
     },
     {
       "title": "The Butcher's Masquerade",
@@ -294,30 +312,6 @@
       "author": "Neil Shubin",
       "coverUrl": "https://assets.hardcover.app/external_data/1124978/e0a1ecbb35d2fb9e9f86805ee712c43811854915.jpeg",
       "hardcoverUrl": "https://hardcover.app/books/some-assembly-required"
-    },
-    {
-      "title": "The Creative Act: A Way of Being",
-      "author": "Rick Rubin",
-      "coverUrl": "https://assets.hardcover.app/editions/30513220/57736a93-b5e0-4f61-9487-4e2586617bee.jpg",
-      "hardcoverUrl": "https://hardcover.app/books/the-creative-act"
-    },
-    {
-      "title": "This Is Water: Some Thoughts, Delivered on a Significant Occasion, about Living a Compassionate Life",
-      "author": "David Foster Wallace",
-      "coverUrl": "https://assets.hardcover.app/edition/8922668/53a4be73f807eb5a86d5bdd069388b47ac0c1f54.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/this-is-water"
-    },
-    {
-      "title": "The Sum of Us: What Racism Costs Everyone and How We Can Prosper Together",
-      "author": "Heather  McGhee",
-      "coverUrl": "https://assets.hardcover.app/edition/14862921/1e1263c6be7fb1b7afd54bc07f1dcbff61bf7398.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/the-sum-of-us"
-    },
-    {
-      "title": "Start Something That Matters",
-      "author": "Blake Mycoskie",
-      "coverUrl": "https://assets.hardcover.app/edition/30428765/8ea49e7ad201f461c08c2d8b0d62fef44043844d.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/start-something-that-matters"
     }
   ]
 }
