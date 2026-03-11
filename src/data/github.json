@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-10T03:58:20.457Z",
+  "lastUpdated": "2026-03-11T03:58:25.224Z",
   "contributions": {
-    "total": 7002,
-    "commits": 4721,
-    "pullRequests": 817,
+    "total": 7036,
+    "commits": 4740,
+    "pullRequests": 825,
     "pullRequestReviews": 10,
-    "issues": 1339,
+    "issues": 1345,
     "restricted": 1
   },
   "calendar": {
@@ -2047,7 +2047,12 @@
           },
           {
             "date": "2026-03-09",
-            "count": 4,
+            "count": 7,
+            "level": 1
+          },
+          {
+            "date": "2026-03-10",
+            "count": 31,
             "level": 1
           }
         ]
@@ -2055,11 +2060,187 @@
     ]
   },
   "streak": {
-    "current": 121,
-    "longest": 121,
+    "current": 122,
+    "longest": 122,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "DragTooltip ghost persists after drop in Firefox 148",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1444",
+      "date": "2026-03-11T01:38:26Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Drag and drop from device palette broken in Safari 26",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1443",
+      "date": "2026-03-11T01:38:23Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "docs: Trim SPEC.md to essentials (~200 lines)",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1399",
+      "date": "2026-03-11T00:04:34Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "E2E: Restore replace-rack and clear-rack workflow tests",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1438",
+      "date": "2026-03-10T23:43:44Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Fix migration E2E tests for current YAML schema",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1401",
+      "date": "2026-03-10T23:43:11Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "E2E: Rewrite responsive.spec.ts against current toolbar/sidebar UI",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1262",
+      "date": "2026-03-10T22:08:07Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Disabled Test Triage",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1226",
+      "date": "2026-03-10T22:07:15Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "claude-code-tool-manager",
+      "repoUrl": "https://github.com/tylergraydev/claude-code-tool-manager",
+      "title": "[Feature]: Clarify - what is the Gateway",
+      "url": "https://github.com/tylergraydev/claude-code-tool-manager/issues/152",
+      "date": "2026-03-10T21:58:46Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "claude-code-tool-manager",
+      "repoUrl": "https://github.com/tylergraydev/claude-code-tool-manager",
+      "title": "[Feature]: Enable discussions",
+      "url": "https://github.com/tylergraydev/claude-code-tool-manager/issues/151",
+      "date": "2026-03-10T21:57:15Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Full E2E test suite failing",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1425",
+      "date": "2026-03-10T21:33:53Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "netbox-mcp-server",
+      "repoUrl": "https://github.com/netboxlabs/netbox-mcp-server",
+      "title": "Cannot use v2 tokens due to hardcoded auth scheme",
+      "url": "https://github.com/netboxlabs/netbox-mcp-server/issues/78",
+      "date": "2026-03-10T19:40:35Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Fix device-name undo/redo and metadata cross-rack E2E tests",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1405",
+      "date": "2026-03-10T17:58:17Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Selector Reliability Upgrade",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1228",
+      "date": "2026-03-10T17:58:12Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: shared bayed rack URL loads only first bay as column rack",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1207",
+      "date": "2026-03-10T17:27:57Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Bug: persistence should degrade offline after /api/layouts autosave/list failures",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1088",
+      "date": "2026-03-10T17:27:47Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "spike: Define E2E testing architecture (data-testid, page objects, fixtures)",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1393",
+      "date": "2026-03-10T17:06:17Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2207,185 +2388,9 @@
       "type": "issue",
       "repo": "Rackula",
       "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Fix device-name undo/redo and metadata cross-rack E2E tests",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1405",
-      "date": "2026-03-06T09:12:29Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
       "title": "Enable file chooser E2E tests with clickLoad helper",
       "url": "https://github.com/RackulaLives/Rackula/issues/1403",
       "date": "2026-03-06T09:12:18Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Implement descending units, starting unit, and form factor in NewRackForm",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1402",
-      "date": "2026-03-06T09:12:13Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Fix migration E2E tests for current YAML schema",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1401",
-      "date": "2026-03-06T09:12:08Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "docs: Trim SPEC.md to essentials (~200 lines)",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1399",
-      "date": "2026-03-06T04:47:14Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "refactor: Split EditPanel.svelte into tabbed sections",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1398",
-      "date": "2026-03-06T03:17:08Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "refactor: Split Rack.svelte into rendering + interaction layers",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1397",
-      "date": "2026-03-06T03:17:06Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "refactor: Split export.ts into format-specific modules",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1396",
-      "date": "2026-03-06T03:17:05Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "refactor: Split App.svelte into shell + feature modules",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1395",
-      "date": "2026-03-06T03:17:03Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "chore: CI/Build reliability improvements",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1394",
-      "date": "2026-03-06T03:16:03Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "spike: Define E2E testing architecture (data-testid, page objects, fixtures)",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1393",
-      "date": "2026-03-06T03:16:01Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Storage resilience — handle localStorage/sessionStorage failures gracefully",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1392",
-      "date": "2026-03-06T03:15:35Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Import/load failures should show user feedback instead of empty rack",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1391",
-      "date": "2026-03-06T03:15:35Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Persistence errors should surface to user with retry option",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1390",
-      "date": "2026-03-06T03:15:32Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Export failures should surface to user via toast",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1389",
-      "date": "2026-03-06T03:15:31Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Epic: Component Decomposition (large file splits)",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1388",
-      "date": "2026-03-06T03:15:04Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Epic: User-Facing Error Handling Audit",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1387",
-      "date": "2026-03-06T03:14:51Z",
       "meta": {
         "state": "OPEN"
       }
@@ -2394,9 +2399,9 @@
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 96,
-    "contributionsThisMonth": 873,
-    "repositoriesThisWeek": 1
+    "contributionsThisWeek": 120,
+    "contributionsThisMonth": 864,
+    "repositoriesThisWeek": 3
   },
   "repositories": [
     {
@@ -2406,6 +2411,14 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gwilym.ca"
+    },
+    {
+      "name": "gvns.ca",
+      "description": "",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/gvns.ca"
     },
     {
       "name": "steam-json-bourne",
@@ -2422,14 +2435,6 @@
       "languageColor": "#3178c6",
       "stars": 0,
       "url": "https://github.com/ggfevans/cloud-observe"
-    },
-    {
-      "name": "gvns.ca",
-      "description": "",
-      "language": "Astro",
-      "languageColor": "#ff5a03",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/gvns.ca"
     },
     {
       "name": "SearXNG-Community-Scripts-ProxmoxVE",
