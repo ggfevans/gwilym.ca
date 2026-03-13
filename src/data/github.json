@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-03-11T03:58:25.224Z",
+  "lastUpdated": "2026-03-13T03:59:23.815Z",
   "contributions": {
-    "total": 7036,
-    "commits": 4740,
-    "pullRequests": 825,
+    "total": 7047,
+    "commits": 4748,
+    "pullRequests": 826,
     "pullRequestReviews": 10,
     "issues": 1345,
     "restricted": 1
@@ -2052,7 +2052,17 @@
           },
           {
             "date": "2026-03-10",
-            "count": 31,
+            "count": 34,
+            "level": 1
+          },
+          {
+            "date": "2026-03-11",
+            "count": 6,
+            "level": 1
+          },
+          {
+            "date": "2026-03-12",
+            "count": 2,
             "level": 1
           }
         ]
@@ -2060,8 +2070,8 @@
     ]
   },
   "streak": {
-    "current": 122,
-    "longest": 122,
+    "current": 124,
+    "longest": 124,
     "today": false
   },
   "recentActivity": [
@@ -2069,11 +2079,33 @@
       "type": "issue",
       "repo": "Rackula",
       "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "refactor: Split App.svelte into shell + feature modules",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1395",
+      "date": "2026-03-12T08:18:19Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "CI Alert: Deploy Prod failed for v0.9.1",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1448",
+      "date": "2026-03-11T07:20:51Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
       "title": "DragTooltip ghost persists after drop in Firefox 148",
       "url": "https://github.com/RackulaLives/Rackula/issues/1444",
-      "date": "2026-03-11T01:38:26Z",
+      "date": "2026-03-11T05:40:46Z",
       "meta": {
-        "state": "OPEN"
+        "state": "CLOSED"
       }
     },
     {
@@ -2082,9 +2114,9 @@
       "repoUrl": "https://github.com/RackulaLives/Rackula",
       "title": "Drag and drop from device palette broken in Safari 26",
       "url": "https://github.com/RackulaLives/Rackula/issues/1443",
-      "date": "2026-03-11T01:38:23Z",
+      "date": "2026-03-11T05:40:46Z",
       "meta": {
-        "state": "OPEN"
+        "state": "CLOSED"
       }
     },
     {
@@ -2150,7 +2182,7 @@
       "url": "https://github.com/tylergraydev/claude-code-tool-manager/issues/152",
       "date": "2026-03-10T21:58:46Z",
       "meta": {
-        "state": "OPEN"
+        "state": "CLOSED"
       }
     },
     {
@@ -2161,7 +2193,7 @@
       "url": "https://github.com/tylergraydev/claude-code-tool-manager/issues/151",
       "date": "2026-03-10T21:57:15Z",
       "meta": {
-        "state": "OPEN"
+        "state": "CLOSED"
       }
     },
     {
@@ -2372,35 +2404,13 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Rewrite shelf-category E2E tests for accordion palette structure",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1400",
-      "date": "2026-03-06T12:16:47Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Enable file chooser E2E tests with clickLoad helper",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1403",
-      "date": "2026-03-06T09:12:18Z",
-      "meta": {
-        "state": "OPEN"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 120,
-    "contributionsThisMonth": 864,
+    "contributionsThisWeek": 86,
+    "contributionsThisMonth": 697,
     "repositoriesThisWeek": 3
   },
   "repositories": [
@@ -2413,14 +2423,6 @@
       "url": "https://github.com/ggfevans/gwilym.ca"
     },
     {
-      "name": "gvns.ca",
-      "description": "",
-      "language": "Astro",
-      "languageColor": "#ff5a03",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/gvns.ca"
-    },
-    {
       "name": "steam-json-bourne",
       "description": "",
       "language": "JavaScript",
@@ -2429,12 +2431,28 @@
       "url": "https://github.com/ggfevans/steam-json-bourne"
     },
     {
+      "name": "gvns.ca",
+      "description": "",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/gvns.ca"
+    },
+    {
       "name": "cloud-observe",
       "description": "",
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "stars": 0,
       "url": "https://github.com/ggfevans/cloud-observe"
+    },
+    {
+      "name": "irc-topic-notify",
+      "description": "Never miss when someone finally updates the channel topic. Push notifications for IRC topic changes. The bot stays quiet.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/irc-topic-notify"
     },
     {
       "name": "SearXNG-Community-Scripts-ProxmoxVE",
@@ -2491,14 +2509,6 @@
       "languageColor": "#89e051",
       "stars": 1,
       "url": "https://github.com/ggfevans/rainforest-EAGLE-commands"
-    },
-    {
-      "name": "listenbrainz-json-bourne",
-      "description": "GitHub Action to grab your ListenBrainz data and dump it to JSON. No auth required. Good Will Hunting for your music data.",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 1,
-      "url": "https://github.com/ggfevans/listenbrainz-json-bourne"
     }
   ]
 }
