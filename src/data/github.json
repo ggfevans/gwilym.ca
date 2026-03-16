@@ -1,54 +1,15 @@
 {
-  "lastUpdated": "2026-03-15T04:11:59.080Z",
+  "lastUpdated": "2026-03-16T04:13:46.844Z",
   "contributions": {
-    "total": 7086,
-    "commits": 4768,
-    "pullRequests": 836,
+    "total": 7112,
+    "commits": 4780,
+    "pullRequests": 841,
     "pullRequestReviews": 10,
-    "issues": 1354,
+    "issues": 1363,
     "restricted": 1
   },
   "calendar": {
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-03-09",
-            "count": 9,
-            "level": 1
-          },
-          {
-            "date": "2025-03-10",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-03-11",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-03-12",
-            "count": 2,
-            "level": 1
-          },
-          {
-            "date": "2025-03-13",
-            "count": 3,
-            "level": 1
-          },
-          {
-            "date": "2025-03-14",
-            "count": 1,
-            "level": 1
-          },
-          {
-            "date": "2025-03-15",
-            "count": 0,
-            "level": 0
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -2067,12 +2028,21 @@
           },
           {
             "date": "2026-03-13",
-            "count": 30,
+            "count": 31,
             "level": 1
           },
           {
             "date": "2026-03-14",
-            "count": 3,
+            "count": 13,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-03-15",
+            "count": 15,
             "level": 1
           }
         ]
@@ -2080,11 +2050,143 @@
     ]
   },
   "streak": {
-    "current": 126,
-    "longest": 126,
+    "current": 127,
+    "longest": 127,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "Improve error handling in fetch-gaming push retry loop",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/188",
+      "date": "2026-03-15T12:06:17Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "Fix stale references in keystatic-implementation-prompt.md",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/189",
+      "date": "2026-03-15T11:56:10Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore: complete Astro v6 upgrade — remaining breaking changes and deprecations",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/195",
+      "date": "2026-03-15T11:50:42Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore: apply filename extraction to work collection IDs in llms.txt",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/194",
+      "date": "2026-03-15T11:42:41Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore: extract shared getPostSlug() utility for content ID filename extraction",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/193",
+      "date": "2026-03-15T11:42:41Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Auto-import undo may remove unrelated device types",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1479",
+      "date": "2026-03-15T10:49:53Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Placement image re-keying on device move",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1478",
+      "date": "2026-03-15T10:49:49Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: auto-imported device types don't mark store dirty on placement failure",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1470",
+      "date": "2026-03-15T04:38:57Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: device/device-type removal loses images permanently — undo cannot restore them",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1477",
+      "date": "2026-03-15T04:31:19Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: addBayedRackGroup and duplicateRack bypass undo/redo",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1476",
+      "date": "2026-03-15T04:31:11Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: addBayToGroup creates orphan rack on undo",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1475",
+      "date": "2026-03-15T04:31:03Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: duplicateRack uses shallow copy — nested device state shared between original and copy",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1474",
+      "date": "2026-03-15T04:30:58Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2105,39 +2207,6 @@
       "date": "2026-03-14T08:12:40Z",
       "meta": {
         "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: auto-imported device types don't mark store dirty on placement failure",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1470",
-      "date": "2026-03-14T01:14:45Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "Fix stale references in keystatic-implementation-prompt.md",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/189",
-      "date": "2026-03-14T01:13:50Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "Improve error handling in fetch-gaming push retry loop",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/188",
-      "date": "2026-03-14T01:13:42Z",
-      "meta": {
-        "state": "OPEN"
       }
     },
     {
@@ -2271,157 +2340,14 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "DragTooltip ghost persists after drop in Firefox 148",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1444",
-      "date": "2026-03-11T05:40:46Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Drag and drop from device palette broken in Safari 26",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1443",
-      "date": "2026-03-11T05:40:46Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "docs: Trim SPEC.md to essentials (~200 lines)",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1399",
-      "date": "2026-03-11T00:04:34Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "E2E: Restore replace-rack and clear-rack workflow tests",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1438",
-      "date": "2026-03-10T23:43:44Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Fix migration E2E tests for current YAML schema",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1401",
-      "date": "2026-03-10T23:43:11Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "E2E: Rewrite responsive.spec.ts against current toolbar/sidebar UI",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1262",
-      "date": "2026-03-10T22:08:07Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Disabled Test Triage",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1226",
-      "date": "2026-03-10T22:07:15Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "claude-code-tool-manager",
-      "repoUrl": "https://github.com/tylergraydev/claude-code-tool-manager",
-      "title": "[Feature]: Clarify - what is the Gateway",
-      "url": "https://github.com/tylergraydev/claude-code-tool-manager/issues/152",
-      "date": "2026-03-10T21:58:46Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "claude-code-tool-manager",
-      "repoUrl": "https://github.com/tylergraydev/claude-code-tool-manager",
-      "title": "[Feature]: Enable discussions",
-      "url": "https://github.com/tylergraydev/claude-code-tool-manager/issues/151",
-      "date": "2026-03-10T21:57:15Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Full E2E test suite failing",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1425",
-      "date": "2026-03-10T21:33:53Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "netbox-mcp-server",
-      "repoUrl": "https://github.com/netboxlabs/netbox-mcp-server",
-      "title": "Cannot use v2 tokens due to hardcoded auth scheme",
-      "url": "https://github.com/netboxlabs/netbox-mcp-server/issues/78",
-      "date": "2026-03-10T19:40:35Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Fix device-name undo/redo and metadata cross-rack E2E tests",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1405",
-      "date": "2026-03-10T17:58:17Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Selector Reliability Upgrade",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1228",
-      "date": "2026-03-10T17:58:12Z",
-      "meta": {
-        "state": "CLOSED"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 107,
-    "contributionsThisMonth": 698,
-    "repositoriesThisWeek": 4
+    "contributionsThisWeek": 113,
+    "contributionsThisMonth": 689,
+    "repositoriesThisWeek": 2
   },
   "repositories": [
     {
