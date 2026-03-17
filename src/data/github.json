@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-16T04:13:46.844Z",
+  "lastUpdated": "2026-03-17T04:02:48.697Z",
   "contributions": {
-    "total": 7112,
-    "commits": 4780,
-    "pullRequests": 841,
+    "total": 7140,
+    "commits": 4797,
+    "pullRequests": 851,
     "pullRequestReviews": 10,
-    "issues": 1363,
+    "issues": 1367,
     "restricted": 1
   },
   "calendar": {
@@ -2042,6 +2042,11 @@
         "days": [
           {
             "date": "2026-03-15",
+            "count": 43,
+            "level": 2
+          },
+          {
+            "date": "2026-03-16",
             "count": 15,
             "level": 1
           }
@@ -2050,11 +2055,66 @@
     ]
   },
   "streak": {
-    "current": 127,
-    "longest": 127,
+    "current": 128,
+    "longest": 128,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "refactor(layout): phase 3 extract raw mutators and command adapters",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1078",
+      "date": "2026-03-16T08:02:30Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "github-json-bourne",
+      "repoUrl": "https://github.com/ggfevans/github-json-bourne",
+      "title": "feat: add live integration test workflow",
+      "url": "https://github.com/ggfevans/github-json-bourne/issues/4",
+      "date": "2026-03-16T07:40:28Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Bug: Dangling cable endpoints when device type is deleted",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1483",
+      "date": "2026-03-16T06:56:42Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Bug: metadata.name not synchronized when first rack is created",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1482",
+      "date": "2026-03-16T06:56:40Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Bug: updateRackRaw has layout name sync side effect in raw mutator",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1481",
+      "date": "2026-03-16T06:56:37Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
     {
       "type": "issue",
       "repo": "gvns.ca",
@@ -2219,135 +2279,14 @@
       "meta": {
         "state": "OPEN"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: RackFrame uses hardcoded SVG pattern ID causing duplicate DOM IDs in multi-rack layouts",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1466",
-      "date": "2026-03-13T23:47:39Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "feat: Prompt for layout name instead of defaulting to rack name",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1005",
-      "date": "2026-03-13T12:00:14Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "e2e: Fix file chooser tests with page.setInputFiles()",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1422",
-      "date": "2026-03-13T11:31:00Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "e2e: Add createTestLayout() factory builder",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1421",
-      "date": "2026-03-13T11:20:37Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Context menu move up/down buttons don't check for device collisions",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1462",
-      "date": "2026-03-13T07:59:57Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Safari pointer drag handleDragEnd ignores container-drop and invalid actions",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1461",
-      "date": "2026-03-13T07:59:55Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "e2e: Centralise selectors into locators.ts",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1418",
-      "date": "2026-03-13T07:47:42Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Fix 102 E2E test failures blocking CI",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1385",
-      "date": "2026-03-13T05:36:12Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Full E2E test suite failing",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1449",
-      "date": "2026-03-13T05:03:15Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "refactor: Split App.svelte into shell + feature modules",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1395",
-      "date": "2026-03-12T08:18:19Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "CI Alert: Deploy Prod failed for v0.9.1",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1448",
-      "date": "2026-03-11T07:20:51Z",
-      "meta": {
-        "state": "CLOSED"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 113,
-    "contributionsThisMonth": 689,
-    "repositoriesThisWeek": 2
+    "contributionsThisWeek": 149,
+    "contributionsThisMonth": 709,
+    "repositoriesThisWeek": 3
   },
   "repositories": [
     {
@@ -2359,12 +2298,12 @@
       "url": "https://github.com/ggfevans/gwilym.ca"
     },
     {
-      "name": "gvns.ca",
+      "name": "github-json-bourne",
       "description": "",
-      "language": "Astro",
-      "languageColor": "#ff5a03",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/gvns.ca"
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 1,
+      "url": "https://github.com/ggfevans/github-json-bourne"
     },
     {
       "name": "steam-json-bourne",
@@ -2373,6 +2312,38 @@
       "languageColor": "#f1e05a",
       "stars": 0,
       "url": "https://github.com/ggfevans/steam-json-bourne"
+    },
+    {
+      "name": "hardcover-json-bourne",
+      "description": "Fetch your Hardcover.app reading data as JSON for static sites. ",
+      "language": "Shell",
+      "languageColor": "#89e051",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/hardcover-json-bourne"
+    },
+    {
+      "name": "trakt-json-bourne",
+      "description": "GitHub Action that turns Trakt watch history into JSON with optional TMDB posters. For use in static sites.",
+      "language": "Shell",
+      "languageColor": "#89e051",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/trakt-json-bourne"
+    },
+    {
+      "name": "gvns.ca",
+      "description": "",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/gvns.ca"
+    },
+    {
+      "name": "listenbrainz-json-bourne",
+      "description": "GitHub Action to grab your ListenBrainz data and dump it to JSON. No auth required. Good Will Hunting for your music data.",
+      "language": "Shell",
+      "languageColor": "#89e051",
+      "stars": 1,
+      "url": "https://github.com/ggfevans/listenbrainz-json-bourne"
     },
     {
       "name": "cloud-observe",
@@ -2413,38 +2384,6 @@
       "languageColor": "#f1e05a",
       "stars": 1,
       "url": "https://github.com/ggfevans/alseerr"
-    },
-    {
-      "name": "github-json-bourne",
-      "description": "",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": 1,
-      "url": "https://github.com/ggfevans/github-json-bourne"
-    },
-    {
-      "name": "trakt-json-bourne",
-      "description": "GitHub Action that turns Trakt watch history into JSON with optional TMDB posters. For use in static sites.",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/trakt-json-bourne"
-    },
-    {
-      "name": "obsidian-plugin-playbooks",
-      "description": "Obsidian plugin development skill with CLI playbooks for dev loop and release checks.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/obsidian-plugin-playbooks"
-    },
-    {
-      "name": "rainforest-EAGLE-commands",
-      "description": "",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 1,
-      "url": "https://github.com/ggfevans/rainforest-EAGLE-commands"
     }
   ]
 }
