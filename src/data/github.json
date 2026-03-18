@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-17T04:02:48.697Z",
+  "lastUpdated": "2026-03-18T04:08:14.419Z",
   "contributions": {
-    "total": 7140,
-    "commits": 4797,
+    "total": 7151,
+    "commits": 4807,
     "pullRequests": 851,
     "pullRequestReviews": 10,
     "issues": 1367,
@@ -2047,7 +2047,12 @@
           },
           {
             "date": "2026-03-16",
-            "count": 15,
+            "count": 17,
+            "level": 1
+          },
+          {
+            "date": "2026-03-17",
+            "count": 9,
             "level": 1
           }
         ]
@@ -2055,8 +2060,8 @@
     ]
   },
   "streak": {
-    "current": 128,
-    "longest": 128,
+    "current": 129,
+    "longest": 129,
     "today": false
   },
   "recentActivity": [
@@ -2268,24 +2273,13 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: Pointer-drag events lack SVG bounds check in multi-rack layouts",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1467",
-      "date": "2026-03-13T23:47:42Z",
-      "meta": {
-        "state": "OPEN"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 149,
-    "contributionsThisMonth": 709,
+    "contributionsThisWeek": 126,
+    "contributionsThisMonth": 655,
     "repositoriesThisWeek": 3
   },
   "repositories": [
@@ -2296,6 +2290,22 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gwilym.ca"
+    },
+    {
+      "name": "gvns.ca",
+      "description": "",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/gvns.ca"
+    },
+    {
+      "name": "config-nix-charlie",
+      "description": "NixOS configuration for a 2018 MacBook Pro (T2 chip), running as a headless homelab server",
+      "language": "Nix",
+      "languageColor": "#7e7eff",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/config-nix-charlie"
     },
     {
       "name": "github-json-bourne",
@@ -2328,14 +2338,6 @@
       "languageColor": "#89e051",
       "stars": 0,
       "url": "https://github.com/ggfevans/trakt-json-bourne"
-    },
-    {
-      "name": "gvns.ca",
-      "description": "",
-      "language": "Astro",
-      "languageColor": "#ff5a03",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/gvns.ca"
     },
     {
       "name": "listenbrainz-json-bourne",
@@ -2376,14 +2378,6 @@
       "languageColor": "#00ADD8",
       "stars": 12,
       "url": "https://github.com/ggfevans/endorse"
-    },
-    {
-      "name": "alseerr",
-      "description": "Search and request movies & TV shows from your Seerr instance, right from Alfred.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": 1,
-      "url": "https://github.com/ggfevans/alseerr"
     }
   ]
 }
