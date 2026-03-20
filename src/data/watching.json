@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-03-19T00:04:19Z",
+  "lastUpdated": "2026-03-20T00:03:59Z",
   "recentlyWatched": [
+    {
+      "title": "In the Heights",
+      "type": "movie",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/RO4KoJyoQMQzh9z76d4v4FJMmJ.jpg",
+      "url": "https://trakt.tv/movies/in-the-heights-2021",
+      "watchedDate": "2026-03-19T06:09:00.000Z"
+    },
+    {
+      "title": "Louis Theroux: Inside the Manosphere",
+      "type": "movie",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+      "url": "https://trakt.tv/movies/louis-theroux-inside-the-manosphere-2026",
+      "watchedDate": "2026-03-18T06:10:00.000Z"
+    },
     {
       "title": "Mr. Bean — S01E10",
       "type": "show",
@@ -52,7 +66,7 @@
     }
   ],
   "stats": {
-    "moviesThisMonth": 0,
+    "moviesThisMonth": 2,
     "showsThisMonth": 0
   }
 }
