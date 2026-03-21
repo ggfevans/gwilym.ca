@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-20T00:10:28Z",
+  "lastUpdated": "2026-03-21T00:09:09Z",
   "currentlyReading": [
     {
       "title": "Enshittification: Why Everything Suddenly Got Worse and What to Do About It",
@@ -18,7 +18,7 @@
     {
       "title": "Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers",
       "author": "Andy Greenberg",
-      "coverUrl": "https://assets.hardcover.app/external_data/36164466/d87c82e88299c17da21c60b069381fa4c2dd8b37.jpeg",
+      "coverUrl": "https://assets.hardcover.app/edition/30745345/21a193da-1e24-4297-9932-c2d5a1f1898c.jpg",
       "hardcoverUrl": "https://hardcover.app/books/sandworm",
       "rating": 4.0,
       "dateFinished": "2026-03-09T11:12:31.626263+00:00"
@@ -121,6 +121,12 @@
     }
   ],
   "wantToRead": [
+    {
+      "title": "Practical Programming: An Introduction to Computer Science Using Python 3",
+      "author": "Paul Gries",
+      "coverUrl": "https://assets.hardcover.app/edition/32385093/b2832afde8add9b38b4166a8cd525ee7a55104b1.jpeg",
+      "hardcoverUrl": "https://hardcover.app/books/practical-programming-python-3"
+    },
     {
       "title": "The Man Without a Face",
       "author": "Masha Gessen",
@@ -306,12 +312,6 @@
       "author": "Rebecca Giblin",
       "coverUrl": "https://assets.hardcover.app/external_data/59737350/36a92f7c334e832ca7764646f3510fd781420d88.jpeg",
       "hardcoverUrl": "https://hardcover.app/books/chokepoint-capitalism"
-    },
-    {
-      "title": "Some Assembly Required: Decoding Four Billion Years of Life, from Ancient Fossils to DNA",
-      "author": "Neil Shubin",
-      "coverUrl": "https://assets.hardcover.app/external_data/1124978/e0a1ecbb35d2fb9e9f86805ee712c43811854915.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/some-assembly-required"
     }
   ]
 }
