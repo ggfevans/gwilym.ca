@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-03-20T00:03:59Z",
+  "lastUpdated": "2026-03-21T00:03:23Z",
   "recentlyWatched": [
+    {
+      "title": "Springsteen: Deliver Me from Nowhere",
+      "type": "movie",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/csBV3eq4RDjNg1acNQ8kwOZyPlZ.jpg",
+      "url": "https://trakt.tv/movies/springsteen-deliver-me-from-nowhere-2025",
+      "watchedDate": "2026-03-20T06:00:00.000Z"
+    },
     {
       "title": "In the Heights",
       "type": "movie",
@@ -66,7 +73,7 @@
     }
   ],
   "stats": {
-    "moviesThisMonth": 2,
+    "moviesThisMonth": 3,
     "showsThisMonth": 0
   }
 }
