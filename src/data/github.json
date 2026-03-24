@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-23T04:10:17.226Z",
+  "lastUpdated": "2026-03-24T04:03:21.182Z",
   "contributions": {
-    "total": 7156,
-    "commits": 4811,
-    "pullRequests": 851,
+    "total": 7153,
+    "commits": 4807,
+    "pullRequests": 855,
     "pullRequestReviews": 10,
-    "issues": 1368,
+    "issues": 1367,
     "restricted": 1
   },
   "calendar": {
@@ -2042,6 +2042,11 @@
         "days": [
           {
             "date": "2026-03-22",
+            "count": 10,
+            "level": 1
+          },
+          {
+            "date": "2026-03-23",
             "count": 1,
             "level": 1
           }
@@ -2050,7 +2055,7 @@
     ]
   },
   "streak": {
-    "current": 1,
+    "current": 2,
     "longest": 132,
     "today": false
   },
@@ -2059,9 +2064,86 @@
       "type": "issue",
       "repo": "Rackula",
       "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: Persistence errors should surface to user with retry option",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1390",
+      "date": "2026-03-23T05:20:06Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: RackFrame uses hardcoded SVG pattern ID causing duplicate DOM IDs in multi-rack layouts",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1466",
+      "date": "2026-03-23T05:07:07Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: Import/load failures should show user feedback instead of empty rack",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1391",
+      "date": "2026-03-23T04:51:40Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: Share URL only encodes first rack in multi-rack layouts",
+      "url": "https://github.com/RackulaLives/Rackula/issues/780",
+      "date": "2026-03-23T04:51:09Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: Context menu move up/down buttons don't check for device collisions",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1462",
+      "date": "2026-03-23T04:49:19Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: setup.test.ts fails with effect_update_depth_exceeded",
+      "url": "https://github.com/RackulaLives/Rackula/issues/751",
+      "date": "2026-03-23T04:46:13Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix: Export failures should surface to user via toast",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1389",
+      "date": "2026-03-23T04:26:52Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
       "title": "chore(deps): monitor transitive security alerts in better-auth dependency tree",
       "url": "https://github.com/RackulaLives/Rackula/issues/1503",
-      "date": "2026-03-23T03:57:39Z",
+      "date": "2026-03-23T04:19:53Z",
       "meta": {
         "state": "OPEN"
       }
@@ -2197,91 +2279,14 @@
       "meta": {
         "state": "OPEN"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: auto-imported device types don't mark store dirty on placement failure",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1470",
-      "date": "2026-03-15T04:38:57Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: device/device-type removal loses images permanently — undo cannot restore them",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1477",
-      "date": "2026-03-15T04:31:19Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: addBayedRackGroup and duplicateRack bypass undo/redo",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1476",
-      "date": "2026-03-15T04:31:11Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: addBayToGroup creates orphan rack on undo",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1475",
-      "date": "2026-03-15T04:31:03Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: duplicateRack uses shallow copy — nested device state shared between original and copy",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1474",
-      "date": "2026-03-15T04:30:58Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: slot-position changes during device move bypass undo/redo system",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1471",
-      "date": "2026-03-15T04:01:12Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "Pin steam-json-bourne to commit SHA",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/187",
-      "date": "2026-03-14T08:12:40Z",
-      "meta": {
-        "state": "CLOSED"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 31,
-    "contributionsThisMonth": 503,
-    "repositoriesThisWeek": 2
+    "contributionsThisWeek": 24,
+    "contributionsThisMonth": 463,
+    "repositoriesThisWeek": 1
   },
   "repositories": [
     {
