@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-24T04:03:21.182Z",
+  "lastUpdated": "2026-03-25T04:04:36.919Z",
   "contributions": {
-    "total": 7153,
-    "commits": 4807,
+    "total": 7162,
+    "commits": 4814,
     "pullRequests": 855,
     "pullRequestReviews": 10,
-    "issues": 1367,
+    "issues": 1368,
     "restricted": 1
   },
   "calendar": {
@@ -2047,7 +2047,12 @@
           },
           {
             "date": "2026-03-23",
-            "count": 1,
+            "count": 3,
+            "level": 1
+          },
+          {
+            "date": "2026-03-24",
+            "count": 7,
             "level": 1
           }
         ]
@@ -2055,11 +2060,22 @@
     ]
   },
   "streak": {
-    "current": 2,
+    "current": 3,
     "longest": 132,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "cmux",
+      "repoUrl": "https://github.com/manaflow-ai/cmux",
+      "title": "Respect configured text editor for Ghostty config files",
+      "url": "https://github.com/manaflow-ai/cmux/issues/2067",
+      "date": "2026-03-24T21:14:41Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2285,8 +2301,8 @@
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
     "contributionsThisWeek": 24,
-    "contributionsThisMonth": 463,
-    "repositoriesThisWeek": 1
+    "contributionsThisMonth": 459,
+    "repositoriesThisWeek": 2
   },
   "repositories": [
     {
@@ -2304,6 +2320,14 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gvns.ca"
+    },
+    {
+      "name": "config-nix-mac",
+      "description": "",
+      "language": "Nix",
+      "languageColor": "#7e7eff",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/config-nix-mac"
     },
     {
       "name": "endorse",
@@ -2376,14 +2400,6 @@
       "languageColor": "#3572A5",
       "stars": 0,
       "url": "https://github.com/ggfevans/irc-topic-notify"
-    },
-    {
-      "name": "SearXNG-Community-Scripts-ProxmoxVE",
-      "description": "SearXNG engine for searching the Proxmox VE Community Scripts catalogue (~480 scripts). Offline, cached, zero dependencies",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 11,
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE"
     }
   ]
 }
