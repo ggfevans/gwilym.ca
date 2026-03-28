@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-03-27T00:05:05Z",
+  "lastUpdated": "2026-03-28T00:04:34Z",
   "recentlyWatched": [
+    {
+      "title": "Peaky Blinders: The Immortal Man",
+      "type": "movie",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "url": "https://trakt.tv/movies/peaky-blinders-the-immortal-man-2026",
+      "watchedDate": "2026-03-27T09:28:00.000Z"
+    },
+    {
+      "title": "The Death of Stalin",
+      "type": "movie",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/AqH7q89NxGRDAyRWKqsL3OBtYfV.jpg",
+      "url": "https://trakt.tv/movies/the-death-of-stalin-2017",
+      "watchedDate": "2026-03-27T07:00:00.000Z"
+    },
     {
       "title": "Springsteen: Deliver Me from Nowhere",
       "type": "movie",
@@ -73,7 +87,7 @@
     }
   ],
   "stats": {
-    "moviesThisMonth": 3,
+    "moviesThisMonth": 5,
     "showsThisMonth": 0
   }
 }
