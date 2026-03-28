@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-27T04:12:05.294Z",
+  "lastUpdated": "2026-03-28T04:04:12.028Z",
   "contributions": {
-    "total": 7170,
-    "commits": 4819,
-    "pullRequests": 858,
+    "total": 7178,
+    "commits": 4820,
+    "pullRequests": 859,
     "pullRequestReviews": 10,
-    "issues": 1368,
+    "issues": 1374,
     "restricted": 1
   },
   "calendar": {
@@ -2064,13 +2064,18 @@
             "date": "2026-03-26",
             "count": 1,
             "level": 1
+          },
+          {
+            "date": "2026-03-27",
+            "count": 8,
+            "level": 1
           }
         ]
       }
     ]
   },
   "streak": {
-    "current": 5,
+    "current": 6,
     "longest": 132,
     "today": false
   },
@@ -2079,9 +2084,108 @@
       "type": "issue",
       "repo": "Rackula",
       "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Pictures of assets",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1517",
+      "date": "2026-03-28T03:06:42Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Device Image System: Discoverability & Coverage",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1544",
+      "date": "2026-03-28T02:51:01Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Auto-generate image coverage table",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1543",
+      "date": "2026-03-28T02:49:34Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Streamline image upload UX",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1542",
+      "date": "2026-03-28T02:49:32Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Image coverage expansion — NetBox audit & priority brands",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1541",
+      "date": "2026-03-28T02:49:30Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Image system UI discoverability",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1540",
+      "date": "2026-03-28T02:48:00Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Fix image expectations: README language & user docs",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1539",
+      "date": "2026-03-28T02:47:43Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Selection problem with the Double Bay",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1522",
+      "date": "2026-03-28T02:42:00Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
       "title": "fix: Storage resilience — handle localStorage/sessionStorage failures gracefully",
       "url": "https://github.com/RackulaLives/Rackula/issues/1392",
-      "date": "2026-03-26T11:03:03Z",
+      "date": "2026-03-28T02:40:56Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Can’t save layout (Kubernetes setup)",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1535",
+      "date": "2026-03-28T02:38:54Z",
       "meta": {
         "state": "OPEN"
       }
@@ -2093,17 +2197,6 @@
       "title": "Issue with the top / bottom Double Bay",
       "url": "https://github.com/RackulaLives/Rackula/issues/1520",
       "date": "2026-03-26T06:29:28Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Selection problem with the Double Bay",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1522",
-      "date": "2026-03-26T06:26:20Z",
       "meta": {
         "state": "OPEN"
       }
@@ -2316,68 +2409,13 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "chore: complete Astro v6 upgrade — remaining breaking changes and deprecations",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/195",
-      "date": "2026-03-15T11:50:42Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "chore: apply filename extraction to work collection IDs in llms.txt",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/194",
-      "date": "2026-03-15T11:42:41Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "chore: extract shared getPostSlug() utility for content ID filename extraction",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/193",
-      "date": "2026-03-15T11:42:41Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Auto-import undo may remove unrelated device types",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1479",
-      "date": "2026-03-15T10:49:53Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Placement image re-keying on device move",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1478",
-      "date": "2026-03-15T10:49:49Z",
-      "meta": {
-        "state": "OPEN"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 29,
-    "contributionsThisMonth": 434,
+    "contributionsThisWeek": 36,
+    "contributionsThisMonth": 400,
     "repositoriesThisWeek": 2
   },
   "repositories": [
