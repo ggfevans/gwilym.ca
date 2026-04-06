@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T00:12:16Z",
+  "lastUpdated": "2026-04-06T00:12:43Z",
   "currentlyReading": [
     {
       "title": "Enshittification: Why Everything Suddenly Got Worse and What to Do About It",
@@ -122,6 +122,12 @@
   ],
   "wantToRead": [
     {
+      "title": "Ways of Seeing",
+      "author": "John Berger",
+      "coverUrl": "https://assets.hardcover.app/edition/11057484/dbfd350653eff1b4a541125a59fcc656b4834778.jpeg",
+      "hardcoverUrl": "https://hardcover.app/books/ways-of-seeing"
+    },
+    {
       "title": "Practical Programming: An Introduction to Computer Science Using Python 3",
       "author": "Paul Gries",
       "coverUrl": "https://assets.hardcover.app/edition/32385093/b2832afde8add9b38b4166a8cd525ee7a55104b1.jpeg",
@@ -182,10 +188,10 @@
       "hardcoverUrl": "https://hardcover.app/books/adult-children-of-emotionally-immature-parents"
     },
     {
-      "title": "Un chant de Noël",
+      "title": "Cantico di Natale",
       "author": "Charles Dickens",
       "coverUrl": "https://assets.hardcover.app/edition/32696639/0f17ba13-4871-4ef2-8753-652747ee2c5d.jpg",
-      "hardcoverUrl": "https://hardcover.app/books/un-chant-de-noel-1843"
+      "hardcoverUrl": "https://hardcover.app/books/cantico-di-natale-1843"
     },
     {
       "title": "The Will of the Many",
@@ -306,12 +312,6 @@
       "author": "Patrick Lencioni",
       "coverUrl": "https://assets.hardcover.app/edition/30575274/d606b49e8a0dc8913b5b950dfff32396b62a6d38.jpeg",
       "hardcoverUrl": "https://hardcover.app/books/the-five-dysfunctions-of-a-team"
-    },
-    {
-      "title": "Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We'll Win Them Back",
-      "author": "Rebecca Giblin",
-      "coverUrl": "https://assets.hardcover.app/external_data/59737350/36a92f7c334e832ca7764646f3510fd781420d88.jpeg",
-      "hardcoverUrl": "https://hardcover.app/books/chokepoint-capitalism"
     }
   ]
 }
