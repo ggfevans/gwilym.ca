@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-06T04:17:17.290Z",
+  "lastUpdated": "2026-04-07T04:11:57.204Z",
   "contributions": {
-    "total": 7176,
-    "commits": 4819,
-    "pullRequests": 860,
+    "total": 7175,
+    "commits": 4815,
+    "pullRequests": 862,
     "pullRequestReviews": 10,
-    "issues": 1374,
+    "issues": 1376,
     "restricted": 1
   },
   "calendar": {
@@ -2042,19 +2042,46 @@
         "days": [
           {
             "date": "2026-04-05",
-            "count": 0,
-            "level": 0
+            "count": 4,
+            "level": 1
+          },
+          {
+            "date": "2026-04-06",
+            "count": 15,
+            "level": 1
           }
         ]
       }
     ]
   },
   "streak": {
-    "current": 0,
+    "current": 3,
     "longest": 132,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "ProxmoxVE",
+      "repoUrl": "https://github.com/community-scripts/ProxmoxVE",
+      "title": "/api/categories endpoint removed without replacement after migration to community-scripts.org",
+      "url": "https://github.com/community-scripts/ProxmoxVE/issues/13545",
+      "date": "2026-04-06T07:16:47Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
+      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
+      "title": "Engine broken: upstream API endpoint removed after community-scripts.org migration",
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/23",
+      "date": "2026-04-06T06:55:50Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2362,27 +2389,24 @@
       "meta": {
         "state": "OPEN"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "Improve error handling in fetch-gaming push retry loop",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/188",
-      "date": "2026-03-15T12:06:17Z",
-      "meta": {
-        "state": "CLOSED"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 7,
-    "contributionsThisMonth": 246,
-    "repositoriesThisWeek": 0
+    "contributionsThisWeek": 25,
+    "contributionsThisMonth": 261,
+    "repositoriesThisWeek": 2
   },
   "repositories": [
+    {
+      "name": "SearXNG-Community-Scripts-ProxmoxVE",
+      "description": "SearXNG engine for searching the Proxmox VE Community Scripts catalogue (~480 scripts). Offline, cached, zero dependencies",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 11,
+      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE"
+    },
     {
       "name": "gwilym.ca",
       "description": "",
@@ -2470,14 +2494,6 @@
       "languageColor": "#89e051",
       "stars": 0,
       "url": "https://github.com/ggfevans/trakt-json-bourne"
-    },
-    {
-      "name": "listenbrainz-json-bourne",
-      "description": "GitHub Action to grab your ListenBrainz data and dump it to JSON. No auth required. Good Will Hunting for your music data.",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 1,
-      "url": "https://github.com/ggfevans/listenbrainz-json-bourne"
     }
   ]
 }
