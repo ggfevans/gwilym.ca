@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-09T04:11:27.462Z",
+  "lastUpdated": "2026-04-10T04:18:12.191Z",
   "contributions": {
-    "total": 7206,
-    "commits": 4846,
+    "total": 7217,
+    "commits": 4856,
     "pullRequests": 862,
     "pullRequestReviews": 10,
     "issues": 1376,
@@ -2057,7 +2057,12 @@
           },
           {
             "date": "2026-04-08",
-            "count": 11,
+            "count": 12,
+            "level": 1
+          },
+          {
+            "date": "2026-04-09",
+            "count": 10,
             "level": 1
           }
         ]
@@ -2065,7 +2070,7 @@
     ]
   },
   "streak": {
-    "current": 5,
+    "current": 6,
     "longest": 132,
     "today": false
   },
@@ -2404,8 +2409,8 @@
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 56,
-    "contributionsThisMonth": 265,
+    "contributionsThisWeek": 67,
+    "contributionsThisMonth": 241,
     "repositoriesThisWeek": 2
   },
   "repositories": [
@@ -2416,6 +2421,14 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gwilym.ca"
+    },
+    {
+      "name": "zed-hujson",
+      "description": "",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/zed-hujson"
     },
     {
       "name": "gvns.ca",
@@ -2496,14 +2509,6 @@
       "languageColor": "#f1e05a",
       "stars": 1,
       "url": "https://github.com/ggfevans/github-json-bourne"
-    },
-    {
-      "name": "hardcover-json-bourne",
-      "description": "Fetch your Hardcover.app reading data as JSON for static sites. ",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/hardcover-json-bourne"
     }
   ]
 }
