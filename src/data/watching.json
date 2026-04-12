@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-11T00:06:40Z",
+  "lastUpdated": "2026-04-12T00:06:20Z",
   "recentlyWatched": [
+    {
+      "title": "Wake Up Dead Man: A Knives Out Mystery",
+      "type": "movie",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/qCOGGi8JBVEZMc3DVby8rUivyXz.jpg",
+      "url": "https://trakt.tv/movies/wake-up-dead-man-a-knives-out-mystery-2025",
+      "watchedDate": "2026-04-11T06:25:00.000Z"
+    },
     {
       "title": "Peaky Blinders: The Immortal Man",
       "type": "movie",
@@ -87,7 +94,7 @@
     }
   ],
   "stats": {
-    "moviesThisMonth": 0,
+    "moviesThisMonth": 1,
     "showsThisMonth": 0
   }
 }
