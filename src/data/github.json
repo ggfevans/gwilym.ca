@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-12T04:19:16.544Z",
+  "lastUpdated": "2026-04-13T04:24:34.350Z",
   "contributions": {
-    "total": 7252,
-    "commits": 4887,
+    "total": 7264,
+    "commits": 4899,
     "pullRequests": 865,
     "pullRequestReviews": 10,
     "issues": 1376,
@@ -10,45 +10,6 @@
   },
   "calendar": {
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-04-06",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-04-07",
-            "count": 3,
-            "level": 1
-          },
-          {
-            "date": "2025-04-08",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-04-09",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-04-10",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-04-11",
-            "count": 5,
-            "level": 1
-          },
-          {
-            "date": "2025-04-12",
-            "count": 0,
-            "level": 0
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -2076,11 +2037,20 @@
             "level": 1
           }
         ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-04-12",
+            "count": 12,
+            "level": 1
+          }
+        ]
       }
     ]
   },
   "streak": {
-    "current": 8,
+    "current": 9,
     "longest": 132,
     "today": false
   },
@@ -2419,8 +2389,8 @@
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 96,
-    "contributionsThisMonth": 263,
+    "contributionsThisWeek": 104,
+    "contributionsThisMonth": 244,
     "repositoriesThisWeek": 2
   },
   "repositories": [
@@ -2433,20 +2403,20 @@
       "url": "https://github.com/ggfevans/gwilym.ca"
     },
     {
-      "name": "zed-hujson",
-      "description": "",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/zed-hujson"
-    },
-    {
       "name": "gvns.ca",
       "description": "",
       "language": "Astro",
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gvns.ca"
+    },
+    {
+      "name": "zed-hujson",
+      "description": "",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/zed-hujson"
     },
     {
       "name": "route-to-art",
