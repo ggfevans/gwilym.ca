@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-16T04:21:57.206Z",
+  "lastUpdated": "2026-04-17T04:20:11.665Z",
   "contributions": {
-    "total": 7261,
-    "commits": 4899,
-    "pullRequests": 865,
+    "total": 7283,
+    "commits": 4910,
+    "pullRequests": 872,
     "pullRequestReviews": 10,
-    "issues": 1374,
+    "issues": 1378,
     "restricted": 1
   },
   "calendar": {
@@ -2057,7 +2057,12 @@
           },
           {
             "date": "2026-04-15",
-            "count": 1,
+            "count": 13,
+            "level": 1
+          },
+          {
+            "date": "2026-04-16",
+            "count": 10,
             "level": 1
           }
         ]
@@ -2065,11 +2070,77 @@
     ]
   },
   "streak": {
-    "current": 12,
+    "current": 13,
     "longest": 132,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "When creating a new Rack with custom height you can't type 32 into the rack's U count.",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1580",
+      "date": "2026-04-16T10:11:46Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "Full E2E test suite failing",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1546",
+      "date": "2026-04-16T10:06:28Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug: Loading half-width layouts saved between v0.7.5 (dd25f4c) and v0.7.6 (#1564) crashes with each_key_duplicate",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1602",
+      "date": "2026-04-16T07:17:05Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "fix(scripts): correct escape order in netbox importer and scope CodeQL to skip scripts/",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1595",
+      "date": "2026-04-16T05:34:41Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "bug(ci): npm install -g npm@11 fails with MODULE_NOT_FOUND (promise-retry)",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1599",
+      "date": "2026-04-16T05:26:26Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "Rackula",
+      "repoUrl": "https://github.com/RackulaLives/Rackula",
+      "title": "chore(security): bump hono to 4.12.14 and refresh root lockfile to drop dompurify",
+      "url": "https://github.com/RackulaLives/Rackula/issues/1594",
+      "date": "2026-04-16T05:14:40Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2333,79 +2404,13 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "cmux",
-      "repoUrl": "https://github.com/manaflow-ai/cmux",
-      "title": "Respect configured text editor for Ghostty config files",
-      "url": "https://github.com/manaflow-ai/cmux/issues/2067",
-      "date": "2026-03-24T21:14:41Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Persistence errors should surface to user with retry option",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1390",
-      "date": "2026-03-23T05:20:06Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: RackFrame uses hardcoded SVG pattern ID causing duplicate DOM IDs in multi-rack layouts",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1466",
-      "date": "2026-03-23T05:07:07Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Import/load failures should show user feedback instead of empty rack",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1391",
-      "date": "2026-03-23T04:51:40Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Share URL only encodes first rack in multi-rack layouts",
-      "url": "https://github.com/RackulaLives/Rackula/issues/780",
-      "date": "2026-03-23T04:51:09Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Context menu move up/down buttons don't check for device collisions",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1462",
-      "date": "2026-03-23T04:49:19Z",
-      "meta": {
-        "state": "CLOSED"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 62,
-    "contributionsThisMonth": 176,
+    "contributionsThisWeek": 73,
+    "contributionsThisMonth": 189,
     "repositoriesThisWeek": 1
   },
   "repositories": [
@@ -2416,6 +2421,14 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gwilym.ca"
+    },
+    {
+      "name": "endorse",
+      "description": "LinkedIn CLI / TUI. LinkedIn messaging without the feed, the ads, or the \"Thoughts?\" posts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13,
+      "url": "https://github.com/ggfevans/endorse"
     },
     {
       "name": "gvns.ca",
@@ -2456,14 +2469,6 @@
       "languageColor": "#f1e05a",
       "stars": 0,
       "url": "https://github.com/ggfevans/steam-json-bourne"
-    },
-    {
-      "name": "endorse",
-      "description": "LinkedIn CLI / TUI. LinkedIn messaging without the feed, the ads, or the \"Thoughts?\" posts.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 13,
-      "url": "https://github.com/ggfevans/endorse"
     },
     {
       "name": "irc-topic-notify",
