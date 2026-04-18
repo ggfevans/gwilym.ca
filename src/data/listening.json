@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T03:25:10Z",
+  "lastUpdated": "2026-04-18T03:23:59Z",
   "recentListens": [
     {
       "track": "From You",
@@ -135,7 +135,7 @@
   "topAlbumsStatus": "no_data",
   "stats": {
     "totalListenCount": 212612,
-    "rangeListenCount": 0,
+    "rangeListenCount": null,
     "range": "this_month",
     "artistCount": null,
     "albumCount": null,
