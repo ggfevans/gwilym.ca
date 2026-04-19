@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T04:11:18.564Z",
+  "lastUpdated": "2026-04-19T04:21:26.651Z",
   "contributions": {
     "total": 7286,
     "commits": 4910,
@@ -2069,6 +2069,11 @@
             "date": "2026-04-17",
             "count": 0,
             "level": 0
+          },
+          {
+            "date": "2026-04-18",
+            "count": 0,
+            "level": 0
           }
         ]
       }
@@ -2080,6 +2085,17 @@
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "Warp",
+      "repoUrl": "https://github.com/warpdotdev/Warp",
+      "title": "TERM_PROGRAM environment variable not set in SSH sessions on Windows",
+      "url": "https://github.com/warpdotdev/Warp/issues/6990",
+      "date": "2026-04-19T02:52:15Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2398,25 +2414,14 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Issue with the top / bottom Double Bay",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1520",
-      "date": "2026-03-26T06:29:28Z",
-      "meta": {
-        "state": "OPEN"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 43,
-    "contributionsThisMonth": 190,
-    "repositoriesThisWeek": 1
+    "contributionsThisWeek": 42,
+    "contributionsThisMonth": 189,
+    "repositoriesThisWeek": 2
   },
   "repositories": [
     {
