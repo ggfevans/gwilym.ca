@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-04-24T04:23:12.369Z",
+  "lastUpdated": "2026-04-25T04:12:38.820Z",
   "contributions": {
-    "total": 7342,
-    "commits": 4966,
-    "pullRequests": 872,
-    "pullRequestReviews": 10,
+    "total": 7415,
+    "commits": 5034,
+    "pullRequests": 876,
+    "pullRequestReviews": 11,
     "issues": 1381,
     "restricted": 1
   },
@@ -1989,8 +1989,8 @@
           },
           {
             "date": "2026-04-10",
-            "count": 33,
-            "level": 1
+            "count": 53,
+            "level": 2
           },
           {
             "date": "2026-04-11",
@@ -2008,7 +2008,7 @@
           },
           {
             "date": "2026-04-13",
-            "count": 3,
+            "count": 4,
             "level": 1
           },
           {
@@ -2062,7 +2062,12 @@
           },
           {
             "date": "2026-04-23",
-            "count": 6,
+            "count": 24,
+            "level": 1
+          },
+          {
+            "date": "2026-04-24",
+            "count": 34,
             "level": 1
           }
         ]
@@ -2070,7 +2075,7 @@
     ]
   },
   "streak": {
-    "current": 4,
+    "current": 5,
     "longest": 132,
     "today": false
   },
@@ -2360,60 +2365,24 @@
       "meta": {
         "state": "OPEN"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Streamline image upload UX",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1542",
-      "date": "2026-03-28T02:49:32Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Image coverage expansion — NetBox audit & priority brands",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1541",
-      "date": "2026-03-28T02:49:30Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Image system UI discoverability",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1540",
-      "date": "2026-03-28T02:48:00Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Fix image expectations: README language & user docs",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1539",
-      "date": "2026-03-28T02:47:43Z",
-      "meta": {
-        "state": "OPEN"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 30,
-    "contributionsThisMonth": 198,
+    "contributionsThisWeek": 82,
+    "contributionsThisMonth": 264,
     "repositoriesThisWeek": 2
   },
   "repositories": [
+    {
+      "name": "gvns.ca",
+      "description": "",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/gvns.ca"
+    },
     {
       "name": "gwilym.ca",
       "description": "",
@@ -2421,6 +2390,14 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gwilym.ca"
+    },
+    {
+      "name": "github-json-bourne",
+      "description": "",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 1,
+      "url": "https://github.com/ggfevans/github-json-bourne"
     },
     {
       "name": "steam-json-bourne",
@@ -2437,14 +2414,6 @@
       "languageColor": "#00ADD8",
       "stars": 13,
       "url": "https://github.com/ggfevans/endorse"
-    },
-    {
-      "name": "gvns.ca",
-      "description": "",
-      "language": "Astro",
-      "languageColor": "#ff5a03",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/gvns.ca"
     },
     {
       "name": "listenbrainz-csv-upload",
@@ -2501,14 +2470,6 @@
       "languageColor": "#7e7eff",
       "stars": 0,
       "url": "https://github.com/ggfevans/config-nix-mac"
-    },
-    {
-      "name": "config-nix-charlie",
-      "description": "NixOS configuration for a 2018 MacBook Pro (T2 chip), running as a headless homelab server",
-      "language": "Nix",
-      "languageColor": "#7e7eff",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/config-nix-charlie"
     }
   ]
 }
