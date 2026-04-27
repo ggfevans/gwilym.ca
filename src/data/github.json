@@ -1,54 +1,15 @@
 {
-  "lastUpdated": "2026-04-26T04:24:54.366Z",
+  "lastUpdated": "2026-04-27T04:27:09.615Z",
   "contributions": {
-    "total": 7450,
-    "commits": 5041,
-    "pullRequests": 880,
+    "total": 7484,
+    "commits": 5051,
+    "pullRequests": 889,
     "pullRequestReviews": 11,
-    "issues": 1405,
+    "issues": 1420,
     "restricted": 1
   },
   "calendar": {
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-04-20",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-04-21",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-04-22",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-04-23",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-04-24",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-04-25",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-04-26",
-            "count": 0,
-            "level": 0
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -2072,7 +2033,16 @@
           },
           {
             "date": "2026-04-25",
-            "count": 34,
+            "count": 42,
+            "level": 2
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-04-26",
+            "count": 26,
             "level": 1
           }
         ]
@@ -2080,11 +2050,176 @@
     ]
   },
   "streak": {
-    "current": 6,
+    "current": 7,
     "longest": 132,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "Migrate from Cloudlfare Pages to Workers",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/249",
+      "date": "2026-04-27T02:54:31Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "infra: configure www→apex redirect rule in Cloudflare dashboard",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/257",
+      "date": "2026-04-27T02:39:12Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "broken: fetching workflows",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/255",
+      "date": "2026-04-27T02:26:25Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat: contact form via cloudflare workers email",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/254",
+      "date": "2026-04-27T01:48:34Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "Rename /write → /posts (full rename, greenfield)",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/244",
+      "date": "2026-04-27T01:46:42Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "post: \"start with no\"",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/251",
+      "date": "2026-04-26T09:02:02Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "content: homelab post",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/250",
+      "date": "2026-04-26T09:00:28Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat: implement blog comments with Threads API",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/238",
+      "date": "2026-04-26T08:59:36Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feature: add hero photo of me to homepage",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/234",
+      "date": "2026-04-26T08:58:54Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "Homepage layout: posts-first (Option A)",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/245",
+      "date": "2026-04-26T08:58:41Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "Homepage hero: rewrite copy + add inline avatar",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/243",
+      "date": "2026-04-26T08:37:11Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat(cms): adopt Sveltia CMS, retire Obsidian ingest CLI",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/247",
+      "date": "2026-04-26T08:23:07Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore: standardize on PascalCase for components, kebab-case for routes/utils",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/241",
+      "date": "2026-04-26T07:45:25Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore: integrate Starwind UI Pro into the project",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/237",
+      "date": "2026-04-26T06:52:26Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore: remove the redundant \"Writing Work Now\" links on homepage",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/235",
+      "date": "2026-04-26T04:37:46Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
     {
       "type": "issue",
       "repo": "Rackula",
@@ -2194,168 +2329,14 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "chore(security): bump hono to 4.12.14 and refresh root lockfile to drop dompurify",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1594",
-      "date": "2026-04-16T05:14:40Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Support dragging between racks",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1592",
-      "date": "2026-04-16T04:16:40Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Update documentation for enriched search results",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/17",
-      "date": "2026-04-07T09:10:01Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Expand search scoring to match type and notes fields",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/16",
-      "date": "2026-04-07T09:10:01Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Epic: Enrich search results with install commands and metadata",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/12",
-      "date": "2026-04-07T09:10:00Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Enrich SearXNG MainResult output with metadata fields",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/15",
-      "date": "2026-04-07T09:10:00Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Expand data extraction and caching for enriched metadata",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/13",
-      "date": "2026-04-07T09:10:00Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Construct install commands from API script paths",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/14",
-      "date": "2026-04-07T09:10:00Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Add conditional fetch (ETag/If-Modified-Since) for upstream API requests",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/11",
-      "date": "2026-04-07T09:09:58Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "SearXNG-Community-Scripts-ProxmoxVE",
-      "repoUrl": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE",
-      "title": "Engine broken: upstream API endpoint removed after community-scripts.org migration",
-      "url": "https://github.com/ggfevans/SearXNG-Community-Scripts-ProxmoxVE/issues/23",
-      "date": "2026-04-07T09:07:55Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "ProxmoxVE",
-      "repoUrl": "https://github.com/community-scripts/ProxmoxVE",
-      "title": "/api/categories endpoint removed without replacement after migration to community-scripts.org",
-      "url": "https://github.com/community-scripts/ProxmoxVE/issues/13545",
-      "date": "2026-04-06T07:16:47Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Can’t save layout (Kubernetes setup)",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1535",
-      "date": "2026-03-28T09:08:58Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Selection problem with the Double Bay",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1522",
-      "date": "2026-03-28T08:15:27Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Pictures of assets",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1517",
-      "date": "2026-03-28T03:06:42Z",
-      "meta": {
-        "state": "OPEN"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 117,
-    "contributionsThisMonth": 298,
-    "repositoriesThisWeek": 1
+    "contributionsThisWeek": 151,
+    "contributionsThisMonth": 323,
+    "repositoriesThisWeek": 2
   },
   "repositories": [
     {
