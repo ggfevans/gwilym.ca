@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-27T04:27:09.615Z",
+  "lastUpdated": "2026-04-28T04:28:13.947Z",
   "contributions": {
-    "total": 7484,
-    "commits": 5051,
-    "pullRequests": 889,
+    "total": 7529,
+    "commits": 5069,
+    "pullRequests": 899,
     "pullRequestReviews": 11,
-    "issues": 1420,
+    "issues": 1437,
     "restricted": 1
   },
   "calendar": {
@@ -2042,7 +2042,12 @@
         "days": [
           {
             "date": "2026-04-26",
-            "count": 26,
+            "count": 34,
+            "level": 1
+          },
+          {
+            "date": "2026-04-27",
+            "count": 37,
             "level": 1
           }
         ]
@@ -2050,11 +2055,198 @@
     ]
   },
   "streak": {
-    "current": 7,
+    "current": 8,
     "longest": 132,
     "today": false
   },
   "recentActivity": [
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "spike (meta): survey current Astro + Sveltia repos for prior art on image handling",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/282",
+      "date": "2026-04-28T04:11:49Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat(decision): hero thumbnails in PostCard — yes or no",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/281",
+      "date": "2026-04-28T04:05:06Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore(docs): sweep CONTENT-SCHEMA + ARCHITECTURE for post-#264 image schema",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/280",
+      "date": "2026-04-28T04:04:46Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore: pre-build validation for image references in posts",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/279",
+      "date": "2026-04-28T04:04:26Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "spike: Sveltia inline-image workflow for the markdown body",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/278",
+      "date": "2026-04-28T04:03:59Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "bug: build fails when a post references a missing inline image (tracking)",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/277",
+      "date": "2026-04-28T04:03:34Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "bug: hero image not rendered in post body (only emitted as og:image)",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/276",
+      "date": "2026-04-28T04:03:08Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "investigate build log warning of Possible EventEmitter memory leak detected",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/273",
+      "date": "2026-04-27T11:52:16Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "cms: heroImage path written by Sveltia mismatches where files land",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/264",
+      "date": "2026-04-27T09:05:15Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "cms/perf: render-time hero optimisation via @unpic/astro + Cloudflare Image Transformations",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/272",
+      "date": "2026-04-27T08:55:34Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "ci: separate preview deploys from production in Workers Builds",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/262",
+      "date": "2026-04-27T08:43:13Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore(seo): standardise page title format to '{title} | gvns.ca'",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/268",
+      "date": "2026-04-27T08:36:39Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "spike: estimate LOE to migrate gvns.ca CMS from Sveltia to em·dash",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/267",
+      "date": "2026-04-27T08:13:52Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat(cms): adopt Sveltia CMS, retire Obsidian ingest CLI",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/247",
+      "date": "2026-04-27T07:18:40Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "infra: reinstate branch protection on main with proper actor separation",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/263",
+      "date": "2026-04-27T06:57:09Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat(cms): add work collection to Sveltia CMS",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/260",
+      "date": "2026-04-27T05:25:39Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "infra: configure www→apex redirect rule in Cloudflare dashboard",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/257",
+      "date": "2026-04-27T05:03:58Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
     {
       "type": "issue",
       "repo": "gvns.ca",
@@ -2064,17 +2256,6 @@
       "date": "2026-04-27T02:54:31Z",
       "meta": {
         "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "infra: configure www→apex redirect rule in Cloudflare dashboard",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/257",
-      "date": "2026-04-27T02:39:12Z",
-      "meta": {
-        "state": "OPEN"
       }
     },
     {
@@ -2180,17 +2361,6 @@
       "type": "issue",
       "repo": "gvns.ca",
       "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "feat(cms): adopt Sveltia CMS, retire Obsidian ingest CLI",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/247",
-      "date": "2026-04-26T08:23:07Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
       "title": "chore: standardize on PascalCase for components, kebab-case for routes/utils",
       "url": "https://github.com/ggfevans/gvns.ca/issues/241",
       "date": "2026-04-26T07:45:25Z",
@@ -2219,134 +2389,16 @@
       "meta": {
         "state": "CLOSED"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix: Import/load failures should show user feedback instead of empty rack",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1391",
-      "date": "2026-04-22T17:14:58Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Warp",
-      "repoUrl": "https://github.com/warpdotdev/Warp",
-      "title": "TERM_PROGRAM environment variable not set in SSH sessions on Windows",
-      "url": "https://github.com/warpdotdev/Warp/issues/6990",
-      "date": "2026-04-19T02:52:15Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "refactor: Split api/src/security.ts into focused modules",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1611",
-      "date": "2026-04-17T05:19:19Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "refactor: Decompose Canvas.svelte — extract coordinate math into utils",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1610",
-      "date": "2026-04-17T05:19:05Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "chore(ts): Enable TypeScript strict mode on frontend (burndown)",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1609",
-      "date": "2026-04-17T05:18:52Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "When creating a new Rack with custom height you can't type 32 into the rack's U count.",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1580",
-      "date": "2026-04-16T10:11:46Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "Full E2E test suite failing",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1546",
-      "date": "2026-04-16T10:06:28Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug: Loading half-width layouts saved between v0.7.5 (dd25f4c) and v0.7.6 (#1564) crashes with each_key_duplicate",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1602",
-      "date": "2026-04-16T07:17:05Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "fix(scripts): correct escape order in netbox importer and scope CodeQL to skip scripts/",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1595",
-      "date": "2026-04-16T05:34:41Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "Rackula",
-      "repoUrl": "https://github.com/RackulaLives/Rackula",
-      "title": "bug(ci): npm install -g npm@11 fails with MODULE_NOT_FOUND (promise-retry)",
-      "url": "https://github.com/RackulaLives/Rackula/issues/1599",
-      "date": "2026-04-16T05:26:26Z",
-      "meta": {
-        "state": "CLOSED"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 151,
-    "contributionsThisMonth": 323,
-    "repositoriesThisWeek": 2
+    "contributionsThisWeek": 195,
+    "contributionsThisMonth": 364,
+    "repositoriesThisWeek": 1
   },
   "repositories": [
-    {
-      "name": "gwilym.ca",
-      "description": "",
-      "language": "Astro",
-      "languageColor": "#ff5a03",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/gwilym.ca"
-    },
     {
       "name": "gvns.ca",
       "description": "",
@@ -2354,6 +2406,14 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gvns.ca"
+    },
+    {
+      "name": "gwilym.ca",
+      "description": "",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/gwilym.ca"
     },
     {
       "name": "github-json-bourne",
