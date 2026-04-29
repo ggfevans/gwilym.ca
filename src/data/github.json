@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-28T04:28:13.947Z",
+  "lastUpdated": "2026-04-29T04:27:01.815Z",
   "contributions": {
-    "total": 7529,
-    "commits": 5069,
-    "pullRequests": 899,
+    "total": 7575,
+    "commits": 5091,
+    "pullRequests": 915,
     "pullRequestReviews": 11,
-    "issues": 1437,
+    "issues": 1445,
     "restricted": 1
   },
   "calendar": {
@@ -2047,7 +2047,12 @@
           },
           {
             "date": "2026-04-27",
-            "count": 37,
+            "count": 69,
+            "level": 2
+          },
+          {
+            "date": "2026-04-28",
+            "count": 14,
             "level": 1
           }
         ]
@@ -2055,7 +2060,7 @@
     ]
   },
   "streak": {
-    "current": 8,
+    "current": 9,
     "longest": 132,
     "today": false
   },
@@ -2064,9 +2069,141 @@
       "type": "issue",
       "repo": "gvns.ca",
       "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "spike (meta): survey current Astro + Sveltia repos for prior art on image handling",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/282",
-      "date": "2026-04-28T04:11:49Z",
+      "title": "chore: hide Work section/page until real content is ready",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/305",
+      "date": "2026-04-28T08:47:44Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "bug: build fails when a post references a missing inline image (tracking)",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/277",
+      "date": "2026-04-28T08:26:24Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "spike: Sveltia inline-image workflow for the markdown body",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/278",
+      "date": "2026-04-28T08:22:06Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "bug: contact form returns 500 from /api/contact in production",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/295",
+      "date": "2026-04-28T06:42:47Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "bug: hero image not rendered in post body (only emitted as og:image)",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/276",
+      "date": "2026-04-28T06:32:58Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "chore: pre-build validation for image references in posts",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/279",
+      "date": "2026-04-28T06:32:58Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "investigate build log warning of Possible EventEmitter memory leak detected",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/273",
+      "date": "2026-04-28T06:15:08Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "Add sitemap",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/274",
+      "date": "2026-04-28T06:12:22Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat(footer): adopt Starwind Footer 9 (Fading Large Text) with 'gvns.ca' wordmark",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/293",
+      "date": "2026-04-28T05:56:25Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat(now): adopt Starwind bento grid (Feature 13) for /now widgets",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/292",
+      "date": "2026-04-28T05:55:41Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat(about): adopt Starwind Profile 1 (Centered Clean) for /about",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/291",
+      "date": "2026-04-28T05:55:11Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "epic: adopt Starwind UI Pro blocks site-wide",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/290",
+      "date": "2026-04-28T05:54:39Z",
+      "meta": {
+        "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat(post-layout): adopt Starwind Blog Post 2 layout shell with sticky TOC sidebar",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/289",
+      "date": "2026-04-28T05:44:34Z",
       "meta": {
         "state": "OPEN"
       }
@@ -2077,9 +2214,42 @@
       "repoUrl": "https://github.com/ggfevans/gvns.ca",
       "title": "feat(decision): hero thumbnails in PostCard — yes or no",
       "url": "https://github.com/ggfevans/gvns.ca/issues/281",
-      "date": "2026-04-28T04:05:06Z",
+      "date": "2026-04-28T05:37:58Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat(homepage): adopt Starwind Blog 6 horizontal cards for posts list",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/288",
+      "date": "2026-04-28T05:36:20Z",
       "meta": {
         "state": "OPEN"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "feat: contact form via cloudflare workers email",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/254",
+      "date": "2026-04-28T04:39:27Z",
+      "meta": {
+        "state": "CLOSED"
+      }
+    },
+    {
+      "type": "issue",
+      "repo": "gvns.ca",
+      "repoUrl": "https://github.com/ggfevans/gvns.ca",
+      "title": "spike (meta): survey current Astro + Sveltia repos for prior art on image handling",
+      "url": "https://github.com/ggfevans/gvns.ca/issues/282",
+      "date": "2026-04-28T04:36:30Z",
+      "meta": {
+        "state": "CLOSED"
       }
     },
     {
@@ -2089,61 +2259,6 @@
       "title": "chore(docs): sweep CONTENT-SCHEMA + ARCHITECTURE for post-#264 image schema",
       "url": "https://github.com/ggfevans/gvns.ca/issues/280",
       "date": "2026-04-28T04:04:46Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "chore: pre-build validation for image references in posts",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/279",
-      "date": "2026-04-28T04:04:26Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "spike: Sveltia inline-image workflow for the markdown body",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/278",
-      "date": "2026-04-28T04:03:59Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "bug: build fails when a post references a missing inline image (tracking)",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/277",
-      "date": "2026-04-28T04:03:34Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "bug: hero image not rendered in post body (only emitted as og:image)",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/276",
-      "date": "2026-04-28T04:03:08Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "investigate build log warning of Possible EventEmitter memory leak detected",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/273",
-      "date": "2026-04-27T11:52:16Z",
       "meta": {
         "state": "OPEN"
       }
@@ -2268,145 +2383,16 @@
       "meta": {
         "state": "OPEN"
       }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "feat: contact form via cloudflare workers email",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/254",
-      "date": "2026-04-27T01:48:34Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "Rename /write → /posts (full rename, greenfield)",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/244",
-      "date": "2026-04-27T01:46:42Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "post: \"start with no\"",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/251",
-      "date": "2026-04-26T09:02:02Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "content: homelab post",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/250",
-      "date": "2026-04-26T09:00:28Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "feat: implement blog comments with Threads API",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/238",
-      "date": "2026-04-26T08:59:36Z",
-      "meta": {
-        "state": "OPEN"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "feature: add hero photo of me to homepage",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/234",
-      "date": "2026-04-26T08:58:54Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "Homepage layout: posts-first (Option A)",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/245",
-      "date": "2026-04-26T08:58:41Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "Homepage hero: rewrite copy + add inline avatar",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/243",
-      "date": "2026-04-26T08:37:11Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "chore: standardize on PascalCase for components, kebab-case for routes/utils",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/241",
-      "date": "2026-04-26T07:45:25Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "chore: integrate Starwind UI Pro into the project",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/237",
-      "date": "2026-04-26T06:52:26Z",
-      "meta": {
-        "state": "CLOSED"
-      }
-    },
-    {
-      "type": "issue",
-      "repo": "gvns.ca",
-      "repoUrl": "https://github.com/ggfevans/gvns.ca",
-      "title": "chore: remove the redundant \"Writing Work Now\" links on homepage",
-      "url": "https://github.com/ggfevans/gvns.ca/issues/235",
-      "date": "2026-04-26T04:37:46Z",
-      "meta": {
-        "state": "CLOSED"
-      }
     }
   ],
   "stats": {
     "commitsThisWeek": 0,
     "commitsThisMonth": 0,
-    "contributionsThisWeek": 195,
-    "contributionsThisMonth": 364,
+    "contributionsThisWeek": 233,
+    "contributionsThisMonth": 408,
     "repositoriesThisWeek": 1
   },
   "repositories": [
-    {
-      "name": "gvns.ca",
-      "description": "",
-      "language": "Astro",
-      "languageColor": "#ff5a03",
-      "stars": 0,
-      "url": "https://github.com/ggfevans/gvns.ca"
-    },
     {
       "name": "gwilym.ca",
       "description": "",
@@ -2414,6 +2400,14 @@
       "languageColor": "#ff5a03",
       "stars": 0,
       "url": "https://github.com/ggfevans/gwilym.ca"
+    },
+    {
+      "name": "gvns.ca",
+      "description": "",
+      "language": "Astro",
+      "languageColor": "#ff5a03",
+      "stars": 0,
+      "url": "https://github.com/ggfevans/gvns.ca"
     },
     {
       "name": "github-json-bourne",
