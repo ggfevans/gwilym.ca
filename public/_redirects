@@ -1,6 +1,2 @@
 # Redirect www to apex domain
 https://www.gwilym.ca/* https://gwilym.ca/:splat 301
-
-# Placeholder mode: serve root at root, redirect everything else to root
-/           /index.html   200
-/*          /             302
