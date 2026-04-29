@@ -1,2 +1,5 @@
 # Redirect www to apex domain
 https://www.gwilym.ca/* https://gwilym.ca/:splat 301
+
+# Placeholder mode: catch-all to root
+/*  /  302
